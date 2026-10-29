@@ -1,0 +1,18 @@
+{
+  "id":"./",
+  "name":"太平天国 · 军报",
+  "short_name":"太平军报",
+  "description":"山河作卷，将相成牌。两条战役线，离线卡牌对战。",
+  "lang":"zh-CN",
+  "start_url":"./",
+  "scope":"./",
+  "display":"standalone",
+  "orientation":"portrait",
+  "theme_color":"#EDE3CC",
+  "background_color":"#EDE3CC",
+  "icons":[
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"icons/icon-maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ]
+}
