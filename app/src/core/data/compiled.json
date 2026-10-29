@@ -1,0 +1,3776 @@
+{
+  "skills": {
+    "sk_tp_hong_xiuquan_decree": {
+      "ops": [
+        {
+          "target": "self",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "resource",
+          "resource": "信仰",
+          "value": 40.0
+        }
+      ],
+      "unknown": [],
+      "round": 3,
+      "meta": {}
+    },
+    "sk_tp_hong_xiuquan_edict": {
+      "features": {
+        "hong_all_faith": [
+          90.0,
+          10.0,
+          10.0,
+          0.3
+        ],
+        "faith_cap": [
+          20.0
+        ],
+        "yang_round_suspicion": [
+          5.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_hong_tianguifu_decree": {
+      "ops": [
+        {
+          "target": "ally_all",
+          "duration": 3,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "speed",
+          "value": 25.0,
+          "flat": true
+        }
+      ],
+      "unknown": [],
+      "round": 2,
+      "meta": {}
+    },
+    "sk_tp_hong_tianguifu_edict": {
+      "features": {
+        "start_faith": [
+          20.0
+        ]
+      },
+      "auras": [
+        {
+          "target": "ally:taiping",
+          "stat": "defense",
+          "value": 0.25,
+          "flat": false
+        }
+      ],
+      "unknown": []
+    },
+    "sk_tp_yang_xiuqing_a": {
+      "ops": [
+        {
+          "target": "ally_all",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "attack",
+          "value": 0.15,
+          "flat": false
+        },
+        {
+          "target": "enemy_all",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 0.8
+        },
+        {
+          "target": "self",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "resource",
+          "resource": "猜忌",
+          "value": 15.0
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_yang_xiuqing_p": {
+      "features": {
+        "start_rage_all": [
+          15.0
+        ],
+        "suspicion_attack": [
+          40.0,
+          10.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_xiao_chaogui_a": {
+      "ops": [
+        {
+          "target": "enemy_front",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.1
+        },
+        {
+          "target": "ally_all",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "resource",
+          "resource": "怒气",
+          "value": 15.0
+        },
+        {
+          "target": "self",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "shield",
+          "value": 0.2
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_xiao_chaogui_p": {
+      "features": {
+        "target_high_bonus": [
+          70.0,
+          25.0
+        ],
+        "death_rage_all": [
+          30.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_feng_yunshan_a": {
+      "ops": [
+        {
+          "target": "ally_all",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "heal",
+          "value": 0.14
+        },
+        {
+          "target": "self",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "resource",
+          "resource": "信仰",
+          "value": 20.0
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_feng_yunshan_p": {
+      "features": {
+        "start_rage_taiping": [
+          15.0
+        ],
+        "death_attack_all": [
+          15.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_wei_changhui_a": {
+      "ops": [
+        {
+          "target": "enemy_low",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 3.3
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {
+        "target_double_name": "杨秀清"
+      }
+    },
+    "sk_tp_wei_changhui_p": {
+      "features": {
+        "target_low_crit": [
+          30.0,
+          40.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_shi_dakai_a": {
+      "ops": [
+        {
+          "target": "enemy_front",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 1.8
+        },
+        {
+          "target": "hit",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "defense",
+          "value": -0.2,
+          "flat": false
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_shi_dakai_p": {
+      "features": {
+        "no_bond_risk": [
+          20.0,
+          20.0
+        ],
+        "desperation": [
+          30.0,
+          15.0,
+          1.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_chen_yucheng_a": {
+      "ops": [
+        {
+          "target": "enemy_back_one",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.3
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {
+        "kill_rage": 50.0
+      }
+    },
+    "sk_tp_chen_yucheng_p": {
+      "features": {
+        "first_speed": [
+          60.0
+        ],
+        "rear_chance": [
+          50.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_li_xiucheng_a": {
+      "ops": [
+        {
+          "target": "ally_all",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "heal",
+          "value": 0.11
+        },
+        {
+          "target": "ally_all",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "shield",
+          "value": 0.11
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_li_xiucheng_p": {
+      "features": {
+        "low_alive_defense": [
+          3.0,
+          20.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_hong_rengan_a": {
+      "ops": [
+        {
+          "target": "ally_all",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "attack",
+          "value": 0.2,
+          "flat": false
+        },
+        {
+          "target": "ally_all",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "speed",
+          "value": 10.0,
+          "flat": true
+        },
+        {
+          "target": "ally_all",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "dispel",
+          "value": 1
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_hong_rengan_p": {
+      "features": {
+        "lord_amplify": [
+          50.0
+        ]
+      },
+      "auras": [
+        {
+          "target": "ally:troop:火",
+          "stat": "attack",
+          "value": 0.2,
+          "flat": false
+        }
+      ],
+      "unknown": []
+    },
+    "sk_tp_li_shixian_a": {
+      "ops": [
+        {
+          "target": "random:3",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.1
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_li_shixian_p": {
+      "features": {
+        "end_heal_below": [
+          50.0,
+          10.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_yang_fuqing_a": {
+      "ops": [
+        {
+          "target": "ally_low",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "heal",
+          "value": 0.225
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_yang_fuqing_p": {
+      "features": {
+        "healing_taken": [
+          20.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_lin_fengxiang_a": {
+      "ops": [
+        {
+          "target": "ally_all",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "attack",
+          "value": 0.25,
+          "flat": false
+        },
+        {
+          "target": "self",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "shield",
+          "value": 0.3
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_lin_fengxiang_p": {
+      "features": {
+        "missing_damage": [
+          10.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_li_kaifang_a": {
+      "ops": [
+        {
+          "target": "self",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "status",
+          "status": "嘲讽"
+        },
+        {
+          "target": "self",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "defense",
+          "value": 0.6,
+          "flat": false
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_li_kaifang_p": {
+      "features": {
+        "death_save": true
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_luo_dagang_a": {
+      "ops": [
+        {
+          "target": "enemy_all",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 1.7
+        },
+        {
+          "target": "hit",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "burn",
+          "value": 0.4
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_luo_dagang_p": {
+      "features": {
+        "water_speed": [
+          20.0
+        ],
+        "combo_chance": [
+          20.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_hu_yihuang_a": {
+      "ops": [
+        {
+          "target": "enemy_front",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 1.5
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_hu_yihuang_p": {
+      "features": {
+        "siege_damage": [
+          15.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_qin_rigang_a": {
+      "ops": [
+        {
+          "target": "enemy_one",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.1
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_qin_rigang_p": {
+      "features": {
+        "first_damage": [
+          25.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_zeng_tianyang_a": {
+      "ops": [
+        {
+          "target": "enemy_front",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 1.5
+        },
+        {
+          "target": "self",
+          "duration": 1,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "taken",
+          "value": -0.2,
+          "flat": false
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_zeng_tianyang_p": {
+      "features": {
+        "low_hp_attack": [
+          50.0,
+          20.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_lin_qirong_a": {
+      "ops": [
+        {
+          "target": "self",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "status",
+          "status": "嘲讽"
+        },
+        {
+          "target": "self",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "defense",
+          "value": 0.25,
+          "flat": false
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_lin_qirong_p": {
+      "features": {},
+      "auras": [
+        {
+          "target": "self",
+          "stat": "taken",
+          "value": -0.1,
+          "flat": false
+        }
+      ],
+      "unknown": []
+    },
+    "sk_tp_tan_shaoguang_a": {
+      "ops": [
+        {
+          "target": "ally_front",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "shield",
+          "value": 0.35
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_tan_shaoguang_p": {
+      "features": {
+        "attack_debuff_immune": true,
+        "low_hp_attack": [
+          30.0,
+          40.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_huang_wenjin_a": {
+      "ops": [
+        {
+          "target": "enemy_front",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 1.5
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_huang_wenjin_p": {
+      "features": {
+        "kill_heal": [
+          15.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_wang_haiyang_a": {
+      "ops": [
+        {
+          "target": "enemy_one",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.0
+        },
+        {
+          "target": "self",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "speed",
+          "value": 15.0,
+          "flat": true
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_wang_haiyang_p": {
+      "features": {},
+      "auras": [
+        {
+          "target": "self",
+          "stat": "speed",
+          "value": 10.0,
+          "flat": true
+        }
+      ],
+      "unknown": []
+    },
+    "sk_tp_lai_wenguang_a": {
+      "ops": [
+        {
+          "target": "enemy_back",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 1.9
+        },
+        {
+          "target": "self",
+          "duration": 1,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "taken",
+          "value": -0.3,
+          "flat": false
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_lai_wenguang_p": {
+      "features": {
+        "action_speed": [
+          5.0,
+          25.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_lindley_a": {
+      "ops": [
+        {
+          "target": "enemy_back_one",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.2
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_lindley_p": {
+      "features": {
+        "rengan_attack": [
+          15.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_tp_hong_xuanjiao_a": {
+      "ops": [
+        {
+          "target": "enemy_one",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.0
+        },
+        {
+          "target": "hit",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "combo",
+          "value": 1
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_hong_xuanjiao_p": {
+      "features": {},
+      "auras": [
+        {
+          "target": "self",
+          "stat": "crit",
+          "value": 0.2,
+          "flat": false
+        }
+      ],
+      "unknown": []
+    },
+    "sk_tp_su_sanniang_a": {
+      "ops": [
+        {
+          "target": "enemy_back_one",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.0
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_tp_su_sanniang_p": {
+      "features": {},
+      "auras": [
+        {
+          "target": "self",
+          "stat": "taken",
+          "value": -0.1,
+          "flat": false
+        }
+      ],
+      "unknown": []
+    },
+    "sk_qing_zeng_guofan_a": {
+      "ops": [
+        {
+          "target": "ally_all",
+          "duration": 3,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "defense",
+          "value": 0.25,
+          "flat": false
+        },
+        {
+          "target": "ally_front",
+          "duration": 3,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "shield",
+          "value": 0.16
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_zeng_guofan_p": {
+      "features": {
+        "death_aura": [
+          10.0,
+          10.0,
+          2.0
+        ],
+        "grain_gain": [
+          20.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_qing_zeng_guoquan_a": {
+      "ops": [
+        {
+          "target": "enemy_all",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "defense",
+          "value": -0.25,
+          "flat": false
+        },
+        {
+          "target": "enemy_front",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 1.85
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_zeng_guoquan_p": {
+      "features": {
+        "enemy_healing_reduction": [
+          30.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_qing_hu_linyi_a": {
+      "ops": [
+        {
+          "target": "self",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "resource",
+          "resource": "粮饷",
+          "value": 30.0
+        },
+        {
+          "target": "ally_all",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "heal",
+          "value": 0.15
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_hu_linyi_p": {
+      "features": {
+        "grain_rage": [
+          30.0,
+          10.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_qing_zuo_zongtang_a": {
+      "ops": [
+        {
+          "target": "enemy_all",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 1.25
+        },
+        {
+          "target": "hit",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "speed",
+          "value": -15.0,
+          "flat": true
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_zuo_zongtang_p": {
+      "features": {
+        "active_damage": [
+          10.0
+        ],
+        "first_refund": [
+          30.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_qing_luo_zenan_a": {
+      "ops": [
+        {
+          "target": "ally_all",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "defense",
+          "value": 0.25,
+          "flat": false
+        },
+        {
+          "target": "ally_all",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "dispel",
+          "value": 1
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_luo_zenan_p": {
+      "features": {
+        "max_attack": true
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_qing_li_xubin_a": {
+      "ops": [
+        {
+          "target": "enemy_front_one",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 3.2
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_li_xubin_p": {
+      "features": {},
+      "auras": [
+        {
+          "target": "self",
+          "stat": "attack",
+          "value": 0.2,
+          "flat": false
+        },
+        {
+          "target": "self",
+          "stat": "taken",
+          "value": 0.1,
+          "flat": false
+        }
+      ],
+      "unknown": []
+    },
+    "sk_qing_taqibu_a": {
+      "ops": [
+        {
+          "target": "enemy_front",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.2
+        },
+        {
+          "target": "hit",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "speed",
+          "value": -20.0,
+          "flat": true
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_taqibu_p": {
+      "features": {},
+      "auras": [
+        {
+          "target": "ally:湘军",
+          "stat": "speed",
+          "value": 5.0,
+          "flat": true
+        }
+      ],
+      "unknown": []
+    },
+    "sk_qing_bao_chao_a": {
+      "ops": [
+        {
+          "target": "enemy_front",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.4
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_bao_chao_p": {
+      "features": {
+        "hit_attack_every": [
+          2.0,
+          10.0,
+          3.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_qing_duolonga_a": {
+      "ops": [
+        {
+          "target": "enemy_back_low",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.9
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {
+        "kill_followup": 1.0
+      }
+    },
+    "sk_qing_duolonga_p": {
+      "features": {
+        "rear_chance": [
+          40.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_qing_jiang_zhongyuan_a": {
+      "ops": [
+        {
+          "target": "enemy_all",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 1.35
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {
+        "first_round_bonus": [
+          1,
+          0.5
+        ]
+      }
+    },
+    "sk_qing_jiang_zhongyuan_p": {
+      "features": {
+        "start_rage": [
+          40.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_qing_peng_yulin_a": {
+      "ops": [
+        {
+          "target": "enemy_front",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.0
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {
+        "water_target": "enemy_all"
+      }
+    },
+    "sk_qing_peng_yulin_p": {
+      "features": {
+        "firearm_reduction": [
+          20.0
+        ]
+      },
+      "auras": [
+        {
+          "target": "ally:troop:水",
+          "stat": "attack",
+          "value": 0.15,
+          "flat": false
+        }
+      ],
+      "unknown": []
+    },
+    "sk_qing_yang_zaifu_a": {
+      "ops": [
+        {
+          "target": "enemy_one",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.9
+        },
+        {
+          "target": "self",
+          "duration": 0,
+          "condition": "水战",
+          "probability": 1.0,
+          "kind": "combo",
+          "value": 1
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_yang_zaifu_p": {
+      "features": {
+        "critical_reduction": [
+          30.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_qing_li_hongzhang_a": {
+      "ops": [
+        {
+          "target": "ally:troop:火",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "resource",
+          "resource": "怒气",
+          "value": 50.0
+        },
+        {
+          "target": "ally:troop:火",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "attack",
+          "value": 0.3,
+          "flat": false
+        },
+        {
+          "target": "enemy_one",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.0
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_li_hongzhang_p": {
+      "features": {
+        "huai_speed": [
+          3.0
+        ],
+        "start_foreign_defense": [
+          20.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_qing_cheng_xueqi_a": {
+      "ops": [
+        {
+          "target": "enemy_one",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.7
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {
+        "target_bonus": [
+          "太平天国武将",
+          0.3
+        ]
+      }
+    },
+    "sk_qing_cheng_xueqi_p": {
+      "features": {
+        "random_stat": [
+          20.0,
+          20.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_qing_liu_mingchuan_a": {
+      "ops": [
+        {
+          "target": "enemy_all",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 1.45
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_liu_mingchuan_p": {
+      "features": {
+        "nth_basic": [
+          3.0,
+          100.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_qing_zhang_shusheng_a": {
+      "ops": [
+        {
+          "target": "ally_all",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "defense",
+          "value": 0.25,
+          "flat": false
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_zhang_shusheng_p": {
+      "features": {},
+      "auras": [
+        {
+          "target": "self",
+          "stat": "taken",
+          "value": -0.1,
+          "flat": false
+        }
+      ],
+      "unknown": []
+    },
+    "sk_qing_guo_songlin_a": {
+      "ops": [
+        {
+          "target": "enemy_back_one",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.6
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_guo_songlin_p": {
+      "features": {},
+      "auras": [
+        {
+          "target": "self",
+          "stat": "speed",
+          "value": 10.0,
+          "flat": true
+        }
+      ],
+      "unknown": []
+    },
+    "sk_qing_senggelinqin_a": {
+      "ops": [
+        {
+          "target": "enemy_front",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 1.9
+        },
+        {
+          "target": "hit",
+          "duration": 1,
+          "condition": null,
+          "probability": 0.3,
+          "kind": "status",
+          "status": "眩晕"
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_senggelinqin_p": {
+      "features": {
+        "infantry_damage": [
+          15.0
+        ]
+      },
+      "auras": [
+        {
+          "target": "ally:troop:骑",
+          "stat": "attack",
+          "value": 0.12,
+          "flat": false
+        }
+      ],
+      "unknown": []
+    },
+    "sk_qing_xiang_rong_a": {
+      "ops": [
+        {
+          "target": "ally_front",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "shield",
+          "value": 0.25
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_xiang_rong_p": {
+      "features": {},
+      "auras": [
+        {
+          "target": "self",
+          "stat": "defense",
+          "value": 0.15,
+          "flat": false
+        }
+      ],
+      "unknown": []
+    },
+    "sk_qing_he_chun_a": {
+      "ops": [
+        {
+          "target": "enemy_front",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "defense",
+          "value": -0.25,
+          "flat": false
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_he_chun_p": {
+      "features": {},
+      "auras": [
+        {
+          "target": "ally_front",
+          "stat": "attack",
+          "value": 0.15,
+          "flat": false
+        }
+      ],
+      "unknown": []
+    },
+    "sk_qing_zhang_guoliang_a": {
+      "ops": [
+        {
+          "target": "ally_all",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "defense",
+          "value": 0.2,
+          "flat": false
+        },
+        {
+          "target": "self",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "heal",
+          "value": 0.25
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_zhang_guoliang_p": {
+      "features": {
+        "high_hp_attack": [
+          70.0,
+          20.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_qing_shengbao_a": {
+      "ops": [
+        {
+          "target": "enemy_front",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.5
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_shengbao_p": {
+      "features": {
+        "named_damage": [
+          "林凤祥、李开芳",
+          25.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_qing_ward_a": {
+      "ops": [
+        {
+          "target": "enemy_back",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 1.7
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_ward_p": {
+      "features": {},
+      "auras": [
+        {
+          "target": "self",
+          "stat": "crit_damage",
+          "value": 0.4,
+          "flat": false
+        },
+        {
+          "target": "self",
+          "stat": "defense",
+          "value": -0.1,
+          "flat": false
+        }
+      ],
+      "unknown": []
+    },
+    "sk_qing_gordon_a": {
+      "ops": [
+        {
+          "target": "enemy_front",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.2
+        },
+        {
+          "target": "hit",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "defense",
+          "value": -0.2,
+          "flat": false
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {
+        "siege_bonus": 0.3
+      }
+    },
+    "sk_qing_gordon_p": {
+      "features": {
+        "siege_attack_aura": [
+          10.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_qing_burgevine_a": {
+      "ops": [
+        {
+          "target": "enemy_one",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.0
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_burgevine_p": {
+      "features": {
+        "assigned_taiping_attack": [
+          15.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_qing_luo_bingzhang_a": {
+      "ops": [
+        {
+          "target": "enemy_one",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "damage",
+          "value": 2.5
+        },
+        {
+          "target": "hit",
+          "duration": 1,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "status",
+          "status": "沉默"
+        }
+      ],
+      "unknown": [],
+      "round": null,
+      "meta": {}
+    },
+    "sk_qing_luo_bingzhang_p": {
+      "features": {
+        "named_damage": [
+          "石达开",
+          25.0
+        ]
+      },
+      "auras": [],
+      "unknown": []
+    },
+    "sk_qing_xianfeng_decree": {
+      "ops": [
+        {
+          "target": "ally_all",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "heal",
+          "value": 0.2
+        }
+      ],
+      "unknown": [],
+      "round": 3,
+      "meta": {}
+    },
+    "sk_qing_xianfeng_edict": {
+      "features": {},
+      "auras": [
+        {
+          "target": "ally:xiang_huai",
+          "stat": "attack",
+          "value": 0.1,
+          "flat": false
+        }
+      ],
+      "unknown": []
+    },
+    "sk_qing_cixi_decree": {
+      "ops": [
+        {
+          "target": "ally_all",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "attack",
+          "value": 0.2,
+          "flat": false
+        }
+      ],
+      "unknown": [],
+      "round": 4,
+      "meta": {}
+    },
+    "sk_qing_cixi_edict": {
+      "features": {},
+      "auras": [
+        {
+          "target": "ally_all",
+          "stat": "defense",
+          "value": 0.2,
+          "flat": false
+        },
+        {
+          "target": "ally_all",
+          "stat": "rage_gain",
+          "value": 0.25,
+          "flat": false
+        }
+      ],
+      "unknown": []
+    },
+    "sk_qing_prince_gong_decree": {
+      "ops": [
+        {
+          "target": "ally_all",
+          "duration": 0,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "resource",
+          "resource": "怒气",
+          "value": 50.0
+        }
+      ],
+      "unknown": [],
+      "round": 2,
+      "meta": {}
+    },
+    "sk_qing_prince_gong_edict": {
+      "features": {},
+      "auras": [
+        {
+          "target": "ally:troop:火",
+          "stat": "attack",
+          "value": 0.25,
+          "flat": false
+        },
+        {
+          "target": "ally:外籍",
+          "stat": "defense",
+          "value": 0.2,
+          "flat": false
+        }
+      ],
+      "unknown": []
+    },
+    "sk_qing_sushun_decree": {
+      "ops": [
+        {
+          "target": "enemy_all",
+          "duration": 2,
+          "condition": null,
+          "probability": 1.0,
+          "kind": "buff",
+          "stat": "attack",
+          "value": -0.15,
+          "flat": false
+        }
+      ],
+      "unknown": [],
+      "round": 2,
+      "meta": {}
+    },
+    "sk_qing_sushun_edict": {
+      "features": {},
+      "auras": [
+        {
+          "target": "ally:xiang_huai",
+          "stat": "attack",
+          "value": 0.15,
+          "flat": false
+        }
+      ],
+      "unknown": []
+    }
+  },
+  "bonds": {
+    "bd_jintian": {
+      "kind": "faith_gain",
+      "values": [
+        0.2,
+        0.4,
+        0.6
+      ],
+      "text": "信仰获取+20%/+40%/+60%",
+      "members": [
+        "tp_hong_xiuquan",
+        "tp_yang_xiuqing",
+        "tp_xiao_chaogui",
+        "tp_feng_yunshan",
+        "tp_wei_changhui",
+        "tp_shi_dakai"
+      ]
+    },
+    "bd_yingzhong": {
+      "kind": "second_pair",
+      "values": [
+        0.15,
+        0.2
+      ],
+      "text": "两人攻击+15%;同一回合内两人都行动时,后行动者伤害+20%",
+      "members": [
+        "tp_chen_yucheng",
+        "tp_li_xiucheng"
+      ]
+    },
+    "bd_beifa": {
+      "kind": "missing_pair",
+      "values": [
+        0.08
+      ],
+      "text": "我方每少1名存活武将,两人攻击+8%",
+      "members": [
+        "tp_lin_fengxiang",
+        "tp_li_kaifang"
+      ]
+    },
+    "bd_hukou": {
+      "kind": "water_first",
+      "values": [
+        0.25
+      ],
+      "text": "水战时两人速度+15点;第1回合伤害+25%",
+      "members": [
+        "tp_shi_dakai",
+        "tp_luo_dagang"
+      ],
+      "speed": 15.0
+    },
+    "bd_lishi": {
+      "kind": "partner_death",
+      "values": [
+        0.3
+      ],
+      "text": "任一人阵亡时,另一人攻击+30%至战斗结束",
+      "members": [
+        "tp_li_xiucheng",
+        "tp_li_shixian"
+      ]
+    },
+    "bd_sufu": {
+      "kind": "defend_aura",
+      "values": [
+        0.15
+      ],
+      "text": "守城地形时我方全体防御+15%",
+      "members": [
+        "tp_li_xiucheng",
+        "tp_tan_shaoguang"
+      ]
+    },
+    "bd_ganwang": {
+      "kind": "fire_aura",
+      "values": [
+        0.15
+      ],
+      "text": "我方火器武将攻击+15%",
+      "members": [
+        "tp_hong_rengan",
+        "tp_hong_xiuquan"
+      ]
+    },
+    "bd_nüying": {
+      "kind": "pair_crit",
+      "values": [
+        0.15
+      ],
+      "text": "两人暴击率+15%",
+      "members": [
+        "tp_hong_xuanjiao",
+        "tp_su_sanniang"
+      ]
+    },
+    "bd_zenghu": {
+      "kind": "grain_gain",
+      "values": [
+        0.5
+      ],
+      "text": "粮饷获取+50%",
+      "members": [
+        "qing_zeng_guofan",
+        "qing_hu_linyi"
+      ]
+    },
+    "bd_zengshi": {
+      "kind": "siege_aura",
+      "values": [
+        0.2,
+        0.15
+      ],
+      "text": "攻城地形时我方全体伤害+20%;曾国荃攻击+15%",
+      "members": [
+        "qing_zeng_guofan",
+        "qing_zeng_guoquan"
+      ]
+    },
+    "bd_xiangxiang": {
+      "kind": "presence_pair",
+      "values": [
+        0.2,
+        0.15
+      ],
+      "text": "罗泽南在场时李续宾暴击率+20%;李续宾在场时罗泽南防御+15%",
+      "members": [
+        "qing_luo_zenan",
+        "qing_li_xubin"
+      ]
+    },
+    "bd_changjiang": {
+      "kind": "water_pair_all",
+      "values": [
+        0.15
+      ],
+      "text": "水战时两人全属性+15%",
+      "members": [
+        "qing_peng_yulin",
+        "qing_yang_zaifu"
+      ]
+    },
+    "bd_xiangjun_jiang": {
+      "kind": "member_attack",
+      "values": [
+        0.08,
+        0.12,
+        0.18
+      ],
+      "text": "成员攻击+8%/+12%/+18%",
+      "members": [
+        "qing_taqibu",
+        "qing_bao_chao",
+        "qing_duolonga",
+        "qing_li_xubin",
+        "qing_jiang_zhongyuan"
+      ]
+    },
+    "bd_huaijun": {
+      "kind": "member_speed",
+      "values": [
+        5.0,
+        8.0,
+        12.0
+      ],
+      "text": "成员速度+5/+8/+12点",
+      "members": [
+        "qing_li_hongzhang",
+        "qing_cheng_xueqi",
+        "qing_liu_mingchuan",
+        "qing_zhang_shusheng",
+        "qing_guo_songlin"
+      ]
+    },
+    "bd_huifang": {
+      "kind": "fire_aura",
+      "values": [
+        0.1,
+        0.2
+      ],
+      "text": "我方火器武将攻击+10%/+20%",
+      "members": [
+        "qing_li_hongzhang",
+        "qing_ward",
+        "qing_gordon"
+      ]
+    },
+    "bd_manmeng": {
+      "kind": "member_cavalry",
+      "values": [
+        0.08,
+        0.12,
+        0.18
+      ],
+      "text": "成员骑兵攻击+8%/+12%/+18%",
+      "members": [
+        "qing_senggelinqin",
+        "qing_duolonga",
+        "qing_shengbao",
+        "qing_taqibu"
+      ]
+    },
+    "bd_jiangnan": {
+      "kind": "front_defense",
+      "values": [
+        0.1,
+        0.2
+      ],
+      "text": "我方前排防御+10%/+20%",
+      "members": [
+        "qing_xiang_rong",
+        "qing_he_chun",
+        "qing_zhang_guoliang"
+      ]
+    },
+    "bd_tianjing_shibian": {
+      "kind": "suspicion",
+      "values": [],
+      "text": "杨秀清与洪秀全同队:猜忌每回合+5(来自洪秀全政令);杨秀清与韦昌辉同队:猜忌每回合再+10。猜忌满100触发天京事变(见05文档7.1)",
+      "members": [
+        "tp_yang_xiuqing",
+        "tp_wei_changhui",
+        "tp_hong_xiuquan"
+      ],
+      "rate": 10.0
+    },
+    "bd_suzhou_shaxiang": {
+      "kind": "refuse",
+      "values": [
+        0.3,
+        0.15
+      ],
+      "text": "第5回合起,戈登每次行动有30%概率罢战(跳过行动);程学启也在场时概率+15%",
+      "members": [
+        "qing_li_hongzhang",
+        "qing_gordon",
+        "qing_cheng_xueqi"
+      ],
+      "start_round": 5
+    },
+    "bd_r_suoyidu": {
+      "kind": "rival_damage",
+      "values": [
+        0.5
+      ],
+      "text": "江忠源对冯云山伤害+50%",
+      "members": [
+        "qing_jiang_zhongyuan>tp_feng_yunshan"
+      ],
+      "left": [
+        "qing_jiang_zhongyuan"
+      ],
+      "right": [
+        "tp_feng_yunshan"
+      ]
+    },
+    "bd_r_sanhe": {
+      "kind": "rival_damage",
+      "values": [
+        0.5
+      ],
+      "text": "陈玉成、李秀成对李续宾伤害+50%",
+      "members": [
+        "tp_chen_yucheng",
+        "tp_li_xiucheng>qing_li_xubin"
+      ],
+      "left": [
+        "tp_chen_yucheng",
+        "tp_li_xiucheng"
+      ],
+      "right": [
+        "qing_li_xubin"
+      ]
+    },
+    "bd_r_anqing": {
+      "kind": "rival_damage",
+      "values": [
+        0.3
+      ],
+      "text": "多隆阿对陈玉成伤害+30%",
+      "members": [
+        "qing_duolonga>tp_chen_yucheng"
+      ],
+      "left": [
+        "qing_duolonga"
+      ],
+      "right": [
+        "tp_chen_yucheng"
+      ]
+    },
+    "bd_r_yuhuatai": {
+      "kind": "rival_reduce",
+      "values": [
+        -0.3
+      ],
+      "text": "曾国荃受到李秀成伤害-30%",
+      "members": [
+        "qing_zeng_guoquan>tp_li_xiucheng"
+      ],
+      "left": [
+        "qing_zeng_guoquan"
+      ],
+      "right": [
+        "tp_li_xiucheng"
+      ]
+    },
+    "bd_r_daduhe": {
+      "kind": "block_desperation",
+      "values": [],
+      "text": "骆秉章在场时,石达开的大渡河绝境不能触发",
+      "members": [
+        "qing_luo_bingzhang>tp_shi_dakai"
+      ],
+      "left": [
+        "qing_luo_bingzhang"
+      ],
+      "right": [
+        "tp_shi_dakai"
+      ]
+    },
+    "bd_r_beifa": {
+      "kind": "rival_damage",
+      "values": [
+        0.3
+      ],
+      "text": "僧格林沁、胜保对林凤祥、李开芳伤害+30%",
+      "members": [
+        "qing_senggelinqin",
+        "qing_shengbao>tp_lin_fengxiang",
+        "tp_li_kaifang"
+      ],
+      "left": [
+        "qing_senggelinqin",
+        "qing_shengbao"
+      ],
+      "right": [
+        "tp_lin_fengxiang",
+        "tp_li_kaifang"
+      ]
+    },
+    "bd_r_hukou": {
+      "kind": "rival_damage",
+      "values": [
+        0.3
+      ],
+      "text": "石达开对曾国藩伤害+30%",
+      "members": [
+        "tp_shi_dakai>qing_zeng_guofan"
+      ],
+      "left": [
+        "tp_shi_dakai"
+      ],
+      "right": [
+        "qing_zeng_guofan"
+      ]
+    },
+    "bd_r_jiangnan": {
+      "kind": "rival_damage",
+      "values": [
+        0.3
+      ],
+      "text": "李秀成对张国梁、和春伤害+30%",
+      "members": [
+        "tp_li_xiucheng>qing_zhang_guoliang",
+        "qing_he_chun"
+      ],
+      "left": [
+        "tp_li_xiucheng"
+      ],
+      "right": [
+        "qing_zhang_guoliang",
+        "qing_he_chun"
+      ]
+    },
+    "bd_r_shanghai": {
+      "kind": "rival_damage",
+      "values": [
+        0.2
+      ],
+      "text": "华尔、戈登对李秀成、谭绍光伤害+20%",
+      "members": [
+        "qing_ward",
+        "qing_gordon>tp_li_xiucheng",
+        "tp_tan_shaoguang"
+      ],
+      "left": [
+        "qing_ward",
+        "qing_gordon"
+      ],
+      "right": [
+        "tp_li_xiucheng",
+        "tp_tan_shaoguang"
+      ]
+    }
+  },
+  "sets": {
+    "圣兵": {
+      "aura": {
+        "target": "self",
+        "stat": "attack",
+        "value": 0.08,
+        "flat": false
+      },
+      "filter_fire": false,
+      "water_only": false,
+      "four": {
+        "set_kill_rage": [
+          20.0
+        ],
+        "set_kill_attack": [
+          0.05,
+          3.0
+        ]
+      }
+    },
+    "勇营": {
+      "aura": {
+        "target": "self",
+        "stat": "physical_defense",
+        "value": 0.1,
+        "flat": false
+      },
+      "filter_fire": false,
+      "water_only": false,
+      "four": {
+        "set_periodic_heal": [
+          4.0,
+          0.03
+        ]
+      }
+    },
+    "洋械": {
+      "aura": {
+        "target": "self",
+        "stat": "attack",
+        "value": 0.1,
+        "flat": false
+      },
+      "filter_fire": true,
+      "water_only": false,
+      "four": {
+        "set_extra_hit": [
+          0.15,
+          0.5
+        ]
+      }
+    },
+    "铁骑": {
+      "aura": {
+        "target": "self",
+        "stat": "speed",
+        "value": 8.0,
+        "flat": true
+      },
+      "filter_fire": false,
+      "water_only": false,
+      "four": {
+        "set_first_damage": [
+          0.3
+        ]
+      }
+    },
+    "江防": {
+      "aura": {
+        "target": "self",
+        "stat": "attack",
+        "value": 0.12,
+        "flat": false
+      },
+      "filter_fire": false,
+      "water_only": true,
+      "four": {
+        "set_water_taken": [
+          -0.15
+        ]
+      }
+    }
+  },
+  "exclusives": {
+    "tp_hong_xiuquan": {
+      "active": {
+        "ops": [
+          {
+            "target": "self",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "resource",
+            "resource": "信仰",
+            "value": 40.0
+          }
+        ],
+        "unknown": [],
+        "round": 3,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "hong_all_faith": [
+            90.0,
+            12.0,
+            10.0,
+            0.3
+          ],
+          "faith_cap": [
+            20.0
+          ],
+          "yang_round_suspicion": [
+            5.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "tp_yang_xiuqing": {
+      "active": {
+        "ops": [
+          {
+            "target": "ally_all",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "buff",
+            "stat": "attack",
+            "value": 0.15,
+            "flat": false
+          },
+          {
+            "target": "enemy_all",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 0.8
+          },
+          {
+            "target": "self",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "resource",
+            "resource": "猜忌",
+            "value": 15.0
+          },
+          {
+            "kind": "resource",
+            "target": "enemy_all",
+            "resource": "怒气",
+            "value": -10.0,
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "start_rage_all": [
+            15.0
+          ],
+          "suspicion_attack": [
+            40.0,
+            10.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {
+        "suspicion_multiplier": 0.7
+      }
+    },
+    "tp_xiao_chaogui": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_front",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 2.1
+          },
+          {
+            "target": "ally_all",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "resource",
+            "resource": "怒气",
+            "value": 25.0
+          },
+          {
+            "target": "self",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "shield",
+            "value": 0.2
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "target_high_bonus": [
+            70.0,
+            25.0
+          ],
+          "death_rage_all": [
+            30.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "tp_feng_yunshan": {
+      "active": {
+        "ops": [
+          {
+            "target": "ally_all",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "heal",
+            "value": 0.14
+          },
+          {
+            "target": "self",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "resource",
+            "resource": "信仰",
+            "value": 20.0
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "start_rage_taiping": [
+            30.0
+          ],
+          "death_attack_all": [
+            15.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "tp_wei_changhui": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_low",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 3.96
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {
+          "target_double_name": "杨秀清"
+        }
+      },
+      "passive": {
+        "features": {
+          "target_low_crit": [
+            30.0,
+            40.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "tp_shi_dakai": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_front",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 1.8
+          },
+          {
+            "target": "hit",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "buff",
+            "stat": "defense",
+            "value": -0.2,
+            "flat": false
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "no_bond_risk": [
+            20.0,
+            20.0
+          ],
+          "desperation": [
+            30.0,
+            25.0,
+            1.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {
+        "desperation_attack": [
+          0.15,
+          2
+        ]
+      }
+    },
+    "tp_chen_yucheng": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_back_one",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 2.3
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {
+          "kill_rage": 50.0
+        }
+      },
+      "passive": {
+        "features": {
+          "first_speed": [
+            60.0
+          ],
+          "rear_chance": [
+            50.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {
+        "kill_recast": true
+      }
+    },
+    "tp_li_xiucheng": {
+      "active": {
+        "ops": [
+          {
+            "target": "ally_all",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "heal",
+            "value": 0.165
+          },
+          {
+            "target": "ally_all",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "shield",
+            "value": 0.11
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "low_alive_defense": [
+            3.0,
+            20.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "tp_hong_rengan": {
+      "active": {
+        "ops": [
+          {
+            "target": "ally_all",
+            "duration": 3,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "buff",
+            "stat": "attack",
+            "value": 0.2,
+            "flat": false
+          },
+          {
+            "target": "ally_all",
+            "duration": 3,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "buff",
+            "stat": "speed",
+            "value": 10.0,
+            "flat": true
+          },
+          {
+            "target": "ally_all",
+            "duration": 3,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "dispel",
+            "value": 1
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "lord_amplify": [
+            50.0
+          ]
+        },
+        "auras": [
+          {
+            "target": "ally:troop:火",
+            "stat": "attack",
+            "value": 0.2,
+            "flat": false
+          }
+        ],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "tp_li_shixian": {
+      "active": {
+        "ops": [
+          {
+            "target": "random:3",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 2.1
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "end_heal_below": [
+            50.0,
+            12.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "tp_lin_fengxiang": {
+      "active": {
+        "ops": [
+          {
+            "target": "ally_all",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "buff",
+            "stat": "attack",
+            "value": 0.25,
+            "flat": false
+          },
+          {
+            "target": "self",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "shield",
+            "value": 0.48
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "missing_damage": [
+            10.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "tp_li_kaifang": {
+      "active": {
+        "ops": [
+          {
+            "target": "self",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "status",
+            "status": "嘲讽"
+          },
+          {
+            "target": "self",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "buff",
+            "stat": "defense",
+            "value": 0.6,
+            "flat": false
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "death_save": true
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {
+        "save_attack": [
+          0.3,
+          2
+        ]
+      }
+    },
+    "tp_luo_dagang": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_all",
+            "duration": 3,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 1.7
+          },
+          {
+            "target": "hit",
+            "duration": 3,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "burn",
+            "value": 0.4
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "water_speed": [
+            20.0
+          ],
+          "combo_chance": [
+            20.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "tp_tan_shaoguang": {
+      "active": {
+        "ops": [
+          {
+            "target": "ally_front",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "shield",
+            "value": 0.35
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "attack_debuff_immune": true,
+          "low_hp_attack": [
+            50.0,
+            40.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "tp_lai_wenguang": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_back",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 1.9
+          },
+          {
+            "target": "self",
+            "duration": 1,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "buff",
+            "stat": "taken",
+            "value": -0.3,
+            "flat": false
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "action_speed": [
+            5.0,
+            40.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "tp_hong_xuanjiao": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_one",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 2.0
+          },
+          {
+            "target": "hit",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "combo",
+            "value": 2
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {},
+        "auras": [
+          {
+            "target": "self",
+            "stat": "crit",
+            "value": 0.2,
+            "flat": false
+          }
+        ],
+        "unknown": []
+      },
+      "extra": {
+        "first_enhancement_only": true
+      }
+    },
+    "qing_zeng_guofan": {
+      "active": {
+        "ops": [
+          {
+            "target": "ally_all",
+            "duration": 3,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "buff",
+            "stat": "defense",
+            "value": 0.25,
+            "flat": false
+          },
+          {
+            "target": "ally_front",
+            "duration": 3,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "shield",
+            "value": 0.16
+          },
+          {
+            "kind": "buff",
+            "target": "enemy_all",
+            "stat": "attack",
+            "value": -0.1,
+            "flat": false,
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "death_aura": [
+            10.0,
+            10.0,
+            2.0
+          ],
+          "grain_gain": [
+            20.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {
+        "first_enhancement_only": true
+      }
+    },
+    "qing_zeng_guoquan": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_all",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "buff",
+            "stat": "defense",
+            "value": -0.35,
+            "flat": false
+          },
+          {
+            "target": "enemy_front",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 1.85
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "enemy_healing_reduction": [
+            30.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_hu_linyi": {
+      "active": {
+        "ops": [
+          {
+            "target": "self",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "resource",
+            "resource": "粮饷",
+            "value": 50.0
+          },
+          {
+            "target": "ally_all",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "heal",
+            "value": 0.2
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "grain_rage": [
+            30.0,
+            10.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_zuo_zongtang": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_all",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 1.25
+          },
+          {
+            "target": "hit",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "buff",
+            "stat": "speed",
+            "value": -15.0,
+            "flat": true
+          },
+          {
+            "kind": "status",
+            "target": "hit",
+            "status": "眩晕",
+            "probability": 0.1,
+            "duration": 1,
+            "condition": null
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "active_damage": [
+            10.0
+          ],
+          "first_refund": [
+            30.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_luo_zenan": {
+      "active": {
+        "ops": [
+          {
+            "target": "ally_all",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "buff",
+            "stat": "defense",
+            "value": 0.25,
+            "flat": false
+          },
+          {
+            "target": "ally_all",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "dispel",
+            "value": 999
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "max_attack": true
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_li_xubin": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_front_one",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 3.2
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {},
+        "auras": [
+          {
+            "target": "self",
+            "stat": "attack",
+            "value": 0.2,
+            "flat": false
+          },
+          {
+            "target": "self",
+            "stat": "taken",
+            "value": 0.0,
+            "flat": false
+          }
+        ],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_taqibu": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_front",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 2.2
+          },
+          {
+            "target": "hit",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "buff",
+            "stat": "speed",
+            "value": -30.0,
+            "flat": true
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {},
+        "auras": [
+          {
+            "target": "ally:湘军",
+            "stat": "speed",
+            "value": 5.0,
+            "flat": true
+          }
+        ],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_bao_chao": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_front",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 2.4
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "hit_attack_every": [
+            2.0,
+            10.0,
+            5.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_duolonga": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_back_low",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 2.9
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {
+          "kill_followup": 1.0
+        }
+      },
+      "passive": {
+        "features": {
+          "rear_chance": [
+            60.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_jiang_zhongyuan": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_all",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 1.35
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {
+          "first_round_bonus": [
+            1,
+            0.5
+          ]
+        }
+      },
+      "passive": {
+        "features": {
+          "start_rage": [
+            60.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_peng_yulin": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_front",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 2.0
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {
+          "water_target": "enemy_all"
+        }
+      },
+      "passive": {
+        "features": {
+          "firearm_reduction": [
+            20.0
+          ]
+        },
+        "auras": [
+          {
+            "target": "ally:troop:水",
+            "stat": "attack",
+            "value": 0.15,
+            "flat": false
+          }
+        ],
+        "unknown": []
+      },
+      "extra": {
+        "water_team_reduction": 0.15
+      }
+    },
+    "qing_yang_zaifu": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_one",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 2.9
+          },
+          {
+            "target": "self",
+            "duration": 0,
+            "condition": "水战",
+            "probability": 1.0,
+            "kind": "combo",
+            "value": 1
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "critical_reduction": [
+            50.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_li_hongzhang": {
+      "active": {
+        "ops": [
+          {
+            "target": "ally:troop:火",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "resource",
+            "resource": "怒气",
+            "value": 80.0
+          },
+          {
+            "target": "ally:troop:火",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "buff",
+            "stat": "attack",
+            "value": 0.3,
+            "flat": false
+          },
+          {
+            "target": "enemy_one",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 2.0
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "huai_speed": [
+            3.0
+          ],
+          "start_foreign_defense": [
+            20.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_cheng_xueqi": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_one",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 2.7
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {
+          "target_bonus": [
+            "太平天国武将",
+            0.5
+          ]
+        }
+      },
+      "passive": {
+        "features": {
+          "random_stat": [
+            20.0,
+            20.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_liu_mingchuan": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_all",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 1.45
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "nth_basic": [
+            2.0,
+            100.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_senggelinqin": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_front",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 1.9
+          },
+          {
+            "target": "hit",
+            "duration": 1,
+            "condition": null,
+            "probability": 0.5,
+            "kind": "status",
+            "status": "眩晕"
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "infantry_damage": [
+            15.0
+          ]
+        },
+        "auras": [
+          {
+            "target": "ally:troop:骑",
+            "stat": "attack",
+            "value": 0.12,
+            "flat": false
+          }
+        ],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_zhang_guoliang": {
+      "active": {
+        "ops": [
+          {
+            "target": "ally_all",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "buff",
+            "stat": "defense",
+            "value": 0.2,
+            "flat": false
+          },
+          {
+            "target": "self",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "heal",
+            "value": 0.25
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {
+          "high_hp_attack": [
+            50.0,
+            20.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_ward": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_back",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 1.7
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {}
+      },
+      "passive": {
+        "features": {},
+        "auras": [
+          {
+            "target": "self",
+            "stat": "crit_damage",
+            "value": 0.6,
+            "flat": false
+          }
+        ],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_gordon": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_front",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "damage",
+            "value": 2.2
+          },
+          {
+            "target": "hit",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "buff",
+            "stat": "defense",
+            "value": -0.2,
+            "flat": false
+          }
+        ],
+        "unknown": [],
+        "round": null,
+        "meta": {
+          "siege_bonus": 0.5
+        }
+      },
+      "passive": {
+        "features": {
+          "siege_attack_aura": [
+            10.0
+          ]
+        },
+        "auras": [],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_xianfeng": {
+      "active": {
+        "ops": [
+          {
+            "target": "ally_all",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "heal",
+            "value": 0.25
+          }
+        ],
+        "unknown": [],
+        "round": 3,
+        "meta": {}
+      },
+      "passive": {
+        "features": {},
+        "auras": [
+          {
+            "target": "ally:xiang_huai",
+            "stat": "attack",
+            "value": 0.1,
+            "flat": false
+          }
+        ],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_cixi": {
+      "active": {
+        "ops": [
+          {
+            "target": "ally_all",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "buff",
+            "stat": "attack",
+            "value": 0.2,
+            "flat": false
+          }
+        ],
+        "unknown": [],
+        "round": 4,
+        "meta": {}
+      },
+      "passive": {
+        "features": {},
+        "auras": [
+          {
+            "target": "ally_all",
+            "stat": "defense",
+            "value": 0.2,
+            "flat": false
+          },
+          {
+            "target": "ally_all",
+            "stat": "rage_gain",
+            "value": 0.35,
+            "flat": false
+          }
+        ],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_prince_gong": {
+      "active": {
+        "ops": [
+          {
+            "target": "ally_all",
+            "duration": 0,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "resource",
+            "resource": "怒气",
+            "value": 65.0
+          }
+        ],
+        "unknown": [],
+        "round": 2,
+        "meta": {}
+      },
+      "passive": {
+        "features": {},
+        "auras": [
+          {
+            "target": "ally:troop:火",
+            "stat": "attack",
+            "value": 0.25,
+            "flat": false
+          },
+          {
+            "target": "ally:外籍",
+            "stat": "defense",
+            "value": 0.2,
+            "flat": false
+          }
+        ],
+        "unknown": []
+      },
+      "extra": {}
+    },
+    "qing_sushun": {
+      "active": {
+        "ops": [
+          {
+            "target": "enemy_all",
+            "duration": 2,
+            "condition": null,
+            "probability": 1.0,
+            "kind": "buff",
+            "stat": "attack",
+            "value": -0.25,
+            "flat": false
+          }
+        ],
+        "unknown": [],
+        "round": 2,
+        "meta": {}
+      },
+      "passive": {
+        "features": {},
+        "auras": [
+          {
+            "target": "ally:xiang_huai",
+            "stat": "attack",
+            "value": 0.15,
+            "flat": false
+          }
+        ],
+        "unknown": []
+      },
+      "extra": {}
+    }
+  }
+}

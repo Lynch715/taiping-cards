@@ -1,0 +1,786 @@
+[
+  {
+    "skill_id": "sk_tp_hong_xiuquan_decree",
+    "hero_id": "tp_hong_xiuquan",
+    "kind": "诏令",
+    "name": "天父天兄",
+    "effect": "第 3 回合开始时发动：信仰立即 +40。"
+  },
+  {
+    "skill_id": "sk_tp_hong_xiuquan_edict",
+    "hero_id": "tp_hong_xiuquan",
+    "kind": "政令",
+    "name": "天王诏旨",
+    "effect": "信仰达到 90 时，我方太平天国武将全属性 +10%，另按洪秀全智每 10 点再 +0.3%；信仰上限 +20。杨秀清在场时，猜忌每回合 +5。"
+  },
+  {
+    "skill_id": "sk_tp_hong_tianguifu_decree",
+    "hero_id": "tp_hong_tianguifu",
+    "kind": "诏令",
+    "name": "天京突围",
+    "effect": "第 2 回合开始时发动：我方全体速度 +25 点，持续 3 回合。"
+  },
+  {
+    "skill_id": "sk_tp_hong_tianguifu_edict",
+    "hero_id": "tp_hong_tianguifu",
+    "kind": "政令",
+    "name": "幼主继位",
+    "effect": "我方太平天国武将防御 +25%；开场信仰 +20。"
+  },
+  {
+    "skill_id": "sk_tp_yang_xiuqing_a",
+    "hero_id": "tp_yang_xiuqing",
+    "kind": "主动",
+    "name": "天父下凡",
+    "effect": "我方全体攻击 +15%，持续 2 回合；对敌方全体造成伤害 80%；猜忌 +15。"
+  },
+  {
+    "skill_id": "sk_tp_yang_xiuqing_p",
+    "hero_id": "tp_yang_xiuqing",
+    "kind": "被动",
+    "name": "东王府令",
+    "effect": "战斗开始时我方全体怒气 +15；猜忌每 40 点，自身攻击 +10%。"
+  },
+  {
+    "skill_id": "sk_tp_xiao_chaogui_a",
+    "hero_id": "tp_xiao_chaogui",
+    "kind": "主动",
+    "name": "天兄下凡",
+    "effect": "对敌方前排造成伤害 210%；我方全体怒气 +15；自身获得护盾 20%，持续 2 回合。"
+  },
+  {
+    "skill_id": "sk_tp_xiao_chaogui_p",
+    "hero_id": "tp_xiao_chaogui",
+    "kind": "被动",
+    "name": "西王冲锋",
+    "effect": "攻击生命高于 70% 的敌人时伤害 +25%；自身阵亡时，我方全体怒气 +30（长沙殉难）。"
+  },
+  {
+    "skill_id": "sk_tp_feng_yunshan_a",
+    "hero_id": "tp_feng_yunshan",
+    "kind": "主动",
+    "name": "紫荆传道",
+    "effect": "我方全体回复 14%；信仰 +20。"
+  },
+  {
+    "skill_id": "sk_tp_feng_yunshan_p",
+    "hero_id": "tp_feng_yunshan",
+    "kind": "被动",
+    "name": "拜上帝会",
+    "effect": "战斗开始时我方太平天国武将怒气 +15；自身阵亡时，我方全体攻击 +15% 至战斗结束。"
+  },
+  {
+    "skill_id": "sk_tp_wei_changhui_a",
+    "hero_id": "tp_wei_changhui",
+    "kind": "主动",
+    "name": "北王夜袭",
+    "effect": "对敌方生命最低的单体造成伤害 330%；目标为杨秀清时伤害翻倍。"
+  },
+  {
+    "skill_id": "sk_tp_wei_changhui_p",
+    "hero_id": "tp_wei_changhui",
+    "kind": "被动",
+    "name": "阴鸷",
+    "effect": "对生命低于 30% 的敌人暴击率 +40%。"
+  },
+  {
+    "skill_id": "sk_tp_shi_dakai_a",
+    "hero_id": "tp_shi_dakai",
+    "kind": "主动",
+    "name": "翼王出征",
+    "effect": "对敌方前排造成伤害 180%，并使其防御 −20%，持续 2 回合。"
+  },
+  {
+    "skill_id": "sk_tp_shi_dakai_p",
+    "hero_id": "tp_shi_dakai",
+    "kind": "被动",
+    "name": "孤军远征",
+    "effect": "我方未激活任何正面羁绊时，自身全属性 +20%、受到伤害 +20%；生命首次低于 30% 时回复 15%，并免疫眩晕与沉默 1 回合（大渡河绝境，每场 1 次）。"
+  },
+  {
+    "skill_id": "sk_tp_chen_yucheng_a",
+    "hero_id": "tp_chen_yucheng",
+    "kind": "主动",
+    "name": "英王先锋",
+    "effect": "对敌方后排单体造成伤害 230%；若击杀，怒气返还 50。"
+  },
+  {
+    "skill_id": "sk_tp_chen_yucheng_p",
+    "hero_id": "tp_chen_yucheng",
+    "kind": "被动",
+    "name": "少年锐气",
+    "effect": "第 1 回合速度 +60（必定先手）；普攻 50% 概率改打后排。"
+  },
+  {
+    "skill_id": "sk_tp_li_xiucheng_a",
+    "hero_id": "tp_li_xiucheng",
+    "kind": "主动",
+    "name": "苏福安民",
+    "effect": "我方全体回复 11%，并获得护盾 11%，持续 2 回合。"
+  },
+  {
+    "skill_id": "sk_tp_li_xiucheng_p",
+    "hero_id": "tp_li_xiucheng",
+    "kind": "被动",
+    "name": "苦撑危局",
+    "effect": "我方存活人数 ≤ 3 时，我方全体防御 +20%。"
+  },
+  {
+    "skill_id": "sk_tp_hong_rengan_a",
+    "hero_id": "tp_hong_rengan",
+    "kind": "主动",
+    "name": "资政新篇",
+    "effect": "我方全体攻击 +20%、速度 +10 点，持续 2 回合，并驱散我方全体 1 个减益。"
+  },
+  {
+    "skill_id": "sk_tp_hong_rengan_p",
+    "hero_id": "tp_hong_rengan",
+    "kind": "被动",
+    "name": "西学",
+    "effect": "我方火器武将攻击 +20%；洪秀全或洪天贵福在君主位时，君主政令的效果 +50%（总理朝政）。"
+  },
+  {
+    "skill_id": "sk_tp_li_shixian_a",
+    "hero_id": "tp_li_shixian",
+    "kind": "主动",
+    "name": "侍王转战",
+    "effect": "对随机 3 名敌人各造成伤害 210%。"
+  },
+  {
+    "skill_id": "sk_tp_li_shixian_p",
+    "hero_id": "tp_li_shixian",
+    "kind": "被动",
+    "name": "浙江转战",
+    "effect": "生命低于 50% 时，每回合结束回复自身 10%。"
+  },
+  {
+    "skill_id": "sk_tp_yang_fuqing_a",
+    "hero_id": "tp_yang_fuqing",
+    "kind": "主动",
+    "name": "辅王驰援",
+    "effect": "回复我方生命最低者 22.5%。"
+  },
+  {
+    "skill_id": "sk_tp_yang_fuqing_p",
+    "hero_id": "tp_yang_fuqing",
+    "kind": "被动",
+    "name": "宗亲",
+    "effect": "自身受到的治疗 +20%。"
+  },
+  {
+    "skill_id": "sk_tp_lin_fengxiang_a",
+    "hero_id": "tp_lin_fengxiang",
+    "kind": "主动",
+    "name": "北伐帅旗",
+    "effect": "我方全体攻击 +25%，持续 2 回合；自身获得护盾 30%，持续 2 回合。"
+  },
+  {
+    "skill_id": "sk_tp_lin_fengxiang_p",
+    "hero_id": "tp_lin_fengxiang",
+    "kind": "被动",
+    "name": "孤军深入",
+    "effect": "我方每少 1 名存活武将，自身伤害 +10%。"
+  },
+  {
+    "skill_id": "sk_tp_li_kaifang_a",
+    "hero_id": "tp_li_kaifang",
+    "kind": "主动",
+    "name": "死守孤城",
+    "effect": "自身嘲讽并防御 +60%，持续 2 回合。"
+  },
+  {
+    "skill_id": "sk_tp_li_kaifang_p",
+    "hero_id": "tp_li_kaifang",
+    "kind": "被动",
+    "name": "坚忍",
+    "effect": "免死（每场 1 次）。"
+  },
+  {
+    "skill_id": "sk_tp_luo_dagang_a",
+    "hero_id": "tp_luo_dagang",
+    "kind": "主动",
+    "name": "江上焚舟",
+    "effect": "对敌方全体造成伤害 170%，并施加灼烧 40%，持续 2 回合。"
+  },
+  {
+    "skill_id": "sk_tp_luo_dagang_p",
+    "hero_id": "tp_luo_dagang",
+    "kind": "被动",
+    "name": "天地会旧部",
+    "effect": "水战时自身速度 +20 点；普攻有 20% 概率连击。"
+  },
+  {
+    "skill_id": "sk_tp_hu_yihuang_a",
+    "hero_id": "tp_hu_yihuang",
+    "kind": "主动",
+    "name": "豫王攻城",
+    "effect": "对敌方前排造成伤害 150%。"
+  },
+  {
+    "skill_id": "sk_tp_hu_yihuang_p",
+    "hero_id": "tp_hu_yihuang",
+    "kind": "被动",
+    "name": "攻坚",
+    "effect": "攻城地形时自身伤害 +15%。"
+  },
+  {
+    "skill_id": "sk_tp_qin_rigang_a",
+    "hero_id": "tp_qin_rigang",
+    "kind": "主动",
+    "name": "燕王突击",
+    "effect": "对敌方单体造成伤害 210%。"
+  },
+  {
+    "skill_id": "sk_tp_qin_rigang_p",
+    "hero_id": "tp_qin_rigang",
+    "kind": "被动",
+    "name": "先登",
+    "effect": "自身第一次行动伤害 +25%。"
+  },
+  {
+    "skill_id": "sk_tp_zeng_tianyang_a",
+    "hero_id": "tp_zeng_tianyang",
+    "kind": "主动",
+    "name": "老将冲阵",
+    "effect": "对敌方前排造成伤害 150%；自身受到伤害 −20%，持续 1 回合。"
+  },
+  {
+    "skill_id": "sk_tp_zeng_tianyang_p",
+    "hero_id": "tp_zeng_tianyang",
+    "kind": "被动",
+    "name": "老当益壮",
+    "effect": "生命低于 50% 时攻击 +20%。"
+  },
+  {
+    "skill_id": "sk_tp_lin_qirong_a",
+    "hero_id": "tp_lin_qirong",
+    "kind": "主动",
+    "name": "九江死守",
+    "effect": "自身嘲讽并防御 +25%，持续 2 回合。"
+  },
+  {
+    "skill_id": "sk_tp_lin_qirong_p",
+    "hero_id": "tp_lin_qirong",
+    "kind": "被动",
+    "name": "坚城",
+    "effect": "自身受到伤害 −10%。"
+  },
+  {
+    "skill_id": "sk_tp_tan_shaoguang_a",
+    "hero_id": "tp_tan_shaoguang",
+    "kind": "主动",
+    "name": "死守苏州",
+    "effect": "我方前排获得护盾 35%，持续 2 回合。"
+  },
+  {
+    "skill_id": "sk_tp_tan_shaoguang_p",
+    "hero_id": "tp_tan_shaoguang",
+    "kind": "被动",
+    "name": "宁死不降",
+    "effect": "免疫攻击降低类减益；生命低于 30% 时攻击 +40%。"
+  },
+  {
+    "skill_id": "sk_tp_huang_wenjin_a",
+    "hero_id": "tp_huang_wenjin",
+    "kind": "主动",
+    "name": "堵王血战",
+    "effect": "对敌方前排造成伤害 150%。"
+  },
+  {
+    "skill_id": "sk_tp_huang_wenjin_p",
+    "hero_id": "tp_huang_wenjin",
+    "kind": "被动",
+    "name": "嗜战",
+    "effect": "击杀敌人后回复自身 15%。"
+  },
+  {
+    "skill_id": "sk_tp_wang_haiyang_a",
+    "hero_id": "tp_wang_haiyang",
+    "kind": "主动",
+    "name": "康王突围",
+    "effect": "对敌方单体造成伤害 200%；自身速度 +15 点，持续 2 回合。"
+  },
+  {
+    "skill_id": "sk_tp_wang_haiyang_p",
+    "hero_id": "tp_wang_haiyang",
+    "kind": "被动",
+    "name": "机动",
+    "effect": "自身速度 +10 点。"
+  },
+  {
+    "skill_id": "sk_tp_lai_wenguang_a",
+    "hero_id": "tp_lai_wenguang",
+    "kind": "主动",
+    "name": "捻军游击",
+    "effect": "对敌方后排造成伤害 190%；自身受到伤害 −30%，持续 1 回合。"
+  },
+  {
+    "skill_id": "sk_tp_lai_wenguang_p",
+    "hero_id": "tp_lai_wenguang",
+    "kind": "被动",
+    "name": "流动作战",
+    "effect": "每次行动后自身速度 +5 点（最多 +25 点）。"
+  },
+  {
+    "skill_id": "sk_tp_lindley_a",
+    "hero_id": "tp_lindley",
+    "kind": "主动",
+    "name": "洋枪助战",
+    "effect": "对敌方后排单体造成伤害 220%。"
+  },
+  {
+    "skill_id": "sk_tp_lindley_p",
+    "hero_id": "tp_lindley",
+    "kind": "被动",
+    "name": "太平之友",
+    "effect": "洪仁玕在场时自身攻击 +15%。"
+  },
+  {
+    "skill_id": "sk_tp_hong_xuanjiao_a",
+    "hero_id": "tp_hong_xuanjiao",
+    "kind": "主动",
+    "name": "女营双刀",
+    "effect": "对敌方单体造成伤害 200%，并连击 1 次。"
+  },
+  {
+    "skill_id": "sk_tp_hong_xuanjiao_p",
+    "hero_id": "tp_hong_xuanjiao",
+    "kind": "被动",
+    "name": "巾帼",
+    "effect": "暴击率 +20%。"
+  },
+  {
+    "skill_id": "sk_tp_su_sanniang_a",
+    "hero_id": "tp_su_sanniang",
+    "kind": "主动",
+    "name": "女营突骑",
+    "effect": "对敌方后排单体造成伤害 200%。"
+  },
+  {
+    "skill_id": "sk_tp_su_sanniang_p",
+    "hero_id": "tp_su_sanniang",
+    "kind": "被动",
+    "name": "轻骑",
+    "effect": "自身受到伤害 −10%。"
+  },
+  {
+    "skill_id": "sk_qing_zeng_guofan_a",
+    "hero_id": "qing_zeng_guofan",
+    "kind": "主动",
+    "name": "结硬寨",
+    "effect": "我方全体防御 +25%，持续 3 回合；我方前排获得护盾 16%，持续 3 回合。"
+  },
+  {
+    "skill_id": "sk_qing_zeng_guofan_p",
+    "hero_id": "qing_zeng_guofan",
+    "kind": "被动",
+    "name": "屡败屡战",
+    "effect": "我方每有 1 名武将阵亡，我方全体防御 +10%、攻击 +10%（最多 2 层）；粮饷获取 +20%。"
+  },
+  {
+    "skill_id": "sk_qing_zeng_guoquan_a",
+    "hero_id": "qing_zeng_guoquan",
+    "kind": "主动",
+    "name": "挖壕围城",
+    "effect": "敌方全体防御 −25%，持续 2 回合；对敌方前排造成伤害 185%。"
+  },
+  {
+    "skill_id": "sk_qing_zeng_guoquan_p",
+    "hero_id": "qing_zeng_guoquan",
+    "kind": "被动",
+    "name": "围城断援",
+    "effect": "自身在场时，敌方受到的治疗 −30%。"
+  },
+  {
+    "skill_id": "sk_qing_hu_linyi_a",
+    "hero_id": "qing_hu_linyi",
+    "kind": "主动",
+    "name": "筹饷",
+    "effect": "粮饷立即 +30；我方全体回复 15%。"
+  },
+  {
+    "skill_id": "sk_qing_hu_linyi_p",
+    "hero_id": "qing_hu_linyi",
+    "kind": "被动",
+    "name": "湖北筹饷",
+    "effect": "粮饷每满 30，我方全体怒气 +10。"
+  },
+  {
+    "skill_id": "sk_qing_zuo_zongtang_a",
+    "hero_id": "qing_zuo_zongtang",
+    "kind": "主动",
+    "name": "督师浙江",
+    "effect": "对敌方全体造成伤害 125%，并使其速度 −15 点，持续 2 回合。"
+  },
+  {
+    "skill_id": "sk_qing_zuo_zongtang_p",
+    "hero_id": "qing_zuo_zongtang",
+    "kind": "被动",
+    "name": "今亮",
+    "effect": "主动技伤害 +10%；首次释放主动技后怒气返还 30。"
+  },
+  {
+    "skill_id": "sk_qing_luo_zenan_a",
+    "hero_id": "qing_luo_zenan",
+    "kind": "主动",
+    "name": "理学督阵",
+    "effect": "我方全体防御 +25%，持续 2 回合，并驱散我方全体 1 个减益。"
+  },
+  {
+    "skill_id": "sk_qing_luo_zenan_p",
+    "hero_id": "qing_luo_zenan",
+    "kind": "被动",
+    "name": "书生带兵",
+    "effect": "自身普攻和技能取武、智中较高者计算。"
+  },
+  {
+    "skill_id": "sk_qing_li_xubin_a",
+    "hero_id": "qing_li_xubin",
+    "kind": "主动",
+    "name": "悍勇冲锋",
+    "effect": "对敌方前排单体造成伤害 320%。"
+  },
+  {
+    "skill_id": "sk_qing_li_xubin_p",
+    "hero_id": "qing_li_xubin",
+    "kind": "被动",
+    "name": "孤军冒进",
+    "effect": "自身攻击 +20%，受到伤害 +10%。"
+  },
+  {
+    "skill_id": "sk_qing_taqibu_a",
+    "hero_id": "qing_taqibu",
+    "kind": "主动",
+    "name": "湘军先锋",
+    "effect": "对敌方前排造成伤害 220%，并使其速度 −20 点，持续 2 回合。"
+  },
+  {
+    "skill_id": "sk_qing_taqibu_p",
+    "hero_id": "qing_taqibu",
+    "kind": "被动",
+    "name": "满汉合营",
+    "effect": "我方湘军武将速度 +5 点。"
+  },
+  {
+    "skill_id": "sk_qing_bao_chao_a",
+    "hero_id": "qing_bao_chao",
+    "kind": "主动",
+    "name": "霆军猛攻",
+    "effect": "对敌方前排造成伤害 240%。"
+  },
+  {
+    "skill_id": "sk_qing_bao_chao_p",
+    "hero_id": "qing_bao_chao",
+    "kind": "被动",
+    "name": "悍将",
+    "effect": "每受到 2 次攻击，自身攻击 +10%（最多 3 层）。"
+  },
+  {
+    "skill_id": "sk_qing_duolonga_a",
+    "hero_id": "qing_duolonga",
+    "kind": "主动",
+    "name": "挂车河",
+    "effect": "对敌方后排生命最低者造成伤害 290%；若击杀，对另一名后排追加伤害 100%。"
+  },
+  {
+    "skill_id": "sk_qing_duolonga_p",
+    "hero_id": "qing_duolonga",
+    "kind": "被动",
+    "name": "骑射",
+    "effect": "普攻 40% 概率改打后排。"
+  },
+  {
+    "skill_id": "sk_qing_jiang_zhongyuan_a",
+    "hero_id": "qing_jiang_zhongyuan",
+    "kind": "主动",
+    "name": "蓑衣渡设伏",
+    "effect": "对敌方全体造成伤害 135%；若在第 1 回合释放，伤害 +50%。"
+  },
+  {
+    "skill_id": "sk_qing_jiang_zhongyuan_p",
+    "hero_id": "qing_jiang_zhongyuan",
+    "kind": "被动",
+    "name": "楚勇",
+    "effect": "开场怒气 +40。"
+  },
+  {
+    "skill_id": "sk_qing_peng_yulin_a",
+    "hero_id": "qing_peng_yulin",
+    "kind": "主动",
+    "name": "长江破浪",
+    "effect": "对敌方前排造成伤害 200%；水战时改为敌方全体。"
+  },
+  {
+    "skill_id": "sk_qing_peng_yulin_p",
+    "hero_id": "qing_peng_yulin",
+    "kind": "被动",
+    "name": "水师统帅",
+    "effect": "我方水师武将攻击 +15%；自身受到火器伤害 −20%。"
+  },
+  {
+    "skill_id": "sk_qing_yang_zaifu_a",
+    "hero_id": "qing_yang_zaifu",
+    "kind": "主动",
+    "name": "水战搏杀",
+    "effect": "对敌方单体造成伤害 290%；水战时连击 1 次。"
+  },
+  {
+    "skill_id": "sk_qing_yang_zaifu_p",
+    "hero_id": "qing_yang_zaifu",
+    "kind": "被动",
+    "name": "行伍出身",
+    "effect": "自身受到的暴击伤害 −30%。"
+  },
+  {
+    "skill_id": "sk_qing_li_hongzhang_a",
+    "hero_id": "qing_li_hongzhang",
+    "kind": "主动",
+    "name": "借师助剿",
+    "effect": "我方火器武将怒气 +50，攻击 +30%，持续 2 回合；对敌方单体造成伤害 200%。"
+  },
+  {
+    "skill_id": "sk_qing_li_hongzhang_p",
+    "hero_id": "qing_li_hongzhang",
+    "kind": "被动",
+    "name": "淮军统帅",
+    "effect": "我方每有 1 名淮军武将，我方全体速度 +3 点；战斗开始时我方洋枪队武将防御 +20%。"
+  },
+  {
+    "skill_id": "sk_qing_cheng_xueqi_a",
+    "hero_id": "qing_cheng_xueqi",
+    "kind": "主动",
+    "name": "开字营",
+    "effect": "对敌方单体造成伤害 270%；目标为太平天国武将时伤害 +30%。"
+  },
+  {
+    "skill_id": "sk_qing_cheng_xueqi_p",
+    "hero_id": "qing_cheng_xueqi",
+    "kind": "被动",
+    "name": "降将",
+    "effect": "战斗开始时随机获得攻击 +20% 或防御 +20%。"
+  },
+  {
+    "skill_id": "sk_qing_liu_mingchuan_a",
+    "hero_id": "qing_liu_mingchuan",
+    "kind": "主动",
+    "name": "铭军排枪",
+    "effect": "对敌方全体造成伤害 145%。"
+  },
+  {
+    "skill_id": "sk_qing_liu_mingchuan_p",
+    "hero_id": "qing_liu_mingchuan",
+    "kind": "被动",
+    "name": "铭字营",
+    "effect": "每第 3 次普攻伤害 +100%。"
+  },
+  {
+    "skill_id": "sk_qing_zhang_shusheng_a",
+    "hero_id": "qing_zhang_shusheng",
+    "kind": "主动",
+    "name": "树字营",
+    "effect": "我方全体防御 +25%，持续 2 回合。"
+  },
+  {
+    "skill_id": "sk_qing_zhang_shusheng_p",
+    "hero_id": "qing_zhang_shusheng",
+    "kind": "被动",
+    "name": "稳健",
+    "effect": "自身受到伤害 −10%。"
+  },
+  {
+    "skill_id": "sk_qing_guo_songlin_a",
+    "hero_id": "qing_guo_songlin",
+    "kind": "主动",
+    "name": "松字营突击",
+    "effect": "对敌方后排单体造成伤害 260%。"
+  },
+  {
+    "skill_id": "sk_qing_guo_songlin_p",
+    "hero_id": "qing_guo_songlin",
+    "kind": "被动",
+    "name": "快马",
+    "effect": "自身速度 +10 点。"
+  },
+  {
+    "skill_id": "sk_qing_senggelinqin_a",
+    "hero_id": "qing_senggelinqin",
+    "kind": "主动",
+    "name": "蒙古铁骑",
+    "effect": "对敌方前排造成伤害 190%，30% 概率眩晕 1 回合。"
+  },
+  {
+    "skill_id": "sk_qing_senggelinqin_p",
+    "hero_id": "qing_senggelinqin",
+    "kind": "被动",
+    "name": "铁骑冲阵",
+    "effect": "我方骑兵攻击 +12%；自身对步兵伤害额外 +15%。"
+  },
+  {
+    "skill_id": "sk_qing_xiang_rong_a",
+    "hero_id": "qing_xiang_rong",
+    "kind": "主动",
+    "name": "江南大营",
+    "effect": "我方前排获得护盾 25%，持续 2 回合。"
+  },
+  {
+    "skill_id": "sk_qing_xiang_rong_p",
+    "hero_id": "qing_xiang_rong",
+    "kind": "被动",
+    "name": "宿将",
+    "effect": "自身防御 +15%。"
+  },
+  {
+    "skill_id": "sk_qing_he_chun_a",
+    "hero_id": "qing_he_chun",
+    "kind": "主动",
+    "name": "合围",
+    "effect": "敌方前排防御 −25%，持续 2 回合。"
+  },
+  {
+    "skill_id": "sk_qing_he_chun_p",
+    "hero_id": "qing_he_chun",
+    "kind": "被动",
+    "name": "督阵",
+    "effect": "我方前排攻击 +15%。"
+  },
+  {
+    "skill_id": "sk_qing_zhang_guoliang_a",
+    "hero_id": "qing_zhang_guoliang",
+    "kind": "主动",
+    "name": "大营骁将",
+    "effect": "我方全体防御 +20%，持续 2 回合；回复自身 25%。"
+  },
+  {
+    "skill_id": "sk_qing_zhang_guoliang_p",
+    "hero_id": "qing_zhang_guoliang",
+    "kind": "被动",
+    "name": "豪强",
+    "effect": "生命高于 70% 时攻击 +20%。"
+  },
+  {
+    "skill_id": "sk_qing_shengbao_a",
+    "hero_id": "qing_shengbao",
+    "kind": "主动",
+    "name": "八旗冲锋",
+    "effect": "对敌方前排造成伤害 250%。"
+  },
+  {
+    "skill_id": "sk_qing_shengbao_p",
+    "hero_id": "qing_shengbao",
+    "kind": "被动",
+    "name": "追剿",
+    "effect": "对林凤祥、李开芳伤害 +25%。"
+  },
+  {
+    "skill_id": "sk_qing_ward_a",
+    "hero_id": "qing_ward",
+    "kind": "主动",
+    "name": "洋枪队",
+    "effect": "对敌方后排造成伤害 170%。"
+  },
+  {
+    "skill_id": "sk_qing_ward_p",
+    "hero_id": "qing_ward",
+    "kind": "被动",
+    "name": "冒险家",
+    "effect": "暴击伤害 +40%；自身防御 −10%。"
+  },
+  {
+    "skill_id": "sk_qing_gordon_a",
+    "hero_id": "qing_gordon",
+    "kind": "主动",
+    "name": "常胜军攻城",
+    "effect": "对敌方前排造成伤害 220%，并使其防御 −20%，持续 2 回合；攻城地形时伤害 +30%。"
+  },
+  {
+    "skill_id": "sk_qing_gordon_p",
+    "hero_id": "qing_gordon",
+    "kind": "被动",
+    "name": "工兵军官",
+    "effect": "攻城地形时我方全体攻击 +10%。"
+  },
+  {
+    "skill_id": "sk_qing_burgevine_a",
+    "hero_id": "qing_burgevine",
+    "kind": "主动",
+    "name": "反复无常",
+    "effect": "对敌方单体造成伤害 200%。"
+  },
+  {
+    "skill_id": "sk_qing_burgevine_p",
+    "hero_id": "qing_burgevine",
+    "kind": "被动",
+    "name": "倒戈",
+    "effect": "编入太平天国阵营时自身攻击 +15%。"
+  },
+  {
+    "skill_id": "sk_qing_luo_bingzhang_a",
+    "hero_id": "qing_luo_bingzhang",
+    "kind": "主动",
+    "name": "招抚",
+    "effect": "对敌方单体造成伤害 250%，并沉默 1 回合。"
+  },
+  {
+    "skill_id": "sk_qing_luo_bingzhang_p",
+    "hero_id": "qing_luo_bingzhang",
+    "kind": "被动",
+    "name": "川督",
+    "effect": "对石达开伤害 +25%。"
+  },
+  {
+    "skill_id": "sk_qing_xianfeng_decree",
+    "hero_id": "qing_xianfeng",
+    "kind": "诏令",
+    "name": "团练诏",
+    "effect": "第 3 回合开始时发动：我方全体回复 20%。"
+  },
+  {
+    "skill_id": "sk_qing_xianfeng_edict",
+    "hero_id": "qing_xianfeng",
+    "kind": "政令",
+    "name": "起用团练",
+    "effect": "我方湘军、淮军武将攻击 +10%。"
+  },
+  {
+    "skill_id": "sk_qing_cixi_decree",
+    "hero_id": "qing_cixi",
+    "kind": "诏令",
+    "name": "同治中兴",
+    "effect": "第 4 回合开始时发动：我方全体攻击 +20%，持续 2 回合。"
+  },
+  {
+    "skill_id": "sk_qing_cixi_edict",
+    "hero_id": "qing_cixi",
+    "kind": "政令",
+    "name": "垂帘听政",
+    "effect": "我方全体防御 +20%，怒气获取 +25%。"
+  },
+  {
+    "skill_id": "sk_qing_prince_gong_decree",
+    "hero_id": "qing_prince_gong",
+    "kind": "诏令",
+    "name": "借洋助剿",
+    "effect": "第 2 回合开始时发动：我方全体怒气 +50。"
+  },
+  {
+    "skill_id": "sk_qing_prince_gong_edict",
+    "hero_id": "qing_prince_gong",
+    "kind": "政令",
+    "name": "总理衙门",
+    "effect": "我方火器武将攻击 +25%；外籍武将防御 +20%。"
+  },
+  {
+    "skill_id": "sk_qing_sushun_decree",
+    "hero_id": "qing_sushun",
+    "kind": "诏令",
+    "name": "严刑峻法",
+    "effect": "第 2 回合开始时发动：敌方全体攻击 −15%，持续 2 回合。"
+  },
+  {
+    "skill_id": "sk_qing_sushun_edict",
+    "hero_id": "qing_sushun",
+    "kind": "政令",
+    "name": "重用汉臣",
+    "effect": "我方湘军、淮军武将攻击 +15%。"
+  }
+]

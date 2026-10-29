@@ -1,0 +1,40 @@
+﻿exclusive_id,hero_id,name,basis_flag,basis,unlock,stat_bonus,effect
+ex_tp_hong_xiuquan,tp_hong_xiuquan,天王玉玺,史,太平天国天王玉玺实物今藏中国国家博物馆,4★,主攻属性 +12%，生命 +12%,政令「天王诏旨」全属性加成 +10% → +12%
+ex_tp_yang_xiuqing,tp_yang_xiuqing,东王令旗,设,东王杨秀清以军师身份总揽军政,4★,主攻属性 +12%，生命 +12%,「天父下凡」额外使敌方全体怒气 −10；自身带来的猜忌 −30%
+ex_tp_xiao_chaogui,tp_xiao_chaogui,西王大刀,设,—,4★,主攻属性 +8%，生命 +10%,「天兄下凡」我方怒气 +15 → +25
+ex_tp_feng_yunshan,tp_feng_yunshan,天条书,史,《天条书》为太平天国颁行的宗教典籍,4★,主攻属性 +10%，生命 +10%,「拜上帝会」开场怒气 +15 → +30
+ex_tp_wei_changhui,tp_wei_changhui,北王腰牌,设,—,4★,主攻属性 +10%，生命 +10%,「北王夜袭」伤害 330% → 396%
+ex_tp_shi_dakai,tp_shi_dakai,翼王佩剑,设,—,4★,主攻属性 +8%，生命 +10%,「孤军远征」绝境回复 15% → 25%，并攻击 +15%，持续 2 回合
+ex_tp_chen_yucheng,tp_chen_yucheng,英王战马,设,—,4★,主攻属性 +12%，生命 +12%,「英王先锋」击杀后可立即再释放一次（每场 1 次）
+ex_tp_li_xiucheng,tp_li_xiucheng,忠王府印,设,苏州忠王府建筑今存,4★,主攻属性 +12%，生命 +12%,「苏福安民」回复 11% → 16.5%
+ex_tp_hong_rengan,tp_hong_rengan,资政新篇,史,洪仁玕 1859 年提出的施政纲领,4★,主攻属性 +10%，生命 +10%,「资政新篇」持续 2 回合 → 3 回合
+ex_tp_li_shixian,tp_li_shixian,侍王府印,设,金华侍王府建筑今存,4★,主攻属性 +10%，生命 +10%,「浙江转战」每回合回复 10% → 12%
+ex_tp_lin_fengxiang,tp_lin_fengxiang,北伐帅旗,设,—,4★,主攻属性 +10%，生命 +10%,「北伐帅旗」护盾 30% → 48%
+ex_tp_li_kaifang,tp_li_kaifang,冯官屯残刀,设,—,4★,主攻属性 +10%，生命 +10%,「坚忍」触发后自身攻击 +30%，持续 2 回合
+ex_tp_luo_dagang,tp_luo_dagang,天地会腰牌,设,罗大纲出身天地会,4★,主攻属性 +8%，生命 +10%,「江上焚舟」灼烧持续 2 回合 → 3 回合
+ex_tp_tan_shaoguang,tp_tan_shaoguang,慕王剑,设,—,4★,主攻属性 +10%，生命 +10%,「宁死不降」触发线 30% → 50%
+ex_tp_lai_wenguang,tp_lai_wenguang,捻军马鞭,设,—,4★,主攻属性 +10%，生命 +10%,「流动作战」速度上限 +25 → +40 点
+ex_tp_hong_xuanjiao,tp_hong_xuanjiao,女营双刀,传,洪宣娇事迹多出自传说,4★,主攻属性 +10%，生命 +10%,「女营双刀」连击 1 次 → 2 次；仅首次释放主动技时生效
+ex_qing_zeng_guofan,qing_zeng_guofan,讨粤匪檄,史,曾国藩 1854 年发布的檄文,4★,主攻属性 +12%，生命 +12%,「结硬寨」额外使敌方全体攻击 −10%，持续 2 回合；仅首次释放主动技时生效
+ex_qing_zeng_guoquan,qing_zeng_guoquan,地道攻城图,设,1864 年湘军以地道攻破天京,4★,主攻属性 +10%，生命 +10%,「挖壕围城」防御 −25% → −35%
+ex_qing_hu_linyi,qing_hu_linyi,读史兵略,史,胡林翼主持编纂的兵书,4★,主攻属性 +12%，生命 +12%,「筹饷」粮饷 +30 → +50，回复 15% → 20%
+ex_qing_zuo_zongtang,qing_zuo_zongtang,今亮羽扇,设,"左宗棠自号""今亮""",4★,主攻属性 +12%，生命 +12%,「督师浙江」附带 10% 概率眩晕 1 回合
+ex_qing_luo_zenan,qing_luo_zenan,理学书箧,设,罗泽南以理学家身份带兵,4★,主攻属性 +10%，生命 +10%,「理学督阵」驱散 1 个 → 全部减益
+ex_qing_li_xubin,qing_li_xubin,三河战旗,设,—,4★,主攻属性 +10%，生命 +10%,「孤军冒进」受到伤害 +10% → 0%
+ex_qing_taqibu,qing_taqibu,满洲腰刀,设,—,4★,主攻属性 +10%，生命 +10%,「湘军先锋」速度 −20 → −30 点
+ex_qing_bao_chao,qing_bao_chao,霆字营大旗,设,"鲍超所部号""霆军""",4★,主攻属性 +10%，生命 +10%,「悍将」层数上限 3 → 5
+ex_qing_duolonga,qing_duolonga,满洲角弓,设,—,4★,主攻属性 +10%，生命 +10%,「骑射」改打后排概率 40% → 60%
+ex_qing_jiang_zhongyuan,qing_jiang_zhongyuan,楚勇号旗,设,"江忠源所部号""楚勇""",4★,主攻属性 +10%，生命 +10%,「楚勇」开场怒气 +40 → +60
+ex_qing_peng_yulin,qing_peng_yulin,梅花图,史,彭玉麟以画梅著称,4★,主攻属性 +12%，生命 +12%,水战时我方全体受到伤害 −15%
+ex_qing_yang_zaifu,qing_yang_zaifu,水师长篙,设,—,4★,主攻属性 +10%，生命 +10%,「行伍出身」受到暴击伤害 −30% → −50%
+ex_qing_li_hongzhang,qing_li_hongzhang,巡抚关防,设,关防为清代督抚使用的官印,4★,主攻属性 +12%，生命 +12%,「借师助剿」火器武将怒气 +50 → +80
+ex_qing_cheng_xueqi,qing_cheng_xueqi,开字营令箭,设,"程学启所部号""开字营""",4★,主攻属性 +10%，生命 +10%,「开字营」对太平天国武将 +30% → +50%
+ex_qing_liu_mingchuan,qing_liu_mingchuan,铭军洋枪,设,"刘铭传所部号""铭军""",4★,主攻属性 +10%，生命 +10%,「铭字营」每第 3 次 → 每第 2 次普攻
+ex_qing_senggelinqin,qing_senggelinqin,亲王角弓,设,僧格林沁封博多勒噶台亲王,4★,主攻属性 +10%，生命 +10%,「蒙古铁骑」眩晕概率 30% → 50%
+ex_qing_zhang_guoliang,qing_zhang_guoliang,大营令旗,设,—,4★,主攻属性 +10%，生命 +10%,「豪强」触发线 70% → 50%
+ex_qing_ward,qing_ward,常胜军手枪,设,—,4★,主攻属性 +10%，生命 +10%,「冒险家」暴击伤害 +40% → +60%，取消防御惩罚
+ex_qing_gordon,qing_gordon,指挥手杖,史,戈登作战时常手持短手杖指挥,4★,主攻属性 +10%，生命 +10%,「常胜军攻城」攻城地形伤害 +30% → +50%
+ex_qing_xianfeng,qing_xianfeng,朱批,设,—,4★,主攻属性 +12%，生命 +12%,「团练诏」回复 20% → 25%
+ex_qing_cixi,qing_cixi,同道堂印,史,"咸丰帝临终赐同治帝""同道堂""印，由慈禧掌管",4★,主攻属性 +12%，生命 +12%,政令「垂帘听政」怒气获取 +25% → +35%
+ex_qing_prince_gong,qing_prince_gong,总理衙门关防,设,1861 年设总理各国事务衙门，由恭亲王主持,4★,主攻属性 +10%，生命 +10%,「借洋助剿」怒气 +50 → +65
+ex_qing_sushun,qing_sushun,户部印信,设,肃顺曾任户部尚书,4★,主攻属性 +10%，生命 +10%,「严刑峻法」攻击 −15% → −25%

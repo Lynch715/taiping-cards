@@ -1,0 +1,113 @@
+﻿skill_id,hero_id,kind,name,effect
+sk_tp_hong_xiuquan_decree,tp_hong_xiuquan,诏令,天父天兄,第 3 回合开始时发动：信仰立即 +40。
+sk_tp_hong_xiuquan_edict,tp_hong_xiuquan,政令,天王诏旨,信仰达到 90 时，我方太平天国武将全属性 +10%，另按洪秀全智每 10 点再 +0.3%；信仰上限 +20。杨秀清在场时，猜忌每回合 +5。
+sk_tp_hong_tianguifu_decree,tp_hong_tianguifu,诏令,天京突围,第 2 回合开始时发动：我方全体速度 +25 点，持续 3 回合。
+sk_tp_hong_tianguifu_edict,tp_hong_tianguifu,政令,幼主继位,我方太平天国武将防御 +25%；开场信仰 +20。
+sk_tp_yang_xiuqing_a,tp_yang_xiuqing,主动,天父下凡,我方全体攻击 +15%，持续 2 回合；对敌方全体造成伤害 80%；猜忌 +15。
+sk_tp_yang_xiuqing_p,tp_yang_xiuqing,被动,东王府令,战斗开始时我方全体怒气 +15；猜忌每 40 点，自身攻击 +10%。
+sk_tp_xiao_chaogui_a,tp_xiao_chaogui,主动,天兄下凡,对敌方前排造成伤害 210%；我方全体怒气 +15；自身获得护盾 20%，持续 2 回合。
+sk_tp_xiao_chaogui_p,tp_xiao_chaogui,被动,西王冲锋,攻击生命高于 70% 的敌人时伤害 +25%；自身阵亡时，我方全体怒气 +30（长沙殉难）。
+sk_tp_feng_yunshan_a,tp_feng_yunshan,主动,紫荆传道,我方全体回复 14%；信仰 +20。
+sk_tp_feng_yunshan_p,tp_feng_yunshan,被动,拜上帝会,战斗开始时我方太平天国武将怒气 +15；自身阵亡时，我方全体攻击 +15% 至战斗结束。
+sk_tp_wei_changhui_a,tp_wei_changhui,主动,北王夜袭,对敌方生命最低的单体造成伤害 330%；目标为杨秀清时伤害翻倍。
+sk_tp_wei_changhui_p,tp_wei_changhui,被动,阴鸷,对生命低于 30% 的敌人暴击率 +40%。
+sk_tp_shi_dakai_a,tp_shi_dakai,主动,翼王出征,对敌方前排造成伤害 180%，并使其防御 −20%，持续 2 回合。
+sk_tp_shi_dakai_p,tp_shi_dakai,被动,孤军远征,我方未激活任何正面羁绊时，自身全属性 +20%、受到伤害 +20%；生命首次低于 30% 时回复 15%，并免疫眩晕与沉默 1 回合（大渡河绝境，每场 1 次）。
+sk_tp_chen_yucheng_a,tp_chen_yucheng,主动,英王先锋,对敌方后排单体造成伤害 230%；若击杀，怒气返还 50。
+sk_tp_chen_yucheng_p,tp_chen_yucheng,被动,少年锐气,第 1 回合速度 +60（必定先手）；普攻 50% 概率改打后排。
+sk_tp_li_xiucheng_a,tp_li_xiucheng,主动,苏福安民,我方全体回复 11%，并获得护盾 11%，持续 2 回合。
+sk_tp_li_xiucheng_p,tp_li_xiucheng,被动,苦撑危局,我方存活人数 ≤ 3 时，我方全体防御 +20%。
+sk_tp_hong_rengan_a,tp_hong_rengan,主动,资政新篇,我方全体攻击 +20%、速度 +10 点，持续 2 回合，并驱散我方全体 1 个减益。
+sk_tp_hong_rengan_p,tp_hong_rengan,被动,西学,我方火器武将攻击 +20%；洪秀全或洪天贵福在君主位时，君主政令的效果 +50%（总理朝政）。
+sk_tp_li_shixian_a,tp_li_shixian,主动,侍王转战,对随机 3 名敌人各造成伤害 210%。
+sk_tp_li_shixian_p,tp_li_shixian,被动,浙江转战,生命低于 50% 时，每回合结束回复自身 10%。
+sk_tp_yang_fuqing_a,tp_yang_fuqing,主动,辅王驰援,回复我方生命最低者 22.5%。
+sk_tp_yang_fuqing_p,tp_yang_fuqing,被动,宗亲,自身受到的治疗 +20%。
+sk_tp_lin_fengxiang_a,tp_lin_fengxiang,主动,北伐帅旗,我方全体攻击 +25%，持续 2 回合；自身获得护盾 30%，持续 2 回合。
+sk_tp_lin_fengxiang_p,tp_lin_fengxiang,被动,孤军深入,我方每少 1 名存活武将，自身伤害 +10%。
+sk_tp_li_kaifang_a,tp_li_kaifang,主动,死守孤城,自身嘲讽并防御 +60%，持续 2 回合。
+sk_tp_li_kaifang_p,tp_li_kaifang,被动,坚忍,免死（每场 1 次）。
+sk_tp_luo_dagang_a,tp_luo_dagang,主动,江上焚舟,对敌方全体造成伤害 170%，并施加灼烧 40%，持续 2 回合。
+sk_tp_luo_dagang_p,tp_luo_dagang,被动,天地会旧部,水战时自身速度 +20 点；普攻有 20% 概率连击。
+sk_tp_hu_yihuang_a,tp_hu_yihuang,主动,豫王攻城,对敌方前排造成伤害 150%。
+sk_tp_hu_yihuang_p,tp_hu_yihuang,被动,攻坚,攻城地形时自身伤害 +15%。
+sk_tp_qin_rigang_a,tp_qin_rigang,主动,燕王突击,对敌方单体造成伤害 210%。
+sk_tp_qin_rigang_p,tp_qin_rigang,被动,先登,自身第一次行动伤害 +25%。
+sk_tp_zeng_tianyang_a,tp_zeng_tianyang,主动,老将冲阵,对敌方前排造成伤害 150%；自身受到伤害 −20%，持续 1 回合。
+sk_tp_zeng_tianyang_p,tp_zeng_tianyang,被动,老当益壮,生命低于 50% 时攻击 +20%。
+sk_tp_lin_qirong_a,tp_lin_qirong,主动,九江死守,自身嘲讽并防御 +25%，持续 2 回合。
+sk_tp_lin_qirong_p,tp_lin_qirong,被动,坚城,自身受到伤害 −10%。
+sk_tp_tan_shaoguang_a,tp_tan_shaoguang,主动,死守苏州,我方前排获得护盾 35%，持续 2 回合。
+sk_tp_tan_shaoguang_p,tp_tan_shaoguang,被动,宁死不降,免疫攻击降低类减益；生命低于 30% 时攻击 +40%。
+sk_tp_huang_wenjin_a,tp_huang_wenjin,主动,堵王血战,对敌方前排造成伤害 150%。
+sk_tp_huang_wenjin_p,tp_huang_wenjin,被动,嗜战,击杀敌人后回复自身 15%。
+sk_tp_wang_haiyang_a,tp_wang_haiyang,主动,康王突围,对敌方单体造成伤害 200%；自身速度 +15 点，持续 2 回合。
+sk_tp_wang_haiyang_p,tp_wang_haiyang,被动,机动,自身速度 +10 点。
+sk_tp_lai_wenguang_a,tp_lai_wenguang,主动,捻军游击,对敌方后排造成伤害 190%；自身受到伤害 −30%，持续 1 回合。
+sk_tp_lai_wenguang_p,tp_lai_wenguang,被动,流动作战,每次行动后自身速度 +5 点（最多 +25 点）。
+sk_tp_lindley_a,tp_lindley,主动,洋枪助战,对敌方后排单体造成伤害 220%。
+sk_tp_lindley_p,tp_lindley,被动,太平之友,洪仁玕在场时自身攻击 +15%。
+sk_tp_hong_xuanjiao_a,tp_hong_xuanjiao,主动,女营双刀,对敌方单体造成伤害 200%，并连击 1 次。
+sk_tp_hong_xuanjiao_p,tp_hong_xuanjiao,被动,巾帼,暴击率 +20%。
+sk_tp_su_sanniang_a,tp_su_sanniang,主动,女营突骑,对敌方后排单体造成伤害 200%。
+sk_tp_su_sanniang_p,tp_su_sanniang,被动,轻骑,自身受到伤害 −10%。
+sk_qing_zeng_guofan_a,qing_zeng_guofan,主动,结硬寨,我方全体防御 +25%，持续 3 回合；我方前排获得护盾 16%，持续 3 回合。
+sk_qing_zeng_guofan_p,qing_zeng_guofan,被动,屡败屡战,我方每有 1 名武将阵亡，我方全体防御 +10%、攻击 +10%（最多 2 层）；粮饷获取 +20%。
+sk_qing_zeng_guoquan_a,qing_zeng_guoquan,主动,挖壕围城,敌方全体防御 −25%，持续 2 回合；对敌方前排造成伤害 185%。
+sk_qing_zeng_guoquan_p,qing_zeng_guoquan,被动,围城断援,自身在场时，敌方受到的治疗 −30%。
+sk_qing_hu_linyi_a,qing_hu_linyi,主动,筹饷,粮饷立即 +30；我方全体回复 15%。
+sk_qing_hu_linyi_p,qing_hu_linyi,被动,湖北筹饷,粮饷每满 30，我方全体怒气 +10。
+sk_qing_zuo_zongtang_a,qing_zuo_zongtang,主动,督师浙江,对敌方全体造成伤害 125%，并使其速度 −15 点，持续 2 回合。
+sk_qing_zuo_zongtang_p,qing_zuo_zongtang,被动,今亮,主动技伤害 +10%；首次释放主动技后怒气返还 30。
+sk_qing_luo_zenan_a,qing_luo_zenan,主动,理学督阵,我方全体防御 +25%，持续 2 回合，并驱散我方全体 1 个减益。
+sk_qing_luo_zenan_p,qing_luo_zenan,被动,书生带兵,自身普攻和技能取武、智中较高者计算。
+sk_qing_li_xubin_a,qing_li_xubin,主动,悍勇冲锋,对敌方前排单体造成伤害 320%。
+sk_qing_li_xubin_p,qing_li_xubin,被动,孤军冒进,自身攻击 +20%，受到伤害 +10%。
+sk_qing_taqibu_a,qing_taqibu,主动,湘军先锋,对敌方前排造成伤害 220%，并使其速度 −20 点，持续 2 回合。
+sk_qing_taqibu_p,qing_taqibu,被动,满汉合营,我方湘军武将速度 +5 点。
+sk_qing_bao_chao_a,qing_bao_chao,主动,霆军猛攻,对敌方前排造成伤害 240%。
+sk_qing_bao_chao_p,qing_bao_chao,被动,悍将,每受到 2 次攻击，自身攻击 +10%（最多 3 层）。
+sk_qing_duolonga_a,qing_duolonga,主动,挂车河,对敌方后排生命最低者造成伤害 290%；若击杀，对另一名后排追加伤害 100%。
+sk_qing_duolonga_p,qing_duolonga,被动,骑射,普攻 40% 概率改打后排。
+sk_qing_jiang_zhongyuan_a,qing_jiang_zhongyuan,主动,蓑衣渡设伏,对敌方全体造成伤害 135%；若在第 1 回合释放，伤害 +50%。
+sk_qing_jiang_zhongyuan_p,qing_jiang_zhongyuan,被动,楚勇,开场怒气 +40。
+sk_qing_peng_yulin_a,qing_peng_yulin,主动,长江破浪,对敌方前排造成伤害 200%；水战时改为敌方全体。
+sk_qing_peng_yulin_p,qing_peng_yulin,被动,水师统帅,我方水师武将攻击 +15%；自身受到火器伤害 −20%。
+sk_qing_yang_zaifu_a,qing_yang_zaifu,主动,水战搏杀,对敌方单体造成伤害 290%；水战时连击 1 次。
+sk_qing_yang_zaifu_p,qing_yang_zaifu,被动,行伍出身,自身受到的暴击伤害 −30%。
+sk_qing_li_hongzhang_a,qing_li_hongzhang,主动,借师助剿,我方火器武将怒气 +50，攻击 +30%，持续 2 回合；对敌方单体造成伤害 200%。
+sk_qing_li_hongzhang_p,qing_li_hongzhang,被动,淮军统帅,我方每有 1 名淮军武将，我方全体速度 +3 点；战斗开始时我方洋枪队武将防御 +20%。
+sk_qing_cheng_xueqi_a,qing_cheng_xueqi,主动,开字营,对敌方单体造成伤害 270%；目标为太平天国武将时伤害 +30%。
+sk_qing_cheng_xueqi_p,qing_cheng_xueqi,被动,降将,战斗开始时随机获得攻击 +20% 或防御 +20%。
+sk_qing_liu_mingchuan_a,qing_liu_mingchuan,主动,铭军排枪,对敌方全体造成伤害 145%。
+sk_qing_liu_mingchuan_p,qing_liu_mingchuan,被动,铭字营,每第 3 次普攻伤害 +100%。
+sk_qing_zhang_shusheng_a,qing_zhang_shusheng,主动,树字营,我方全体防御 +25%，持续 2 回合。
+sk_qing_zhang_shusheng_p,qing_zhang_shusheng,被动,稳健,自身受到伤害 −10%。
+sk_qing_guo_songlin_a,qing_guo_songlin,主动,松字营突击,对敌方后排单体造成伤害 260%。
+sk_qing_guo_songlin_p,qing_guo_songlin,被动,快马,自身速度 +10 点。
+sk_qing_senggelinqin_a,qing_senggelinqin,主动,蒙古铁骑,对敌方前排造成伤害 190%，30% 概率眩晕 1 回合。
+sk_qing_senggelinqin_p,qing_senggelinqin,被动,铁骑冲阵,我方骑兵攻击 +12%；自身对步兵伤害额外 +15%。
+sk_qing_xiang_rong_a,qing_xiang_rong,主动,江南大营,我方前排获得护盾 25%，持续 2 回合。
+sk_qing_xiang_rong_p,qing_xiang_rong,被动,宿将,自身防御 +15%。
+sk_qing_he_chun_a,qing_he_chun,主动,合围,敌方前排防御 −25%，持续 2 回合。
+sk_qing_he_chun_p,qing_he_chun,被动,督阵,我方前排攻击 +15%。
+sk_qing_zhang_guoliang_a,qing_zhang_guoliang,主动,大营骁将,我方全体防御 +20%，持续 2 回合；回复自身 25%。
+sk_qing_zhang_guoliang_p,qing_zhang_guoliang,被动,豪强,生命高于 70% 时攻击 +20%。
+sk_qing_shengbao_a,qing_shengbao,主动,八旗冲锋,对敌方前排造成伤害 250%。
+sk_qing_shengbao_p,qing_shengbao,被动,追剿,对林凤祥、李开芳伤害 +25%。
+sk_qing_ward_a,qing_ward,主动,洋枪队,对敌方后排造成伤害 170%。
+sk_qing_ward_p,qing_ward,被动,冒险家,暴击伤害 +40%；自身防御 −10%。
+sk_qing_gordon_a,qing_gordon,主动,常胜军攻城,对敌方前排造成伤害 220%，并使其防御 −20%，持续 2 回合；攻城地形时伤害 +30%。
+sk_qing_gordon_p,qing_gordon,被动,工兵军官,攻城地形时我方全体攻击 +10%。
+sk_qing_burgevine_a,qing_burgevine,主动,反复无常,对敌方单体造成伤害 200%。
+sk_qing_burgevine_p,qing_burgevine,被动,倒戈,编入太平天国阵营时自身攻击 +15%。
+sk_qing_luo_bingzhang_a,qing_luo_bingzhang,主动,招抚,对敌方单体造成伤害 250%，并沉默 1 回合。
+sk_qing_luo_bingzhang_p,qing_luo_bingzhang,被动,川督,对石达开伤害 +25%。
+sk_qing_xianfeng_decree,qing_xianfeng,诏令,团练诏,第 3 回合开始时发动：我方全体回复 20%。
+sk_qing_xianfeng_edict,qing_xianfeng,政令,起用团练,我方湘军、淮军武将攻击 +10%。
+sk_qing_cixi_decree,qing_cixi,诏令,同治中兴,第 4 回合开始时发动：我方全体攻击 +20%，持续 2 回合。
+sk_qing_cixi_edict,qing_cixi,政令,垂帘听政,我方全体防御 +20%，怒气获取 +25%。
+sk_qing_prince_gong_decree,qing_prince_gong,诏令,借洋助剿,第 2 回合开始时发动：我方全体怒气 +50。
+sk_qing_prince_gong_edict,qing_prince_gong,政令,总理衙门,我方火器武将攻击 +25%；外籍武将防御 +20%。
+sk_qing_sushun_decree,qing_sushun,诏令,严刑峻法,第 2 回合开始时发动：敌方全体攻击 −15%，持续 2 回合。
+sk_qing_sushun_edict,qing_sushun,政令,重用汉臣,我方湘军、淮军武将攻击 +15%。

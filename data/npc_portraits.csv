@@ -1,0 +1,12 @@
+id,bg_id,x_offset,height_scale
+qing_npc_lvying,bg_qing_camp,0,0.93
+tp_npc_shengbing,bg_tp_field,0,0.93
+qing_npc_qibing,bg_qing_north,0,0.93
+qing_npc_taiqiang,bg_qing_camp,0,0.93
+qing_npc_shuishi,bg_qing_river,0,0.93
+tp_npc_qibing,bg_tp_field,0,0.93
+tp_npc_qiangshou,bg_tp_field,0,0.93
+tp_npc_shuiying,bg_tp_river,0,0.93
+qing_npc_elite_bu,bg_qing_camp,0,0.93
+qing_npc_elite_qi,bg_qing_north,0,0.93
+qing_npc_elite_huo,bg_west_shanghai,0,0.93

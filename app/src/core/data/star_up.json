@@ -1,0 +1,47 @@
+[
+  {
+    "star_from": 1,
+    "star_to": 2,
+    "shards": 20,
+    "silver": 2000,
+    "level_cap_before": 35,
+    "level_cap_after": 50,
+    "note": ""
+  },
+  {
+    "star_from": 2,
+    "star_to": 3,
+    "shards": 60,
+    "silver": 6000,
+    "level_cap_before": 50,
+    "level_cap_after": 65,
+    "note": ""
+  },
+  {
+    "star_from": 3,
+    "star_to": 4,
+    "shards": 50,
+    "silver": 15000,
+    "level_cap_before": 65,
+    "level_cap_after": 80,
+    "note": "4★ 解锁专属装备"
+  },
+  {
+    "star_from": 4,
+    "star_to": 5,
+    "shards": 70,
+    "silver": 35000,
+    "level_cap_before": 80,
+    "level_cap_after": 95,
+    "note": ""
+  },
+  {
+    "star_from": 5,
+    "star_to": 6,
+    "shards": 200,
+    "silver": 80000,
+    "level_cap_before": 95,
+    "level_cap_after": 100,
+    "note": ""
+  }
+]

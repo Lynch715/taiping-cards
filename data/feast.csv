@@ -1,0 +1,17 @@
+profile,chapter,daily_limit,silver,exp
+conservative,1,1,8000,1000
+conservative,2,1,16000,2000
+conservative,3,1,24000,3000
+conservative,4,1,32000,4000
+conservative,5,1,40000,5000
+conservative,6,1,48000,6000
+conservative,7,1,56000,7000
+conservative,8,1,64000,8000
+aggressive,1,2,12000,1500
+aggressive,2,2,24000,3000
+aggressive,3,2,36000,4500
+aggressive,4,2,48000,6000
+aggressive,5,2,60000,7500
+aggressive,6,2,72000,9000
+aggressive,7,2,84000,10500
+aggressive,8,2,96000,12000

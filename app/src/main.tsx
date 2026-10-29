@@ -1,0 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { Game } from './ui/Game';
+import './ui/style.css';
+import { startPwa } from './platform/pwa';
+import { installMobileGestures } from './platform/mobile-gestures';
+const removeGestures=installMobileGestures(window);
+if(import.meta.hot)import.meta.hot.dispose(removeGestures);
+startPwa();
+ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><Game/></React.StrictMode>);

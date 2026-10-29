@@ -1,0 +1,254 @@
+[
+  {
+    "bond_id": "bd_jintian",
+    "type": "正面",
+    "name": "金田首义",
+    "members": "tp_hong_xiuquan;tp_yang_xiuqing;tp_xiao_chaogui;tp_feng_yunshan;tp_wei_changhui;tp_shi_dakai",
+    "need": "2/4/6",
+    "effect": "信仰获取 +20% / +40% / +60%",
+    "basis": "1851 年金田起义的首义诸王"
+  },
+  {
+    "bond_id": "bd_yingzhong",
+    "type": "正面",
+    "name": "英忠双璧",
+    "members": "tp_chen_yucheng;tp_li_xiucheng",
+    "need": "2",
+    "effect": "两人攻击 +15%；同一回合内两人都行动时，后行动者伤害 +20%",
+    "basis": "陈玉成、李秀成并为后期支柱，1858 年合力取得三河大捷"
+  },
+  {
+    "bond_id": "bd_beifa",
+    "type": "正面",
+    "name": "北伐孤军",
+    "members": "tp_lin_fengxiang;tp_li_kaifang",
+    "need": "2",
+    "effect": "我方每少 1 名存活武将，两人攻击 +8%",
+    "basis": "1853–1855 年北伐军孤军深入华北"
+  },
+  {
+    "bond_id": "bd_hukou",
+    "type": "正面",
+    "name": "湖口夜袭",
+    "members": "tp_shi_dakai;tp_luo_dagang",
+    "need": "2",
+    "effect": "水战时两人速度 +15 点；第 1 回合伤害 +25%",
+    "basis": "1855 年湖口、九江之战，太平军夜袭湘军水师"
+  },
+  {
+    "bond_id": "bd_lishi",
+    "type": "正面",
+    "name": "李氏兄弟",
+    "members": "tp_li_xiucheng;tp_li_shixian",
+    "need": "2",
+    "effect": "任一人阵亡时，另一人攻击 +30% 至战斗结束",
+    "basis": "李世贤为李秀成堂弟"
+  },
+  {
+    "bond_id": "bd_sufu",
+    "type": "正面",
+    "name": "苏福省",
+    "members": "tp_li_xiucheng;tp_tan_shaoguang",
+    "need": "2",
+    "effect": "守城地形时我方全体防御 +15%",
+    "basis": "李秀成经营苏福省，谭绍光守苏州"
+  },
+  {
+    "bond_id": "bd_ganwang",
+    "type": "正面",
+    "name": "干王新政",
+    "members": "tp_hong_rengan;tp_hong_xiuquan",
+    "need": "2",
+    "effect": "我方火器武将攻击 +15%",
+    "basis": "洪仁玕 1859 年到天京总理朝政，提出《资政新篇》"
+  },
+  {
+    "bond_id": "bd_nüying",
+    "type": "正面",
+    "name": "太平女营",
+    "members": "tp_hong_xuanjiao;tp_su_sanniang",
+    "need": "2",
+    "effect": "两人暴击率 +15%",
+    "basis": "太平天国设有女营；两人事迹多出自传说"
+  },
+  {
+    "bond_id": "bd_zenghu",
+    "type": "正面",
+    "name": "曾胡",
+    "members": "qing_zeng_guofan;qing_hu_linyi",
+    "need": "2",
+    "effect": "粮饷获取 +50%",
+    "basis": "曾国藩与胡林翼并称湘军领袖"
+  },
+  {
+    "bond_id": "bd_zengshi",
+    "type": "正面",
+    "name": "曾氏兄弟",
+    "members": "qing_zeng_guofan;qing_zeng_guoquan",
+    "need": "2",
+    "effect": "攻城地形时我方全体伤害 +20%；曾国荃攻击 +15%",
+    "basis": "曾国荃为曾国藩之弟，1864 年攻破天京"
+  },
+  {
+    "bond_id": "bd_xiangxiang",
+    "type": "正面",
+    "name": "湘乡师门",
+    "members": "qing_luo_zenan;qing_li_xubin",
+    "need": "2",
+    "effect": "罗泽南在场时李续宾暴击率 +20%；李续宾在场时罗泽南防御 +15%",
+    "basis": "李续宾是罗泽南的学生"
+  },
+  {
+    "bond_id": "bd_changjiang",
+    "type": "正面",
+    "name": "长江水师",
+    "members": "qing_peng_yulin;qing_yang_zaifu",
+    "need": "2",
+    "effect": "水战时两人全属性 +15%",
+    "basis": "彭玉麟、杨载福同为湘军水师统领"
+  },
+  {
+    "bond_id": "bd_xiangjun_jiang",
+    "type": "正面",
+    "name": "湘军宿将",
+    "members": "qing_taqibu;qing_bao_chao;qing_duolonga;qing_li_xubin;qing_jiang_zhongyuan",
+    "need": "2/3/4",
+    "effect": "成员攻击 +8% / +12% / +18%",
+    "basis": "湘军前中期的主要战将"
+  },
+  {
+    "bond_id": "bd_huaijun",
+    "type": "正面",
+    "name": "淮军",
+    "members": "qing_li_hongzhang;qing_cheng_xueqi;qing_liu_mingchuan;qing_zhang_shusheng;qing_guo_songlin",
+    "need": "2/3/5",
+    "effect": "成员速度 +5 / +8 / +12 点",
+    "basis": "1862 年李鸿章在安庆组建淮军"
+  },
+  {
+    "bond_id": "bd_huifang",
+    "type": "正面",
+    "name": "中外会防",
+    "members": "qing_li_hongzhang;qing_ward;qing_gordon",
+    "need": "2/3",
+    "effect": "我方火器武将攻击 +10% / +20%",
+    "basis": "上海中外会防局与常胜军"
+  },
+  {
+    "bond_id": "bd_manmeng",
+    "type": "正面",
+    "name": "满蒙铁骑",
+    "members": "qing_senggelinqin;qing_duolonga;qing_shengbao;qing_taqibu",
+    "need": "2/3/4",
+    "effect": "成员骑兵攻击 +8% / +12% / +18%",
+    "basis": "满蒙将领领骑兵作战"
+  },
+  {
+    "bond_id": "bd_jiangnan",
+    "type": "正面",
+    "name": "江南大营",
+    "members": "qing_xiang_rong;qing_he_chun;qing_zhang_guoliang",
+    "need": "2/3",
+    "effect": "我方前排防御 +10% / +20%",
+    "basis": "1853–1860 年清军江南大营围困天京"
+  },
+  {
+    "bond_id": "bd_tianjing_shibian",
+    "type": "负面",
+    "name": "天京事变",
+    "members": "tp_yang_xiuqing;tp_wei_changhui;tp_hong_xiuquan",
+    "need": "见效果",
+    "effect": "杨秀清与洪秀全同队：猜忌每回合 +5（来自洪秀全政令）；杨秀清与韦昌辉同队：猜忌每回合再 +10。猜忌满 100 触发天京事变（见 05 文档 7.1）",
+    "basis": "1856 年天京事变，杨秀清被杀，石达开出走"
+  },
+  {
+    "bond_id": "bd_suzhou_shaxiang",
+    "type": "负面",
+    "name": "苏州杀降",
+    "members": "qing_li_hongzhang;qing_gordon;qing_cheng_xueqi",
+    "need": "李鸿章+戈登",
+    "effect": "第 5 回合起，戈登每次行动有 30% 概率罢战（跳过行动）；程学启也在场时概率 +15%",
+    "basis": "1863 年苏州杀降，戈登愤而一度撤离"
+  },
+  {
+    "bond_id": "bd_r_suoyidu",
+    "type": "宿敌",
+    "name": "蓑衣渡",
+    "members": "qing_jiang_zhongyuan>tp_feng_yunshan",
+    "need": "对阵",
+    "effect": "江忠源对冯云山伤害 +50%",
+    "basis": "1852 年冯云山在全州中炮负伤，随后在蓑衣渡一带去世；江忠源在蓑衣渡设伏"
+  },
+  {
+    "bond_id": "bd_r_sanhe",
+    "type": "宿敌",
+    "name": "三河镇",
+    "members": "tp_chen_yucheng;tp_li_xiucheng>qing_li_xubin",
+    "need": "对阵",
+    "effect": "陈玉成、李秀成对李续宾伤害 +50%",
+    "basis": "1858 年三河镇之战，李续宾战死"
+  },
+  {
+    "bond_id": "bd_r_anqing",
+    "type": "宿敌",
+    "name": "安庆",
+    "members": "qing_duolonga>tp_chen_yucheng",
+    "need": "对阵",
+    "effect": "多隆阿对陈玉成伤害 +30%",
+    "basis": "1861 年安庆之战，多隆阿阻击陈玉成援军"
+  },
+  {
+    "bond_id": "bd_r_yuhuatai",
+    "type": "宿敌",
+    "name": "雨花台",
+    "members": "qing_zeng_guoquan>tp_li_xiucheng",
+    "need": "对阵",
+    "effect": "曾国荃受到李秀成伤害 −30%",
+    "basis": "1862 年李秀成率军救天京，未能击破曾国荃营垒"
+  },
+  {
+    "bond_id": "bd_r_daduhe",
+    "type": "宿敌",
+    "name": "大渡河",
+    "members": "qing_luo_bingzhang>tp_shi_dakai",
+    "need": "对阵",
+    "effect": "骆秉章在场时，石达开的大渡河绝境不能触发",
+    "basis": "1863 年石达开困于大渡河，后在成都被处死"
+  },
+  {
+    "bond_id": "bd_r_beifa",
+    "type": "宿敌",
+    "name": "北伐",
+    "members": "qing_senggelinqin;qing_shengbao>tp_lin_fengxiang;tp_li_kaifang",
+    "need": "对阵",
+    "effect": "僧格林沁、胜保对林凤祥、李开芳伤害 +30%",
+    "basis": "1855 年北伐军先后在连镇、冯官屯失败"
+  },
+  {
+    "bond_id": "bd_r_hukou",
+    "type": "宿敌",
+    "name": "湖口",
+    "members": "tp_shi_dakai>qing_zeng_guofan",
+    "need": "对阵",
+    "effect": "石达开对曾国藩伤害 +30%",
+    "basis": "1855 年湖口之战曾国藩大败"
+  },
+  {
+    "bond_id": "bd_r_jiangnan",
+    "type": "宿敌",
+    "name": "破江南大营",
+    "members": "tp_li_xiucheng>qing_zhang_guoliang;qing_he_chun",
+    "need": "对阵",
+    "effect": "李秀成对张国梁、和春伤害 +30%",
+    "basis": "1860 年太平军二破江南大营"
+  },
+  {
+    "bond_id": "bd_r_shanghai",
+    "type": "宿敌",
+    "name": "上海",
+    "members": "qing_ward;qing_gordon>tp_li_xiucheng;tp_tan_shaoguang",
+    "need": "对阵",
+    "effect": "华尔、戈登对李秀成、谭绍光伤害 +20%",
+    "basis": "1860–1863 年太平军进攻上海与苏南作战"
+  }
+]

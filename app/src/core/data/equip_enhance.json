@@ -1,0 +1,352 @@
+[
+  {
+    "quality": "粗",
+    "to_level": 1,
+    "iron": 2,
+    "silver": 20,
+    "salvage_iron": 4
+  },
+  {
+    "quality": "粗",
+    "to_level": 2,
+    "iron": 4,
+    "silver": 40,
+    "salvage_iron": null
+  },
+  {
+    "quality": "粗",
+    "to_level": 3,
+    "iron": 6,
+    "silver": 60,
+    "salvage_iron": null
+  },
+  {
+    "quality": "粗",
+    "to_level": 4,
+    "iron": 8,
+    "silver": 80,
+    "salvage_iron": null
+  },
+  {
+    "quality": "粗",
+    "to_level": 5,
+    "iron": 10,
+    "silver": 100,
+    "salvage_iron": null
+  },
+  {
+    "quality": "制",
+    "to_level": 1,
+    "iron": 4,
+    "silver": 40,
+    "salvage_iron": 8
+  },
+  {
+    "quality": "制",
+    "to_level": 2,
+    "iron": 8,
+    "silver": 80,
+    "salvage_iron": null
+  },
+  {
+    "quality": "制",
+    "to_level": 3,
+    "iron": 12,
+    "silver": 120,
+    "salvage_iron": null
+  },
+  {
+    "quality": "制",
+    "to_level": 4,
+    "iron": 16,
+    "silver": 160,
+    "salvage_iron": null
+  },
+  {
+    "quality": "制",
+    "to_level": 5,
+    "iron": 20,
+    "silver": 200,
+    "salvage_iron": null
+  },
+  {
+    "quality": "制",
+    "to_level": 6,
+    "iron": 24,
+    "silver": 240,
+    "salvage_iron": null
+  },
+  {
+    "quality": "制",
+    "to_level": 7,
+    "iron": 28,
+    "silver": 280,
+    "salvage_iron": null
+  },
+  {
+    "quality": "制",
+    "to_level": 8,
+    "iron": 32,
+    "silver": 320,
+    "salvage_iron": null
+  },
+  {
+    "quality": "精",
+    "to_level": 1,
+    "iron": 8,
+    "silver": 80,
+    "salvage_iron": 16
+  },
+  {
+    "quality": "精",
+    "to_level": 2,
+    "iron": 16,
+    "silver": 160,
+    "salvage_iron": null
+  },
+  {
+    "quality": "精",
+    "to_level": 3,
+    "iron": 24,
+    "silver": 240,
+    "salvage_iron": null
+  },
+  {
+    "quality": "精",
+    "to_level": 4,
+    "iron": 32,
+    "silver": 320,
+    "salvage_iron": null
+  },
+  {
+    "quality": "精",
+    "to_level": 5,
+    "iron": 40,
+    "silver": 400,
+    "salvage_iron": null
+  },
+  {
+    "quality": "精",
+    "to_level": 6,
+    "iron": 48,
+    "silver": 480,
+    "salvage_iron": null
+  },
+  {
+    "quality": "精",
+    "to_level": 7,
+    "iron": 56,
+    "silver": 560,
+    "salvage_iron": null
+  },
+  {
+    "quality": "精",
+    "to_level": 8,
+    "iron": 64,
+    "silver": 640,
+    "salvage_iron": null
+  },
+  {
+    "quality": "精",
+    "to_level": 9,
+    "iron": 72,
+    "silver": 720,
+    "salvage_iron": null
+  },
+  {
+    "quality": "精",
+    "to_level": 10,
+    "iron": 80,
+    "silver": 800,
+    "salvage_iron": null
+  },
+  {
+    "quality": "珍",
+    "to_level": 1,
+    "iron": 14,
+    "silver": 140,
+    "salvage_iron": 28
+  },
+  {
+    "quality": "珍",
+    "to_level": 2,
+    "iron": 28,
+    "silver": 280,
+    "salvage_iron": null
+  },
+  {
+    "quality": "珍",
+    "to_level": 3,
+    "iron": 42,
+    "silver": 420,
+    "salvage_iron": null
+  },
+  {
+    "quality": "珍",
+    "to_level": 4,
+    "iron": 56,
+    "silver": 560,
+    "salvage_iron": null
+  },
+  {
+    "quality": "珍",
+    "to_level": 5,
+    "iron": 70,
+    "silver": 700,
+    "salvage_iron": null
+  },
+  {
+    "quality": "珍",
+    "to_level": 6,
+    "iron": 84,
+    "silver": 840,
+    "salvage_iron": null
+  },
+  {
+    "quality": "珍",
+    "to_level": 7,
+    "iron": 98,
+    "silver": 980,
+    "salvage_iron": null
+  },
+  {
+    "quality": "珍",
+    "to_level": 8,
+    "iron": 112,
+    "silver": 1120,
+    "salvage_iron": null
+  },
+  {
+    "quality": "珍",
+    "to_level": 9,
+    "iron": 126,
+    "silver": 1260,
+    "salvage_iron": null
+  },
+  {
+    "quality": "珍",
+    "to_level": 10,
+    "iron": 140,
+    "silver": 1400,
+    "salvage_iron": null
+  },
+  {
+    "quality": "珍",
+    "to_level": 11,
+    "iron": 154,
+    "silver": 1540,
+    "salvage_iron": null
+  },
+  {
+    "quality": "珍",
+    "to_level": 12,
+    "iron": 168,
+    "silver": 1680,
+    "salvage_iron": null
+  },
+  {
+    "quality": "绝",
+    "to_level": 1,
+    "iron": 24,
+    "silver": 240,
+    "salvage_iron": 48
+  },
+  {
+    "quality": "绝",
+    "to_level": 2,
+    "iron": 48,
+    "silver": 480,
+    "salvage_iron": null
+  },
+  {
+    "quality": "绝",
+    "to_level": 3,
+    "iron": 72,
+    "silver": 720,
+    "salvage_iron": null
+  },
+  {
+    "quality": "绝",
+    "to_level": 4,
+    "iron": 96,
+    "silver": 960,
+    "salvage_iron": null
+  },
+  {
+    "quality": "绝",
+    "to_level": 5,
+    "iron": 120,
+    "silver": 1200,
+    "salvage_iron": null
+  },
+  {
+    "quality": "绝",
+    "to_level": 6,
+    "iron": 144,
+    "silver": 1440,
+    "salvage_iron": null
+  },
+  {
+    "quality": "绝",
+    "to_level": 7,
+    "iron": 168,
+    "silver": 1680,
+    "salvage_iron": null
+  },
+  {
+    "quality": "绝",
+    "to_level": 8,
+    "iron": 192,
+    "silver": 1920,
+    "salvage_iron": null
+  },
+  {
+    "quality": "绝",
+    "to_level": 9,
+    "iron": 216,
+    "silver": 2160,
+    "salvage_iron": null
+  },
+  {
+    "quality": "绝",
+    "to_level": 10,
+    "iron": 240,
+    "silver": 2400,
+    "salvage_iron": null
+  },
+  {
+    "quality": "绝",
+    "to_level": 11,
+    "iron": 264,
+    "silver": 2640,
+    "salvage_iron": null
+  },
+  {
+    "quality": "绝",
+    "to_level": 12,
+    "iron": 288,
+    "silver": 2880,
+    "salvage_iron": null
+  },
+  {
+    "quality": "绝",
+    "to_level": 13,
+    "iron": 312,
+    "silver": 3120,
+    "salvage_iron": null
+  },
+  {
+    "quality": "绝",
+    "to_level": 14,
+    "iron": 336,
+    "silver": 3360,
+    "salvage_iron": null
+  },
+  {
+    "quality": "绝",
+    "to_level": 15,
+    "iron": 360,
+    "silver": 3600,
+    "salvage_iron": null
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "exclusive_id": "ex_tp_hong_xiuquan",
+    "hero_id": "tp_hong_xiuquan",
+    "name": "天王玉玺",
+    "basis_flag": "史",
+    "basis": "太平天国天王玉玺实物今藏中国国家博物馆",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +12%，生命 +12%",
+    "effect": "政令「天王诏旨」全属性加成 +10% → +12%"
+  },
+  {
+    "exclusive_id": "ex_tp_yang_xiuqing",
+    "hero_id": "tp_yang_xiuqing",
+    "name": "东王令旗",
+    "basis_flag": "设",
+    "basis": "东王杨秀清以军师身份总揽军政",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +12%，生命 +12%",
+    "effect": "「天父下凡」额外使敌方全体怒气 −10；自身带来的猜忌 −30%"
+  },
+  {
+    "exclusive_id": "ex_tp_xiao_chaogui",
+    "hero_id": "tp_xiao_chaogui",
+    "name": "西王大刀",
+    "basis_flag": "设",
+    "basis": "—",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +8%，生命 +10%",
+    "effect": "「天兄下凡」我方怒气 +15 → +25"
+  },
+  {
+    "exclusive_id": "ex_tp_feng_yunshan",
+    "hero_id": "tp_feng_yunshan",
+    "name": "天条书",
+    "basis_flag": "史",
+    "basis": "《天条书》为太平天国颁行的宗教典籍",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「拜上帝会」开场怒气 +15 → +30"
+  },
+  {
+    "exclusive_id": "ex_tp_wei_changhui",
+    "hero_id": "tp_wei_changhui",
+    "name": "北王腰牌",
+    "basis_flag": "设",
+    "basis": "—",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「北王夜袭」伤害 330% → 396%"
+  },
+  {
+    "exclusive_id": "ex_tp_shi_dakai",
+    "hero_id": "tp_shi_dakai",
+    "name": "翼王佩剑",
+    "basis_flag": "设",
+    "basis": "—",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +8%，生命 +10%",
+    "effect": "「孤军远征」绝境回复 15% → 25%，并攻击 +15%，持续 2 回合"
+  },
+  {
+    "exclusive_id": "ex_tp_chen_yucheng",
+    "hero_id": "tp_chen_yucheng",
+    "name": "英王战马",
+    "basis_flag": "设",
+    "basis": "—",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +12%，生命 +12%",
+    "effect": "「英王先锋」击杀后可立即再释放一次（每场 1 次）"
+  },
+  {
+    "exclusive_id": "ex_tp_li_xiucheng",
+    "hero_id": "tp_li_xiucheng",
+    "name": "忠王府印",
+    "basis_flag": "设",
+    "basis": "苏州忠王府建筑今存",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +12%，生命 +12%",
+    "effect": "「苏福安民」回复 11% → 16.5%"
+  },
+  {
+    "exclusive_id": "ex_tp_hong_rengan",
+    "hero_id": "tp_hong_rengan",
+    "name": "资政新篇",
+    "basis_flag": "史",
+    "basis": "洪仁玕 1859 年提出的施政纲领",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「资政新篇」持续 2 回合 → 3 回合"
+  },
+  {
+    "exclusive_id": "ex_tp_li_shixian",
+    "hero_id": "tp_li_shixian",
+    "name": "侍王府印",
+    "basis_flag": "设",
+    "basis": "金华侍王府建筑今存",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「浙江转战」每回合回复 10% → 12%"
+  },
+  {
+    "exclusive_id": "ex_tp_lin_fengxiang",
+    "hero_id": "tp_lin_fengxiang",
+    "name": "北伐帅旗",
+    "basis_flag": "设",
+    "basis": "—",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「北伐帅旗」护盾 30% → 48%"
+  },
+  {
+    "exclusive_id": "ex_tp_li_kaifang",
+    "hero_id": "tp_li_kaifang",
+    "name": "冯官屯残刀",
+    "basis_flag": "设",
+    "basis": "—",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「坚忍」触发后自身攻击 +30%，持续 2 回合"
+  },
+  {
+    "exclusive_id": "ex_tp_luo_dagang",
+    "hero_id": "tp_luo_dagang",
+    "name": "天地会腰牌",
+    "basis_flag": "设",
+    "basis": "罗大纲出身天地会",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +8%，生命 +10%",
+    "effect": "「江上焚舟」灼烧持续 2 回合 → 3 回合"
+  },
+  {
+    "exclusive_id": "ex_tp_tan_shaoguang",
+    "hero_id": "tp_tan_shaoguang",
+    "name": "慕王剑",
+    "basis_flag": "设",
+    "basis": "—",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「宁死不降」触发线 30% → 50%"
+  },
+  {
+    "exclusive_id": "ex_tp_lai_wenguang",
+    "hero_id": "tp_lai_wenguang",
+    "name": "捻军马鞭",
+    "basis_flag": "设",
+    "basis": "—",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「流动作战」速度上限 +25 → +40 点"
+  },
+  {
+    "exclusive_id": "ex_tp_hong_xuanjiao",
+    "hero_id": "tp_hong_xuanjiao",
+    "name": "女营双刀",
+    "basis_flag": "传",
+    "basis": "洪宣娇事迹多出自传说",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「女营双刀」连击 1 次 → 2 次；仅首次释放主动技时生效"
+  },
+  {
+    "exclusive_id": "ex_qing_zeng_guofan",
+    "hero_id": "qing_zeng_guofan",
+    "name": "讨粤匪檄",
+    "basis_flag": "史",
+    "basis": "曾国藩 1854 年发布的檄文",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +12%，生命 +12%",
+    "effect": "「结硬寨」额外使敌方全体攻击 −10%，持续 2 回合；仅首次释放主动技时生效"
+  },
+  {
+    "exclusive_id": "ex_qing_zeng_guoquan",
+    "hero_id": "qing_zeng_guoquan",
+    "name": "地道攻城图",
+    "basis_flag": "设",
+    "basis": "1864 年湘军以地道攻破天京",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「挖壕围城」防御 −25% → −35%"
+  },
+  {
+    "exclusive_id": "ex_qing_hu_linyi",
+    "hero_id": "qing_hu_linyi",
+    "name": "读史兵略",
+    "basis_flag": "史",
+    "basis": "胡林翼主持编纂的兵书",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +12%，生命 +12%",
+    "effect": "「筹饷」粮饷 +30 → +50，回复 15% → 20%"
+  },
+  {
+    "exclusive_id": "ex_qing_zuo_zongtang",
+    "hero_id": "qing_zuo_zongtang",
+    "name": "今亮羽扇",
+    "basis_flag": "设",
+    "basis": "左宗棠自号\"今亮\"",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +12%，生命 +12%",
+    "effect": "「督师浙江」附带 10% 概率眩晕 1 回合"
+  },
+  {
+    "exclusive_id": "ex_qing_luo_zenan",
+    "hero_id": "qing_luo_zenan",
+    "name": "理学书箧",
+    "basis_flag": "设",
+    "basis": "罗泽南以理学家身份带兵",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「理学督阵」驱散 1 个 → 全部减益"
+  },
+  {
+    "exclusive_id": "ex_qing_li_xubin",
+    "hero_id": "qing_li_xubin",
+    "name": "三河战旗",
+    "basis_flag": "设",
+    "basis": "—",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「孤军冒进」受到伤害 +10% → 0%"
+  },
+  {
+    "exclusive_id": "ex_qing_taqibu",
+    "hero_id": "qing_taqibu",
+    "name": "满洲腰刀",
+    "basis_flag": "设",
+    "basis": "—",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「湘军先锋」速度 −20 → −30 点"
+  },
+  {
+    "exclusive_id": "ex_qing_bao_chao",
+    "hero_id": "qing_bao_chao",
+    "name": "霆字营大旗",
+    "basis_flag": "设",
+    "basis": "鲍超所部号\"霆军\"",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「悍将」层数上限 3 → 5"
+  },
+  {
+    "exclusive_id": "ex_qing_duolonga",
+    "hero_id": "qing_duolonga",
+    "name": "满洲角弓",
+    "basis_flag": "设",
+    "basis": "—",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「骑射」改打后排概率 40% → 60%"
+  },
+  {
+    "exclusive_id": "ex_qing_jiang_zhongyuan",
+    "hero_id": "qing_jiang_zhongyuan",
+    "name": "楚勇号旗",
+    "basis_flag": "设",
+    "basis": "江忠源所部号\"楚勇\"",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「楚勇」开场怒气 +40 → +60"
+  },
+  {
+    "exclusive_id": "ex_qing_peng_yulin",
+    "hero_id": "qing_peng_yulin",
+    "name": "梅花图",
+    "basis_flag": "史",
+    "basis": "彭玉麟以画梅著称",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +12%，生命 +12%",
+    "effect": "水战时我方全体受到伤害 −15%"
+  },
+  {
+    "exclusive_id": "ex_qing_yang_zaifu",
+    "hero_id": "qing_yang_zaifu",
+    "name": "水师长篙",
+    "basis_flag": "设",
+    "basis": "—",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「行伍出身」受到暴击伤害 −30% → −50%"
+  },
+  {
+    "exclusive_id": "ex_qing_li_hongzhang",
+    "hero_id": "qing_li_hongzhang",
+    "name": "巡抚关防",
+    "basis_flag": "设",
+    "basis": "关防为清代督抚使用的官印",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +12%，生命 +12%",
+    "effect": "「借师助剿」火器武将怒气 +50 → +80"
+  },
+  {
+    "exclusive_id": "ex_qing_cheng_xueqi",
+    "hero_id": "qing_cheng_xueqi",
+    "name": "开字营令箭",
+    "basis_flag": "设",
+    "basis": "程学启所部号\"开字营\"",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「开字营」对太平天国武将 +30% → +50%"
+  },
+  {
+    "exclusive_id": "ex_qing_liu_mingchuan",
+    "hero_id": "qing_liu_mingchuan",
+    "name": "铭军洋枪",
+    "basis_flag": "设",
+    "basis": "刘铭传所部号\"铭军\"",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「铭字营」每第 3 次 → 每第 2 次普攻"
+  },
+  {
+    "exclusive_id": "ex_qing_senggelinqin",
+    "hero_id": "qing_senggelinqin",
+    "name": "亲王角弓",
+    "basis_flag": "设",
+    "basis": "僧格林沁封博多勒噶台亲王",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「蒙古铁骑」眩晕概率 30% → 50%"
+  },
+  {
+    "exclusive_id": "ex_qing_zhang_guoliang",
+    "hero_id": "qing_zhang_guoliang",
+    "name": "大营令旗",
+    "basis_flag": "设",
+    "basis": "—",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「豪强」触发线 70% → 50%"
+  },
+  {
+    "exclusive_id": "ex_qing_ward",
+    "hero_id": "qing_ward",
+    "name": "常胜军手枪",
+    "basis_flag": "设",
+    "basis": "—",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「冒险家」暴击伤害 +40% → +60%，取消防御惩罚"
+  },
+  {
+    "exclusive_id": "ex_qing_gordon",
+    "hero_id": "qing_gordon",
+    "name": "指挥手杖",
+    "basis_flag": "史",
+    "basis": "戈登作战时常手持短手杖指挥",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「常胜军攻城」攻城地形伤害 +30% → +50%"
+  },
+  {
+    "exclusive_id": "ex_qing_xianfeng",
+    "hero_id": "qing_xianfeng",
+    "name": "朱批",
+    "basis_flag": "设",
+    "basis": "—",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +12%，生命 +12%",
+    "effect": "「团练诏」回复 20% → 25%"
+  },
+  {
+    "exclusive_id": "ex_qing_cixi",
+    "hero_id": "qing_cixi",
+    "name": "同道堂印",
+    "basis_flag": "史",
+    "basis": "咸丰帝临终赐同治帝\"同道堂\"印，由慈禧掌管",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +12%，生命 +12%",
+    "effect": "政令「垂帘听政」怒气获取 +25% → +35%"
+  },
+  {
+    "exclusive_id": "ex_qing_prince_gong",
+    "hero_id": "qing_prince_gong",
+    "name": "总理衙门关防",
+    "basis_flag": "设",
+    "basis": "1861 年设总理各国事务衙门，由恭亲王主持",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「借洋助剿」怒气 +50 → +65"
+  },
+  {
+    "exclusive_id": "ex_qing_sushun",
+    "hero_id": "qing_sushun",
+    "name": "户部印信",
+    "basis_flag": "设",
+    "basis": "肃顺曾任户部尚书",
+    "unlock": "4★",
+    "stat_bonus": "主攻属性 +10%，生命 +10%",
+    "effect": "「严刑峻法」攻击 −15% → −25%"
+  }
+]

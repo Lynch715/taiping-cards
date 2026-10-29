@@ -1,0 +1,17 @@
+app/node_modules/
+app/dist/
+app/.vite/
+app/*.tsbuildinfo
+app/test-results/
+app/playwright-report/
+__pycache__/
+.venv/
+.toolchains/
+
+/release/
+/outputs/
+/output/
+/assets/raw/
+assets/reports/**/comparison.json
+
+/app/node_modules

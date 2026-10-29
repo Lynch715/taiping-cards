@@ -1,0 +1,290 @@
+[
+  {
+    "stage_id": "tp_5_1",
+    "assumed_level": 43.8,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_5_2",
+    "assumed_level": 46.5,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_5_3",
+    "assumed_level": 46.7,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_5_4",
+    "assumed_level": 48,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_5_5",
+    "assumed_level": 48.8,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_5_6",
+    "assumed_level": 50.6,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_6_1",
+    "assumed_level": 51.3,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_6_2",
+    "assumed_level": 52.2,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_6_3",
+    "assumed_level": 52.4,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_6_4",
+    "assumed_level": 53.7,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_6_5",
+    "assumed_level": 53.8,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_6_6",
+    "assumed_level": 54.4,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_7_1",
+    "assumed_level": 54.8,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_7_2",
+    "assumed_level": 57,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_7_3",
+    "assumed_level": 58.1,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_7_4",
+    "assumed_level": 60.5,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_7_5",
+    "assumed_level": 61.3,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_7_6",
+    "assumed_level": 63.4,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_8_1",
+    "assumed_level": 64.5,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_8_2",
+    "assumed_level": 65.6,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_8_3",
+    "assumed_level": 65.9,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_8_4",
+    "assumed_level": 67.1,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_8_5",
+    "assumed_level": 67.1,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "tp_8_6",
+    "assumed_level": 68,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_5_1",
+    "assumed_level": 43,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_5_2",
+    "assumed_level": 46,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_5_3",
+    "assumed_level": 46.1,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_5_4",
+    "assumed_level": 47.6,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_5_5",
+    "assumed_level": 47.5,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_5_6",
+    "assumed_level": 49,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_6_1",
+    "assumed_level": 49.9,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_6_2",
+    "assumed_level": 50.9,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_6_3",
+    "assumed_level": 51,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_6_4",
+    "assumed_level": 51.9,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_6_5",
+    "assumed_level": 52.3,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_6_6",
+    "assumed_level": 53,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_7_1",
+    "assumed_level": 53.3,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_7_2",
+    "assumed_level": 55.2,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_7_3",
+    "assumed_level": 56.8,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_7_4",
+    "assumed_level": 59,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_7_5",
+    "assumed_level": 60.2,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_7_6",
+    "assumed_level": 62.5,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_8_1",
+    "assumed_level": 63.7,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_8_2",
+    "assumed_level": 64.6,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_8_3",
+    "assumed_level": 64.8,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_8_4",
+    "assumed_level": 66,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_8_5",
+    "assumed_level": 66,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  },
+  {
+    "stage_id": "qing_8_6",
+    "assumed_level": 67,
+    "source_accounts": 12,
+    "source": "v0.4.2 target-calendar median; no feast; 12 same-faction accounts"
+  }
+]

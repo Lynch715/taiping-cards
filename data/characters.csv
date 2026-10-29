@@ -1,0 +1,57 @@
+id,name,faction,group,rarity_draft,troop,appearance_age,has_photo,bg_id,x_offset,height_scale,notes
+tp_hong_xiuquan,洪秀全,taiping,首义诸王,SSR,谋,40,N,bg_tp_tianjing,0,0.96,天王；不上阵的核心卡；黄袍
+tp_hong_tianguifu,洪天贵福,taiping,首义诸王,R,-,15,N,bg_tp_tianjing,0,0.90,幼天王；君主卡；1864 年继位，同年被俘
+tp_yang_xiuqing,杨秀清,taiping,首义诸王,SSR,谋,32,N,bg_tp_tianjing,0,0.96,"东王；""天父下凡"""
+tp_xiao_chaogui,萧朝贵,taiping,首义诸王,SSR,步,31,N,bg_tp_field,0,0.96,西王；1852 长沙战死
+tp_feng_yunshan,冯云山,taiping,首义诸王,SR,谋,36,N,bg_tp_jintian,0,0.96,南王；1852 蓑衣渡战死
+tp_wei_changhui,韦昌辉,taiping,首义诸王,SR,步,32,N,bg_tp_tianjing,0,0.96,北王；天京事变
+tp_shi_dakai,石达开,taiping,首义诸王,SSR,步,25,N,bg_sichuan_gorge,0,0.96,翼王；角帽需重画（见美术规范 3）
+tp_chen_yucheng,陈玉成,taiping,后期支柱,SSR,骑,22,N,bg_tp_field,0,0.95,英王；非常年轻
+tp_li_xiucheng,李秀成,taiping,后期支柱,SSR,步,37,N,bg_tp_tianjing,0,0.96,忠王
+tp_hong_rengan,洪仁玕,taiping,后期支柱,SSR,谋,38,N,bg_tp_tianjing,0,0.96,干王；《资政新篇》，书卷气
+tp_li_shixian,李世贤,taiping,后期支柱,SR,步,28,N,bg_tp_field,0,0.96,侍王
+tp_yang_fuqing,杨辅清,taiping,后期支柱,R,步,,N,bg_tp_field,0,0.96,辅王；年龄待考
+tp_lin_fengxiang,林凤祥,taiping,北伐,SR,步,,N,bg_qing_north,0,0.96,北伐主将；年龄待考
+tp_li_kaifang,李开芳,taiping,北伐,SR,步,,N,bg_qing_north,0,0.96,北伐主将；年龄待考
+tp_luo_dagang,罗大纲,taiping,前期名将,SR,水,,N,bg_tp_river,0,0.96,风格母图人物；原天地会、江上出身；年龄待考
+tp_hu_yihuang,胡以晃,taiping,前期名将,R,步,,N,bg_tp_field,0,0.96,豫王；年龄待考
+tp_qin_rigang,秦日纲,taiping,前期名将,R,步,,N,bg_tp_field,0,0.96,燕王；年龄待考
+tp_zeng_tianyang,曾天养,taiping,前期名将,R,骑,,N,bg_tp_field,0,0.96,老将；年龄待考
+tp_lin_qirong,林启荣,taiping,前期名将,R,步,,N,bg_tp_tianjing,0,0.96,九江守将；年龄待考
+tp_tan_shaoguang,谭绍光,taiping,后期将领,SR,步,28,N,bg_west_shanghai,0,0.96,慕王；苏州
+tp_huang_wenjin,黄文金,taiping,后期将领,R,步,,N,bg_tp_field,0,0.96,堵王；年龄待考
+tp_wang_haiyang,汪海洋,taiping,后期将领,R,步,,N,bg_tp_field,0,0.96,康王；年龄待考
+tp_lai_wenguang,赖文光,taiping,后期将领,SR,骑,37,N,bg_qing_north,0,0.96,遵王；后领导捻军
+tp_lindley,呤唎,taiping,特殊,R,火,22,N,bg_west_shanghai,0,0.96,英国人 Augustus Lindley；西式便装
+tp_hong_xuanjiao,洪宣娇,taiping,特殊,SR,骑,,N,bg_tp_jintian,0,0.92,"传说人物，卡面标注""传说"""
+tp_su_sanniang,苏三娘,taiping,特殊,R,骑,,N,bg_tp_field,0,0.92,"传说人物，卡面标注""传说"""
+qing_zeng_guofan,曾国藩,qing,湘军,SSR,谋,50,Y,bg_qing_camp,0,0.96,鞋需改为朝靴
+qing_zeng_guoquan,曾国荃,qing,湘军,SR,步,40,N,bg_qing_camp,0,0.96,攻天京
+qing_hu_linyi,胡林翼,qing,湘军,SSR,谋,47,N,bg_qing_camp,0,0.96,
+qing_zuo_zongtang,左宗棠,qing,湘军,SSR,谋,50,Y,bg_qing_camp,0,0.93,
+qing_luo_zenan,罗泽南,qing,湘军,SR,步,48,N,bg_qing_camp,0,0.96,书生带兵
+qing_li_xubin,李续宾,qing,湘军,SR,步,40,N,bg_qing_camp,0,0.96,三河镇战死
+qing_taqibu,塔齐布,qing,湘军,SR,骑,37,N,bg_qing_camp,0,0.96,满洲人，湘军中的旗人
+qing_bao_chao,鲍超,qing,湘军,SR,步,33,N,bg_qing_camp,0,0.96,霆军；猛将
+qing_duolonga,多隆阿,qing,湘军,SR,骑,44,N,bg_qing_camp,0,0.96,满洲骑将；安庆
+qing_jiang_zhongyuan,江忠源,qing,湘军,SR,步,40,N,bg_qing_camp,0,0.96,楚勇；蓑衣渡
+qing_peng_yulin,彭玉麟,qing,湘军水师,SSR,水,45,N,bg_qing_river,0,0.96,
+qing_yang_zaifu,杨载福,qing,湘军水师,SR,水,38,N,bg_qing_river,0,0.96,后改名杨岳斌
+qing_li_hongzhang,李鸿章,qing,淮军,SSR,谋,40,Y,bg_west_shanghai,0,1.00,
+qing_cheng_xueqi,程学启,dual,淮军,SR,步,34,N,bg_west_shanghai,0,0.96,双阵营：原太平军，降清
+qing_liu_mingchuan,刘铭传,qing,淮军,SR,火,27,N,bg_west_shanghai,0,0.96,
+qing_zhang_shusheng,张树声,qing,淮军,R,步,40,N,bg_west_shanghai,0,0.96,
+qing_guo_songlin,郭松林,qing,淮军,R,骑,,N,bg_west_shanghai,0,0.96,年龄待考
+qing_senggelinqin,僧格林沁,qing,八旗绿营,SSR,骑,43,Y,bg_qing_north,0,0.99,蒙古亲王；蒙古骑兵
+qing_xiang_rong,向荣,qing,八旗绿营,R,步,,N,bg_qing_camp,0,0.96,江南大营；老将；年龄待考
+qing_he_chun,和春,qing,八旗绿营,R,步,,N,bg_qing_camp,0,0.96,年龄待考
+qing_zhang_guoliang,张国梁,dual,八旗绿营,SR,骑,35,N,bg_qing_camp,0,0.96,双阵营：原天地会，降清
+qing_shengbao,胜保,qing,八旗绿营,R,骑,,N,bg_qing_north,0,0.96,年龄待考
+qing_ward,华尔,qing,洋枪队,SR,火,30,Y,bg_west_shanghai,0,0.96,美国人 Frederick Ward
+qing_gordon,戈登,qing,洋枪队,SR,火,30,Y,bg_west_shanghai,0,0.96,英国人 Charles Gordon；英军制服
+qing_burgevine,白齐文,dual,洋枪队,R,火,27,N,bg_west_shanghai,0,0.96,双阵营：后投太平军
+qing_luo_bingzhang,骆秉章,qing,督抚,R,谋,70,N,bg_sichuan_gorge,0,0.96,擒石达开
+qing_xianfeng,咸丰,qing,政令,SSR,-,28,Y,bg_qing_court,0,0.95,政令卡
+qing_cixi,慈禧,qing,政令,SSR,-,28,Y,bg_qing_court,0,0.92,政令卡；同治初年形象
+qing_prince_gong,恭亲王,qing,政令,SR,-,30,Y,bg_qing_court,0,0.96,政令卡
+qing_sushun,肃顺,qing,政令,SR,-,45,N,bg_qing_court,0,0.96,政令卡

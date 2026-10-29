@@ -1,0 +1,128 @@
+{
+  "sprite": "assets/equipment/sprite-64.webp",
+  "width": 272,
+  "height": 340,
+  "cell": 68,
+  "icons": {
+    "shengbing_binren": {
+      "set": "圣兵",
+      "slot": "兵刃",
+      "x": 2,
+      "y": 2
+    },
+    "shengbing_jiazhou": {
+      "set": "圣兵",
+      "slot": "甲胄",
+      "x": 70,
+      "y": 2
+    },
+    "shengbing_zuoqi": {
+      "set": "圣兵",
+      "slot": "坐骑",
+      "x": 138,
+      "y": 2
+    },
+    "shengbing_bingshu": {
+      "set": "圣兵",
+      "slot": "兵书",
+      "x": 206,
+      "y": 2
+    },
+    "yongying_binren": {
+      "set": "勇营",
+      "slot": "兵刃",
+      "x": 2,
+      "y": 70
+    },
+    "yongying_jiazhou": {
+      "set": "勇营",
+      "slot": "甲胄",
+      "x": 70,
+      "y": 70
+    },
+    "yongying_zuoqi": {
+      "set": "勇营",
+      "slot": "坐骑",
+      "x": 138,
+      "y": 70
+    },
+    "yongying_bingshu": {
+      "set": "勇营",
+      "slot": "兵书",
+      "x": 206,
+      "y": 70
+    },
+    "yangxie_binren": {
+      "set": "洋械",
+      "slot": "兵刃",
+      "x": 2,
+      "y": 138
+    },
+    "yangxie_jiazhou": {
+      "set": "洋械",
+      "slot": "甲胄",
+      "x": 70,
+      "y": 138
+    },
+    "yangxie_zuoqi": {
+      "set": "洋械",
+      "slot": "坐骑",
+      "x": 138,
+      "y": 138
+    },
+    "yangxie_bingshu": {
+      "set": "洋械",
+      "slot": "兵书",
+      "x": 206,
+      "y": 138
+    },
+    "tieqi_binren": {
+      "set": "铁骑",
+      "slot": "兵刃",
+      "x": 2,
+      "y": 206
+    },
+    "tieqi_jiazhou": {
+      "set": "铁骑",
+      "slot": "甲胄",
+      "x": 70,
+      "y": 206
+    },
+    "tieqi_zuoqi": {
+      "set": "铁骑",
+      "slot": "坐骑",
+      "x": 138,
+      "y": 206
+    },
+    "tieqi_bingshu": {
+      "set": "铁骑",
+      "slot": "兵书",
+      "x": 206,
+      "y": 206
+    },
+    "jiangfang_binren": {
+      "set": "江防",
+      "slot": "兵刃",
+      "x": 2,
+      "y": 274
+    },
+    "jiangfang_jiazhou": {
+      "set": "江防",
+      "slot": "甲胄",
+      "x": 70,
+      "y": 274
+    },
+    "jiangfang_zuoqi": {
+      "set": "江防",
+      "slot": "坐骑",
+      "x": 138,
+      "y": 274
+    },
+    "jiangfang_bingshu": {
+      "set": "江防",
+      "slot": "兵书",
+      "x": 206,
+      "y": 274
+    }
+  }
+}

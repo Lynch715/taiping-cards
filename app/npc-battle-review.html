@@ -1,0 +1,17 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>B批 · 十卡地形复核</title><style>
+@font-face{font-family:'Noto Serif SC';src:url('/fonts/NotoSerifSC-M1.woff2')}*{box-sizing:border-box}body{margin:0;background:#ede3cc;color:#262018;font-family:'Noto Serif SC',serif}main{width:min(100%,600px);margin:0 auto;padding:16px 20px}nav{display:flex;gap:20px;font-size:13px;margin-bottom:12px}a{color:#245249}h1{font-size:24px;margin:10px 0}p{font-size:12px;line-height:1.8}#field{width:100%;aspect-ratio:1080/1350;background:#15110e;position:relative}canvas{display:block}#status{color:#245249}pre{font-size:11px;white-space:pre-wrap;word-break:break-all}
+</style></head><body><main><nav><a href="?terrain=land">陆战</a><a href="?terrain=siege">攻城</a><a href="?terrain=defend">守城</a><a href="?terrain=river">水战</a></nav><h1 id="title">整军列阵</h1><p>实际关卡编队 · BattleScene 渲染 · 5敌＋5我 · 顶部32px安全边距</p><div id="field" aria-label="十卡地形验收" aria-busy="true"></div><p id="status">载入中</p><pre id="evidence" hidden></pre></main>
+<script type="module">
+import {createBattleScene} from '/src/scene/BattleScene.ts';
+import {database} from '/src/core/data/index.ts';
+import {stageTeams,starters} from '/src/core/campaign.ts';
+import {runBattle} from '/src/core/battle/engine.ts';
+const key=new URLSearchParams(location.search).get('terrain')??'land';
+const terrain={land:'陆战',siege:'攻城',defend:'守城',river:'水战'}[key]??'陆战';
+const stage=database.stages.find(s=>s.campaign==='taiping'&&s.terrain===terrain&&s.enemy_level!==null);
+const teams=stageTeams(stage,starters('taiping').cards.split(';').slice(0,5));
+document.querySelector('#title').textContent=terrain+' · '+stage.name;
+const evidence={stage_id:stage.stage_id,terrain,teams,topInset:32,engine:'unmodified stageTeams + production BattleScene',storage:'none'};
+document.querySelector('#evidence').textContent=JSON.stringify(evidence,null,2);
+try{const scene=await createBattleScene(document.querySelector('#field'),teams,terrain);const log=runBattle(teams[0],teams[1],terrain,1851,{trace:true,allowDuplicates:true});const state=log.trace.find(e=>e.event==='state');if(state)scene.apply(state);document.querySelector('#field').setAttribute('aria-busy','false');document.querySelector('#status').textContent='画面就绪 · 10张卡 · 初始状态';}catch(e){document.querySelector('#status').textContent='载入失败：'+e;throw e;}
+</script></body></html>

@@ -1,0 +1,29 @@
+bond_id,type,name,members,need,effect,basis
+bd_jintian,正面,金田首义,tp_hong_xiuquan;tp_yang_xiuqing;tp_xiao_chaogui;tp_feng_yunshan;tp_wei_changhui;tp_shi_dakai,2/4/6,信仰获取 +20% / +40% / +60%,1851 年金田起义的首义诸王
+bd_yingzhong,正面,英忠双璧,tp_chen_yucheng;tp_li_xiucheng,2,两人攻击 +15%；同一回合内两人都行动时，后行动者伤害 +20%,陈玉成、李秀成并为后期支柱，1858 年合力取得三河大捷
+bd_beifa,正面,北伐孤军,tp_lin_fengxiang;tp_li_kaifang,2,我方每少 1 名存活武将，两人攻击 +8%,1853–1855 年北伐军孤军深入华北
+bd_hukou,正面,湖口夜袭,tp_shi_dakai;tp_luo_dagang,2,水战时两人速度 +15 点；第 1 回合伤害 +25%,1855 年湖口、九江之战，太平军夜袭湘军水师
+bd_lishi,正面,李氏兄弟,tp_li_xiucheng;tp_li_shixian,2,任一人阵亡时，另一人攻击 +30% 至战斗结束,李世贤为李秀成堂弟
+bd_sufu,正面,苏福省,tp_li_xiucheng;tp_tan_shaoguang,2,守城地形时我方全体防御 +15%,李秀成经营苏福省，谭绍光守苏州
+bd_ganwang,正面,干王新政,tp_hong_rengan;tp_hong_xiuquan,2,我方火器武将攻击 +15%,洪仁玕 1859 年到天京总理朝政，提出《资政新篇》
+bd_nüying,正面,太平女营,tp_hong_xuanjiao;tp_su_sanniang,2,两人暴击率 +15%,太平天国设有女营；两人事迹多出自传说
+bd_zenghu,正面,曾胡,qing_zeng_guofan;qing_hu_linyi,2,粮饷获取 +50%,曾国藩与胡林翼并称湘军领袖
+bd_zengshi,正面,曾氏兄弟,qing_zeng_guofan;qing_zeng_guoquan,2,攻城地形时我方全体伤害 +20%；曾国荃攻击 +15%,曾国荃为曾国藩之弟，1864 年攻破天京
+bd_xiangxiang,正面,湘乡师门,qing_luo_zenan;qing_li_xubin,2,罗泽南在场时李续宾暴击率 +20%；李续宾在场时罗泽南防御 +15%,李续宾是罗泽南的学生
+bd_changjiang,正面,长江水师,qing_peng_yulin;qing_yang_zaifu,2,水战时两人全属性 +15%,彭玉麟、杨载福同为湘军水师统领
+bd_xiangjun_jiang,正面,湘军宿将,qing_taqibu;qing_bao_chao;qing_duolonga;qing_li_xubin;qing_jiang_zhongyuan,2/3/4,成员攻击 +8% / +12% / +18%,湘军前中期的主要战将
+bd_huaijun,正面,淮军,qing_li_hongzhang;qing_cheng_xueqi;qing_liu_mingchuan;qing_zhang_shusheng;qing_guo_songlin,2/3/5,成员速度 +5 / +8 / +12 点,1862 年李鸿章在安庆组建淮军
+bd_huifang,正面,中外会防,qing_li_hongzhang;qing_ward;qing_gordon,2/3,我方火器武将攻击 +10% / +20%,上海中外会防局与常胜军
+bd_manmeng,正面,满蒙铁骑,qing_senggelinqin;qing_duolonga;qing_shengbao;qing_taqibu,2/3/4,成员骑兵攻击 +8% / +12% / +18%,满蒙将领领骑兵作战
+bd_jiangnan,正面,江南大营,qing_xiang_rong;qing_he_chun;qing_zhang_guoliang,2/3,我方前排防御 +10% / +20%,1853–1860 年清军江南大营围困天京
+bd_tianjing_shibian,负面,天京事变,tp_yang_xiuqing;tp_wei_changhui;tp_hong_xiuquan,见效果,杨秀清与洪秀全同队：猜忌每回合 +5（来自洪秀全政令）；杨秀清与韦昌辉同队：猜忌每回合再 +10。猜忌满 100 触发天京事变（见 05 文档 7.1）,1856 年天京事变，杨秀清被杀，石达开出走
+bd_suzhou_shaxiang,负面,苏州杀降,qing_li_hongzhang;qing_gordon;qing_cheng_xueqi,李鸿章+戈登,第 5 回合起，戈登每次行动有 30% 概率罢战（跳过行动）；程学启也在场时概率 +15%,1863 年苏州杀降，戈登愤而一度撤离
+bd_r_suoyidu,宿敌,蓑衣渡,qing_jiang_zhongyuan>tp_feng_yunshan,对阵,江忠源对冯云山伤害 +50%,1852 年冯云山在全州中炮负伤，随后在蓑衣渡一带去世；江忠源在蓑衣渡设伏
+bd_r_sanhe,宿敌,三河镇,tp_chen_yucheng;tp_li_xiucheng>qing_li_xubin,对阵,陈玉成、李秀成对李续宾伤害 +50%,1858 年三河镇之战，李续宾战死
+bd_r_anqing,宿敌,安庆,qing_duolonga>tp_chen_yucheng,对阵,多隆阿对陈玉成伤害 +30%,1861 年安庆之战，多隆阿阻击陈玉成援军
+bd_r_yuhuatai,宿敌,雨花台,qing_zeng_guoquan>tp_li_xiucheng,对阵,曾国荃受到李秀成伤害 −30%,1862 年李秀成率军救天京，未能击破曾国荃营垒
+bd_r_daduhe,宿敌,大渡河,qing_luo_bingzhang>tp_shi_dakai,对阵,骆秉章在场时，石达开的大渡河绝境不能触发,1863 年石达开困于大渡河，后在成都被处死
+bd_r_beifa,宿敌,北伐,qing_senggelinqin;qing_shengbao>tp_lin_fengxiang;tp_li_kaifang,对阵,僧格林沁、胜保对林凤祥、李开芳伤害 +30%,1855 年北伐军先后在连镇、冯官屯失败
+bd_r_hukou,宿敌,湖口,tp_shi_dakai>qing_zeng_guofan,对阵,石达开对曾国藩伤害 +30%,1855 年湖口之战曾国藩大败
+bd_r_jiangnan,宿敌,破江南大营,tp_li_xiucheng>qing_zhang_guoliang;qing_he_chun,对阵,李秀成对张国梁、和春伤害 +30%,1860 年太平军二破江南大营
+bd_r_shanghai,宿敌,上海,qing_ward;qing_gordon>tp_li_xiucheng;tp_tan_shaoguang,对阵,华尔、戈登对李秀成、谭绍光伤害 +20%,1860–1863 年太平军进攻上海与苏南作战

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "qing_npc_lvying",
+    "name": "绿营兵",
+    "faction": "qing",
+    "troop": "步",
+    "tong": 158,
+    "wu": 158,
+    "zhi": 90,
+    "su": 135,
+    "note": "杂兵：只有普攻，无技能；按07第4.2节原四维×2.25（取整）；E≈451"
+  },
+  {
+    "id": "qing_npc_qibing",
+    "name": "八旗骑兵",
+    "faction": "qing",
+    "troop": "骑",
+    "tong": 146,
+    "wu": 169,
+    "zhi": 90,
+    "su": 146,
+    "note": "杂兵：只有普攻，无技能；按07第4.2节原四维×2.25（取整）；E≈461"
+  },
+  {
+    "id": "qing_npc_taiqiang",
+    "name": "抬枪兵",
+    "faction": "qing",
+    "troop": "火",
+    "tong": 135,
+    "wu": 169,
+    "zhi": 90,
+    "su": 146,
+    "note": "杂兵：只有普攻，无技能；按07第4.2节原四维×2.25（取整）；E≈450"
+  },
+  {
+    "id": "qing_npc_shuishi",
+    "name": "清军水师",
+    "faction": "qing",
+    "troop": "水",
+    "tong": 146,
+    "wu": 162,
+    "zhi": 90,
+    "su": 142,
+    "note": "杂兵：只有普攻，无技能；按07第4.2节原四维×2.25（取整）；E≈450"
+  },
+  {
+    "id": "tp_npc_shengbing",
+    "name": "太平圣兵",
+    "faction": "taiping",
+    "troop": "步",
+    "tong": 158,
+    "wu": 158,
+    "zhi": 90,
+    "su": 135,
+    "note": "杂兵：只有普攻，无技能；按07第4.2节原四维×2.25（取整）；E≈451"
+  },
+  {
+    "id": "tp_npc_qibing",
+    "name": "太平骑兵",
+    "faction": "taiping",
+    "troop": "骑",
+    "tong": 146,
+    "wu": 169,
+    "zhi": 90,
+    "su": 146,
+    "note": "杂兵：只有普攻，无技能；按07第4.2节原四维×2.25（取整）；E≈461"
+  },
+  {
+    "id": "tp_npc_qiangshou",
+    "name": "太平枪手",
+    "faction": "taiping",
+    "troop": "火",
+    "tong": 135,
+    "wu": 169,
+    "zhi": 90,
+    "su": 146,
+    "note": "杂兵：只有普攻，无技能；按07第4.2节原四维×2.25（取整）；E≈450"
+  },
+  {
+    "id": "tp_npc_shuiying",
+    "name": "太平水营",
+    "faction": "taiping",
+    "troop": "水",
+    "tong": 146,
+    "wu": 162,
+    "zhi": 90,
+    "su": 142,
+    "note": "杂兵：只有普攻，无技能；按07第4.2节原四维×2.25（取整）；E≈450"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "source_sha256": {
+    "bonds.csv": "24f1e3218d9ee78849ad8581914d4bdfe399b15233b0b4ef60606a55fa1b8d6e",
+    "characters.csv": "b4e14a7e1641e5f26d278906ada3fb0689ee9b2ed5355dcdda847b17a881e3d2",
+    "economy_chapters.csv": "a10347887bc438c1ac9dbfce32615620d6835eaece1cd762a0a3f88d7e32623e",
+    "enemy_units.csv": "033ce622f9f6de68f8a6465771f39c2fca6f172f053ed44c64016366bd8a5fb4",
+    "equip_enhance.csv": "92c724d1022f6cb4e2e12897eb511a21bcc14688eb667f5e8f0118e76ed73a04",
+    "equipment.csv": "af69057ce5008b5cf5e7aa0b1c7cccb969d4736e341a1167c6cbb679bfc2b1f0",
+    "equipment_sets.csv": "a97d17915b6c3172a4e7d578e90e2989d7050dc5499c4489e904e1e4f92d9dc9",
+    "exclusive_equipment.csv": "4fb5425b7b4b853f838ffd13cb1426a542a03ad8de5430d74b4ec48018c56033",
+    "feast.csv": "7f41266bc1073cf663db690ee05cee10fc6b2810f22fabc6e957478e840c1dbe",
+    "heroes.csv": "bada47eaada61d901bd0ebc564bdc9bf4313ed49b518f93fdd838e3c9c418c67",
+    "progression_levels.csv": "2d7e74d2a1a9537e7d17330084c84ea19a664cac3d50ee4ebc864a519611df6c",
+    "recruit.csv": "043b52a709931cadfeb4ab0e50da9421c585d8f52206e955c99e135fb1cbd8cb",
+    "skills.csv": "90a7e55658b1bac79009587fb1059eecb7e713b9e0eadbd46dba7aef53957e8c",
+    "stage_level_overrides.csv": "6b10fae0159224cb5b7a789c3a7889819affa1ed07f6793efc983a8c705d4c4d",
+    "stages.csv": "4b65bdbe4c0542bea214eac6d6ba30bd457b1dd5ed752ee478b728b0fc036e1e",
+    "star_up.csv": "7dd0afcf6c60111d90db67b9b220e0fcb67cc78929d751a02b013a753d518a68",
+    "starter_cards.csv": "b3cf9e0ed418bd1dcc8918e674a4fe368d34fa8f3c88c7d23c276e6f57936a08"
+  },
+  "rows": {
+    "bonds": 28,
+    "characters": 56,
+    "economy_chapters": 8,
+    "enemy_units": 11,
+    "equip_enhance": 50,
+    "equipment": 100,
+    "equipment_sets": 5,
+    "exclusive_equipment": 39,
+    "feast": 16,
+    "heroes": 56,
+    "progression_levels": 100,
+    "recruit": 1,
+    "skills": 112,
+    "stage_level_overrides": 48,
+    "stages": 96,
+    "star_up": 5,
+    "starter_cards": 2
+  }
+}

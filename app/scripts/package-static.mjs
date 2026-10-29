@@ -1,0 +1,12 @@
+import {cp,mkdir,rm,readFile,writeFile} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import {execFileSync} from 'node:child_process';
+const out=resolve('../release/taiping-web');
+await mkdir(resolve('../release'),{recursive:true});
+await rm(out,{recursive:true,force:true});await cp(resolve('dist'),out,{recursive:true});
+await writeFile(resolve('../release/DEPLOY.md'),await readFile(resolve('DEPLOY.md')));
+const pkg=JSON.parse(await readFile(resolve('package.json'),'utf8'));
+const zip=resolve('../release/taiping-web-'+pkg.version+'.zip');
+execFileSync('python3',['-c',"import pathlib,sys,zipfile; root=pathlib.Path(sys.argv[1]); z=zipfile.ZipFile(sys.argv[2],'w',zipfile.ZIP_DEFLATED); [z.write(p,p.relative_to(root)) for p in sorted(root.rglob('*')) if p.is_file()]; z.close()",out,zip]);
+console.log('Static deployment: '+out);
+console.log('Static ZIP: '+zip);

@@ -1,0 +1,12 @@
+[
+  {
+    "item": "招贤令",
+    "rate_SSR": "4%",
+    "rate_SR": "26%",
+    "rate_R": "70%",
+    "pity": "连续 40 次未出 SSR，第 40 次必出 SSR",
+    "pool": "本周目所选阵营的全部可上阵武将与君主",
+    "duplicate_shards": "R 10 / SR 20 / SSR 30",
+    "summon_by_shards": "R 20 / SR 40 / SSR 80 片可直接合成该武将"
+  }
+]
