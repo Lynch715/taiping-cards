@@ -16,3 +16,7 @@ export function saveGame(save:Save):Promise<void>{
 }
 export async function flushSaves(){await queue;}
 export function lifecycle(onPause:()=>void){const pause=()=>{if(document.visibilityState==='hidden')onPause();};document.addEventListener('visibilitychange',pause);window.addEventListener('pagehide',onPause);return ()=>{document.removeEventListener('visibilitychange',pause);window.removeEventListener('pagehide',onPause);};}
+
+/** Keep the previous campaign separate from the rotating autosave backup. */
+export function startNewGame(save:Save):Promise<void>{if(!validSave(save)||save.campaign!==null)return Promise.reject(Error('新军册无效'));const serialized=JSON.stringify(save);queue=queue.catch(()=>{}).then(async()=>{const d=await db();return new Promise<void>((resolve,reject)=>{const t=d.transaction('slots','readwrite'),store=t.objectStore('slots'),r=store.get(key);r.onsuccess=()=>{const previous=r.result as string|undefined;const old=decode(previous??null);if(previous&&old&&(old.campaign||old.progress.taiping.length||old.progress.qing.length)){store.put(previous,key+'-previous-game');store.put(previous,key+'-backup');}store.put(serialized,key);};t.oncomplete=()=>{d.close();resolve();};t.onabort=t.onerror=()=>{d.close();reject(t.error??Error('新局未能保存，原军册仍保留'));};});});return queue;}
+export async function previousGame(){return decode(await get(key+'-previous-game'));}

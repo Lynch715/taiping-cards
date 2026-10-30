@@ -16,7 +16,7 @@ npm run package:static
 
 构建前会校验 CSV 与生成 JSON。开放两条战役线各八章、共 96 关，前章通关后开放后章。玩家武将独立升级与升星，第1–4章保留既有配置，第5–8章使用固定目标到达日的12账号五人均级中位数校准；战斗读取实际等级、星级、普通兵装与4★专属。
 
-同时生成版本压缩包 `release/taiping-web-0.5.0.zip`。可直接上传的目录是 `release/taiping-web/`，`app/dist/` 与之逐文件一致。**上传目录里面的全部文件和子目录**，包括 `index.html`、`manifest.webmanifest`、`sw.js`、`icons/`、`fonts/`、`assets/`。不要只上传 HTML，也不要上传 node_modules、CSV 原表或美术原图目录。
+同时生成版本压缩包 `release/taiping-web-0.6.0.zip`。可直接上传的目录是 `release/taiping-web/`，`app/dist/` 与之逐文件一致。**上传目录里面的全部文件和子目录**，包括 `index.html`、`manifest.webmanifest`、`sw.js`、`icons/`、`fonts/`、`assets/`。不要只上传 HTML，也不要上传 node_modules、CSV 原表或美术原图目录。
 
 部署地址可以是域名根目录，也可以是 `/taiping/` 等子目录。清单、SW、静态素材使用相对地址；静态托管的目录 URL 应带末尾 `/`。不需要服务端路由重写。HTTPS 是线上 Service Worker 与安装的前提；本地 localhost / 127.0.0.1 可测试。
 
@@ -94,3 +94,11 @@ v0.4.2校准假设覆盖表`stage_level_overrides.csv`与关卡JSON随包提供�
 ## v0.5.0 合并发布
 
 合并逐步获得武将、章节阵位、历史卡池、君主碎片及60抽独立保底、简洁智能布阵和军械库穿戴归属。沿用正式网址与 IndexedDB 库 taiping-m1、slots 表、m1-save-v1 及备份键，不清库，不回收旧将及资源。新局才启用三人起步和前期敌军适配。历史文件分支与已发布素材保留，以便旧页面完成更新。旧版程序生成的合成军册另有字节不变回归，非玩家存档。
+
+## v0.6.0 发布与旧军册
+
+新增开局菜单、单局阵营锁定、一级新将、持续兵力、分阵营序章和56名人物生平。继续使用原站点 origin 与 /taiping-cards/ 路径，以及 taiping-m1 数据库、slots 表、m1-save-v1 和备份键。已有将领等级、武将、资源、装备与阵位不重置；没有兵力字段的旧档按满编读取，不在加载时补写字段。
+
+常规军册读取、自动保存和原备份函数保持；只有用户确认新开一局才执行新增的 startNewGame，并把上一局另存到 -previous-game，供导出恢复。序章、一级起步和新局敌军适配按新征程标记启用。
+
+发布时保留旧版哈希素材供旧页面刷新完成；v0.5.0 ZIP保留。v0.5.0不具备新兵力和单局菜单规则，需要保留这些行为时应使用v0.6.0及以后兼容版本。发布证据见 output/release-v060/，测试军册不提交公开仓库。

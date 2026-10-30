@@ -26,10 +26,10 @@ export async function createBattleScene(host:HTMLDivElement,teams:[TeamInput,Tea
   const base=new Graphics().rect(0,258,168,12).fill(0x090909).rect(0,275,168,6).fill(0x090909);root.addChild(base);
   const hp=new Graphics(),rage=new Graphics();root.addChild(hp,rage);
   const deadSeal=new Graphics().rect(44,110,80,80).fill(0xa8261b).rect(49,115,70,70).stroke({color:0xede3cc,width:2});deadSeal.visible=false;root.addChild(deadSeal);
-  const dead=new Text({text:'殁',style:new TextStyle({fontFamily:style.fontFamily,fontSize:66,fontWeight:'bold',fill:0xede3cc})});dead.anchor.set(.5);dead.position.set(84,150);dead.visible=false;root.addChild(dead);
+  const dead=new Text({text:'溃',style:new TextStyle({fontFamily:style.fontFamily,fontSize:66,fontWeight:'bold',fill:0xede3cc})});dead.anchor.set(.5);dead.position.set(84,150);dead.visible=false;root.addChild(dead);
   nodes.set(`${side}:${slot}`,{root,art,hp,rage,dead,deadSeal,glow,homeY:y});
  }
- function state(s:ActorState,side:number){const n=nodes.get(`${side}:${s.slot}`)!;n.hp.clear().rect(0,258,168*Math.max(0,s.hp/s.max_hp),12).fill(side?0xa8261b:0x5e7f45);n.rage.clear().rect(0,275,168*s.rage/100,6).fill(0xd9a21b);const isDead=s.hp<=0||s.escaped;n.art.alpha=isDead?.28:1;n.dead.visible=isDead;n.deadSeal.visible=isDead;n.glow.visible=s.rage>=100&&!isDead;n.dead.text=s.escaped?'离':'殁';if(n.art instanceof Sprite)n.art.tint=isDead?0x777777:0xffffff;}
+ function state(s:ActorState,side:number){const n=nodes.get(`${side}:${s.slot}`)!;n.hp.clear().rect(0,258,168*Math.max(0,s.hp/s.max_hp),12).fill(side?0xa8261b:0x5e7f45);n.rage.clear().rect(0,275,168*s.rage/100,6).fill(0xd9a21b);const isDead=s.hp<=0||s.escaped;n.art.alpha=isDead?.28:1;n.dead.visible=isDead;n.deadSeal.visible=isDead;n.glow.visible=s.rage>=100&&!isDead;n.dead.text=s.escaped?'退':'溃';if(n.art instanceof Sprite)n.art.tint=isDead?0x777777:0xffffff;}
  const damageStyle=new TextStyle({fontFamily:style.fontFamily,fontWeight:'bold',fontSize:55,fill:0xf1ce76,stroke:{color:0x28150d,width:5}});
  const warmDamage=new Text({text:'−88888',style:damageStyle});warmDamage.visible=false;app.stage.addChild(warmDamage);
  await app.renderer.prepare.upload(app.stage);

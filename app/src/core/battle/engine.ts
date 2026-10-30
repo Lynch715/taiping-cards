@@ -46,7 +46,8 @@ class Combat {
         if(input.statScale!==undefined){if(!Number.isFinite(input.statScale)||input.statScale<=0||input.statScale>1)throw Error('Invalid encounter scale');for(const key of ['hp','atk','int','def','res'])s[key]*=input.statScale;}
         const count:Record<string,number>={};for(const row of gear)count[row.set]=(count[row.set]??0)+1;
         for(const [name,pieces]of Object.entries(count)){const st=data.compiled.sets[name];if(pieces>=2&&(!st.filter_fire||h.troop==='火')&&(!st.water_only||terrain==='水战'))auras.push(clone(st.aura));if(pieces>=4)Object.assign(features,clone(st.four));}
-        return {hero:h,side,slot,faction:h.faction==='dual'?input.faction:h.faction,feature:features,auras,active,base:s,max_hp:s.hp,hp:s.hp,rage:0,buffs:[],shields:[],control:{},burns:[],actions:0,basics:0,casts:0,hits:0,kills:0,escaped:false,saved:false,desperation_used:false,immune_until:0,bonus_speed:0,exclusive:enabled&&!!ex};
+        const troopRatio=input.troopRatios?.[slot]??1;if(!Number.isFinite(troopRatio)||troopRatio<0||troopRatio>1)throw Error('Invalid troop ratio');
+        return {hero:h,side,slot,faction:h.faction==='dual'?input.faction:h.faction,feature:features,auras,active,base:s,max_hp:s.hp,hp:troopRatio===1?s.hp:Math.floor(s.hp*troopRatio),rage:0,buffs:[],shields:[],control:{},burns:[],actions:0,basics:0,casts:0,hits:0,kills:0,escaped:false,saved:false,desperation_used:false,immune_until:0,bonus_speed:0,exclusive:enabled&&!!ex};
       });
       let lord:Lord|null=null;
       if(input.monarch){const h=this.heroes[input.monarch];if(!h||h.position!=='君主')throw Error('Invalid monarch');
@@ -76,7 +77,7 @@ class Combat {
     for(const u of t.actors)u.rage=u.base.start_rage+(u.hero.troop==='谋'?30:0)+f(u,'start_rage');
     for(const u of t.actors){for(const v of t.actors){this.rage(v,f(u,'start_rage_all'));if(v.faction==='taiping')this.rage(v,f(u,'start_rage_taiping'));if(v.hero.tags.includes('洋枪队')&&f(u,'start_foreign_defense'))this.buff(v,'start:'+u.hero.id,'defense',f(u,'start_foreign_defense')/100,false,999);}
       if(f(u,'random_stat')){const key=this.rng.choice(['attack','defense']);this.buff(u,'random:'+u.hero.id,key,f(u,'random_stat',key==='attack'?0:1)/100,false,999);}}
-    }for(const t of this.teams)for(const u of t.actors){u.max_hp=this.stats(u).hp;u.hp=u.max_hp;u.rage=Math.min(100,u.rage);}this.invalidate();}
+    }for(const t of this.teams)for(const u of t.actors){const ratio=u.max_hp?u.hp/u.max_hp:0;u.max_hp=this.stats(u).hp;u.hp=ratio===1?u.max_hp:Math.floor(u.max_hp*ratio);u.rage=Math.min(100,u.rage);}this.invalidate();}
   bonuses(u:Actor){const b:Record<string,number>={},fl:Record<string,number>={};const add=(key:string,v:number,flat=false)=>{const d=flat?fl:b;d[key]=(d[key]??0)+v;};
     for(const x of u.buffs)if(x.expires>=this.round)add(x.stat,x.value,x.flat);const t=this.teams[u.side];
     for(const o of live(t)){for(const a of o.auras)if(this.matches(u,a.target,o))add(a.stat,a.value,a.flat);

@@ -1,0 +1,4 @@
+import {useState} from 'react';
+import type {Campaign} from '../core/battle/types';
+import {campaignIntro} from '../core/intro';
+export function CampaignIntro({camp,onContinue}:{camp:Campaign;onContinue:()=>void}){const story=campaignIntro[camp],[paused,setPaused]=useState(false);return <section className="campaign-intro" aria-label="开场剧情"><p className="eyebrow">{story.subtitle}</p><h1>{story.title}</h1><div className="intro-window" tabIndex={0} aria-label="滚动序章"><div className={'intro-scroll'+(paused?' paused':'')}>{story.paragraphs.map((text,i)=><p key={i}>{text}</p>)}</div></div><div className="intro-actions"><button className="ghost" aria-pressed={paused} onClick={()=>setPaused(v=>!v)}>{paused?'继续字幕':'暂停字幕'}</button><button className="primary" onClick={onContinue}>进入大营</button></div></section>;}

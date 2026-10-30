@@ -3,7 +3,7 @@ import type { Save } from '../core/campaign';
 const FORMAT='taiping-military-save';
 const LIMIT=5*1024*1024;
 export interface SaveFile {format:typeof FORMAT;version:1;exportedAt:string;payload:Save;checksum:{algorithm:'SHA-256';value:string}}
-function copySave(s:Save):Save{return {...(s.growth?{growth:structuredClone(s.growth)}:{}),version:1,campaign:s.campaign,seed:s.seed,progress:{taiping:[...s.progress.taiping],qing:[...s.progress.qing]},formations:{taiping:[...s.formations.taiping],qing:[...s.formations.qing]}};}
+function copySave(s:Save):Save{return {...(s.rules!==undefined?{rules:s.rules}:{}),...(s.introSeen!==undefined?{introSeen:s.introSeen}:{}),...(s.growth?{growth:structuredClone(s.growth)}:{}),version:1,campaign:s.campaign,seed:s.seed,progress:{taiping:[...s.progress.taiping],qing:[...s.progress.qing]},formations:{taiping:[...s.formations.taiping],qing:[...s.formations.qing]}};}
 async function digest(text:string){return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(text))),x=>x.toString(16).padStart(2,'0')).join('');}
 function body(payload:Save,exportedAt:string){return {format:FORMAT,version:1 as const,exportedAt,payload:copySave(payload)};}
 export async function exportSaveFile(save:Save,exportedAt=new Date().toISOString()):Promise<string>{if(!validSave(save))throw Error('当前军册无效，无法导出');const data=body(save,exportedAt);return JSON.stringify({...data,checksum:{algorithm:'SHA-256',value:await digest(JSON.stringify(data))}},null,2)+'\n';}
