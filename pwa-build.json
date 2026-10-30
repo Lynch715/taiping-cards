@@ -1,39 +1,39 @@
 {
-  "version": "0.6.1-091e8697c11b",
+  "version": "0.6.1-5c1d4c6bc64f",
   "files": [
     {
-      "url": "./assets/BattleScene-Btg7SQHL.js",
-      "revision": "8ef00a5a3cdaee3c784f0a681f7de689398f3e06fa446eb275ffd719f54c79d4",
+      "url": "./assets/BattleScene-DpLig6E4.js",
+      "revision": "51fd82186896ebe5272fb511d717ac9805ef94c888789f136c276077d9b7f98a",
       "bytes": 378872
     },
     {
-      "url": "./assets/BitmapFont-ej62fksv.js",
-      "revision": "774fc80c103f50b2a2229f89c013ee518278d277feb95b25f5889fb5651cf6ff",
+      "url": "./assets/BitmapFont-9wyqkfaT.js",
+      "revision": "2e64582697fd0250857bd2d5179078963ac966539e8147bce4b538af6d5f301f",
       "bytes": 1116
     },
     {
-      "url": "./assets/CanvasRenderer-DQQL9J9t.js",
-      "revision": "7288c38d0a05f8cb55e77b3248c5711a7f9c792b3deaa836def19e68a725c25c",
+      "url": "./assets/CanvasRenderer-BB6K5GNR.js",
+      "revision": "33b516d96530f6499079c7ae605795ec1d945ed19c4b2223e3347f0bf4149cf9",
       "bytes": 18473
     },
     {
-      "url": "./assets/Filter-BByhi0My.js",
-      "revision": "d4da624914aea6a256df2392a63f176f44f0a855d6264182393731eeed083402",
+      "url": "./assets/Filter-Dhlk-nxM.js",
+      "revision": "3425bc33c78be34e6066a2da4b239b0534b80d6b3b6463df19ea40118c0e7737",
       "bytes": 910
     },
     {
-      "url": "./assets/RenderTargetSystem-DUi9Ygjl.js",
-      "revision": "3e2ae7021b5345cff3d0827eaffc71215f6e204792f44713f8aecc92b172e086",
+      "url": "./assets/RenderTargetSystem-C0T1JYVF.js",
+      "revision": "64216cfe749b36d4cfeb98ee1bde8cef8a65fb3f8790a8fc91261af980992b45",
       "bytes": 53932
     },
     {
-      "url": "./assets/WebGLRenderer-BalDuMVg.js",
-      "revision": "6aa774df8abb2a12c054c888dff37d7e86ef76019592282805f6b2700ac763d0",
+      "url": "./assets/WebGLRenderer-Byv8cNvv.js",
+      "revision": "e3cdc77ae9d0a79c036170380b2b0bc26da048bf1158a35f5d3a770c8e2c9cd7",
       "bytes": 73752
     },
     {
-      "url": "./assets/WebGPURenderer-BU2vvBdA.js",
-      "revision": "4a48049e183e4d920148650ca0601d280ccf48a1b5eb9ab992dd75b3bdc9d74f",
+      "url": "./assets/WebGPURenderer-BFMdTc93.js",
+      "revision": "0f83fa3775f87d04b2ec2ef861f69e3dd64d0762c92e73bbb2c23552071ec710",
       "bytes": 56420
     },
     {
@@ -57,8 +57,8 @@
       "bytes": 144546
     },
     {
-      "url": "./assets/browserAll-ow6QVSN3.js",
-      "revision": "ecb6dc13f207e0b4dbdde8c9ddf108268d4379d02c3868b67968cd97865f1284",
+      "url": "./assets/browserAll-atJloD0E.js",
+      "revision": "a328d5dd0fe952c8a65ebefbbe773593b7f3f0c53e121e4693fd463db9d56549",
       "bytes": 44176
     },
     {
@@ -1512,19 +1512,19 @@
       "bytes": 239707
     },
     {
-      "url": "./assets/getTexelRangeRects-BFhCohfz.js",
-      "revision": "37278e4998046a83c322acb7d19b73837e1e0428156d5838bce8ebc5285da3c9",
+      "url": "./assets/getTexelRangeRects-r1vXF3kV.js",
+      "revision": "f99cbb41615becc085fa3b64c4f0e613948f1ece749d9c59fdbb0f49f160b03a",
       "bytes": 10314
     },
     {
-      "url": "./assets/index-CXWDkGw_.css",
-      "revision": "4f3b78726aabf558b1fd7be246b9277cc70bc463b1addf596c6c956d02aa5e0a",
-      "bytes": 29825
+      "url": "./assets/index-C8fiapPs.css",
+      "revision": "d9f04ce1dbc396e32647554483a50784bcf07a8a6fa1746cef3513e9760958b4",
+      "bytes": 37082
     },
     {
-      "url": "./assets/index-CjmqBJjs.js",
-      "revision": "7c6b51b16ac584263948990edb92d5f25e0bb4884f293977a83c91f8ff222b7f",
-      "bytes": 485182
+      "url": "./assets/index-CDtAAM16.js",
+      "revision": "0a3c12c4ad105f1291d5cab18a2fa9b3e8220bdf79e883ca09235b6ab4070c6f",
+      "bytes": 501710
     },
     {
       "url": "./assets/ui/portrait-unavailable.svg",
@@ -1532,8 +1532,8 @@
       "bytes": 415
     },
     {
-      "url": "./assets/webworkerAll-35d0ibpX.js",
-      "revision": "8817c6bc5f23361db005e350e35331c9ee84fb18b48840487fbd816387151d7f",
+      "url": "./assets/webworkerAll-QeWxJ8sf.js",
+      "revision": "99b2d072b53893d711b3e2d4515954d2e4aacf3f290dd5220a9aa152161d9a04",
       "bytes": 15217
     },
     {
@@ -1583,13 +1583,13 @@
     },
     {
       "url": "./index.html",
-      "revision": "9c8a5e0361d807f64b33f5f41683f9205aea58aba641885f41f0f4550f71f59e",
+      "revision": "bd9394932bdade4c4d4b17aa503c636a9cf852a03b5c3428b9f44eb323e547de",
       "bytes": 1083
     },
     {
       "url": "./manifest.webmanifest",
-      "revision": "97a17208559bca64d6ac6e755f9c22e924112cc632fdf73f8748e3cb1aafd65d",
-      "bytes": 629
+      "revision": "6f9d5acbaac4275fa99001e1f70c3a50c27a233297d6bf4c747e97ce18ddb35c",
+      "bytes": 620
     },
     {
       "url": "./mobile-checklist-v0.4.4.html",
@@ -1603,25 +1603,25 @@
     }
   ],
   "core": [
-    "./assets/BattleScene-Btg7SQHL.js",
-    "./assets/BitmapFont-ej62fksv.js",
-    "./assets/CanvasRenderer-DQQL9J9t.js",
-    "./assets/Filter-BByhi0My.js",
-    "./assets/RenderTargetSystem-DUi9Ygjl.js",
-    "./assets/WebGLRenderer-BalDuMVg.js",
-    "./assets/WebGPURenderer-BU2vvBdA.js",
+    "./assets/BattleScene-DpLig6E4.js",
+    "./assets/BitmapFont-9wyqkfaT.js",
+    "./assets/CanvasRenderer-BB6K5GNR.js",
+    "./assets/Filter-Dhlk-nxM.js",
+    "./assets/RenderTargetSystem-C0T1JYVF.js",
+    "./assets/WebGLRenderer-Byv8cNvv.js",
+    "./assets/WebGPURenderer-BFMdTc93.js",
     "./assets/battle/bg_battle_defend.webp",
     "./assets/battle/bg_battle_land.webp",
     "./assets/battle/bg_battle_river.webp",
     "./assets/battle/bg_battle_siege.webp",
-    "./assets/browserAll-ow6QVSN3.js",
+    "./assets/browserAll-atJloD0E.js",
     "./assets/equipment/sprite-64.webp",
     "./assets/formation-worker-CrCs5i6w.js",
-    "./assets/getTexelRangeRects-BFhCohfz.js",
-    "./assets/index-CXWDkGw_.css",
-    "./assets/index-CjmqBJjs.js",
+    "./assets/getTexelRangeRects-r1vXF3kV.js",
+    "./assets/index-C8fiapPs.css",
+    "./assets/index-CDtAAM16.js",
     "./assets/ui/portrait-unavailable.svg",
-    "./assets/webworkerAll-35d0ibpX.js",
+    "./assets/webworkerAll-QeWxJ8sf.js",
     "./favicon.ico",
     "./favicon.svg",
     "./fonts/NotoSerifSC-M1.woff2",
@@ -1630,7 +1630,6 @@
     "./icons/favicon-32.png",
     "./icons/icon-192.png",
     "./icons/icon-512.png",
-    "./icons/icon-maskable-512.png",
     "./index.html",
     "./manifest.webmanifest",
     "./mobile-checklist-v0.4.4.html",
@@ -3287,10 +3286,10 @@
       ]
     }
   },
-  "totalBytes": 43562112,
-  "initialCacheFiles": 105,
-  "initialCacheBytes": 4818282,
-  "firstInstallUpperBound": 9973592,
-  "allUnlockedCacheBytes": 9060362,
-  "allUnlockedInstallUpperBound": 18457752
+  "totalBytes": 43585888,
+  "initialCacheFiles": 104,
+  "initialCacheBytes": 4826718,
+  "firstInstallUpperBound": 9990400,
+  "allUnlockedCacheBytes": 9068798,
+  "allUnlockedInstallUpperBound": 18474560
 }
