@@ -1,5 +1,6 @@
+import {newSave} from './legacy-fixture';
 import { describe,it,expect } from 'vitest';
-import { newSave,validSave,chapter,stageTeams,unlocked,allStages,openChapters,cacheChapters,ownedHeroes,completeStage,chapterLevel,initialStars } from '../src/core/campaign';
+import { validSave,chapter,stageTeams,unlocked,allStages,openChapters,cacheChapters,ownedHeroes,completeStage,chapterLevel,initialStars } from '../src/core/campaign';
 import { exportSaveFile,importSaveFile } from '../src/platform/save-transfer';
 import { runBattle,activeBonds } from '../src/core/battle/engine';
 import { armyPower } from '../src/core/power';

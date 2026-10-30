@@ -15,16 +15,18 @@ export function openChapters(save:Save,campaign:Campaign){return Array.from({len
 export function cacheChapters(save:Save){return (['taiping','qing']as const).flatMap(c=>openChapters(save,c).map(n=>c+'_'+n));}
 export function stageTeams(stage:Stage,formation:string[],save?:Save):[TeamInput,TeamInput]{
  if(stage.chapter<1||stage.chapter>8||stage.enemy_level===null)throw Error('此关尚未开放');
- const enemyLevel=stage.enemy_level,camp=stage.campaign as Campaign,foes=stage.enemies.split(',');const hero=(id:string)=>database.heroes.find(x=>x.id===id);
+ const enemyLevel=stage.enemy_level,camp=stage.campaign as Campaign,foes=stage.enemies.split(',').slice(0,save?.growth?.[camp].progressive?Math.min(5,stage.chapter+2):5);const hero=(id:string)=>database.heroes.find(x=>x.id===id);
  return [save?.growth?heroTeam(save,camp,formation):{heroes:[...formation],monarch:starters(camp).monarch,faction:camp,levels:formation.map(()=>assumedStageLevel(stage)),stars:formation.map(id=>initialStars(hero(id)!.rarity))},
- {heroes:foes,monarch:stage.enemy_monarch||null,faction:camp==='taiping'?'qing':'taiping',levels:foes.map(()=>enemyLevel),stars:stage.enemy_stars.split(';').map(Number),exclusives:stage.enemy_stars.split(';').map(s=>Number(s)>=4),monarchStars:stage.enemy_monarch_stars??3,monarchExclusive:(stage.enemy_monarch_stars??3)>=4}];
+ {statScale:save?.growth?.[camp].progressive?(stage.chapter===1?.55:stage.chapter===2?.8:stage.chapter===3?.9:1):undefined,heroes:foes,monarch:stage.enemy_monarch||null,faction:camp==='taiping'?'qing':'taiping',levels:foes.map(()=>enemyLevel),stars:stage.enemy_stars.split(';').slice(0,foes.length).map(Number),exclusives:stage.enemy_stars.split(';').slice(0,foes.length).map(s=>Number(s)>=4),monarchStars:stage.enemy_monarch_stars??3,monarchExclusive:(stage.enemy_monarch_stars??3)>=4}];
 }
-export function newSave(now=Date.now(),seed=1851):Save{return {growth:initialGrowth(now,seed),version:1,campaign:null,seed:seed>>>0,progress:{taiping:[],qing:[]},formations:{taiping:starters('taiping').cards.split(';').slice(0,5),qing:starters('qing').cards.split(';').slice(0,5)}};}
+export function formationSlots(save:Save,camp:Campaign){return save.growth?.[camp].progressive?Math.min(5,3+Math.floor(save.progress[camp].length/6)):5;}
+export function newSave(now=Date.now(),seed=1851):Save{const growth=initialGrowth(now,seed);return {growth,version:1,campaign:null,seed:seed>>>0,progress:{taiping:[],qing:[]},formations:{taiping:Object.keys(growth.taiping.heroes),qing:Object.keys(growth.qing.heroes)}};}
+
 export function validSave(v:unknown):v is Save {
  if(!v||typeof v!=='object')return false;const s=v as Save;if(s.version!==1||!Number.isSafeInteger(s.seed)||s.seed<0||s.seed>0xffffffff||!['taiping','qing',null].includes(s.campaign))return false;
  if(s.growth!==undefined&&!validGrowth(s.growth))return false;
  for(const c of ['taiping','qing']as Campaign[]){const f=s.formations?.[c],p=s.progress?.[c],rows=allStages(c);if(!Array.isArray(p)||new Set(p).size!==p.length||p.some(id=>!rows.some(x=>x.stage_id===id))||rows.slice(0,p.length).some(r=>!p.includes(r.stage_id)))return false;
-  if(!Array.isArray(f)||f.length!==5||new Set(f).size!==5||f.some(id=>!ownedHeroes(s,c).includes(id)))return false;
+  if(!Array.isArray(f)||f.length<(s.growth?.[c].progressive?3:5)||f.length>formationSlots(s,c)||new Set(f).size!==f.length||[...f].some(id=>!ownedHeroes(s,c).includes(id)))return false;
  }
  return true;
 }

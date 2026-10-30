@@ -1,0 +1,408 @@
+{
+  "growth": {
+    "schema": 1,
+    "taiping": {
+      "wallet": {
+        "exp": 243730,
+        "silver": 449980,
+        "iron": 5998,
+        "tickets": 70
+      },
+      "heroes": {
+        "tp_xiao_chaogui": {
+          "level": 15,
+          "stars": 3
+        },
+        "tp_shi_dakai": {
+          "level": 10,
+          "stars": 3
+        },
+        "tp_feng_yunshan": {
+          "level": 10,
+          "stars": 2
+        },
+        "tp_wei_changhui": {
+          "level": 10,
+          "stars": 2
+        },
+        "tp_luo_dagang": {
+          "level": 10,
+          "stars": 2
+        },
+        "tp_hu_yihuang": {
+          "level": 10,
+          "stars": 1
+        },
+        "tp_qin_rigang": {
+          "level": 10,
+          "stars": 1
+        },
+        "tp_hong_xiuquan": {
+          "level": 10,
+          "stars": 3
+        },
+        "tp_zeng_tianyang": {
+          "level": 10,
+          "stars": 1
+        },
+        "tp_lin_fengxiang": {
+          "level": 10,
+          "stars": 2
+        },
+        "tp_yang_xiuqing": {
+          "level": 10,
+          "stars": 3
+        },
+        "tp_li_kaifang": {
+          "level": 10,
+          "stars": 2
+        },
+        "tp_huang_wenjin": {
+          "level": 10,
+          "stars": 1
+        },
+        "tp_su_sanniang": {
+          "level": 10,
+          "stars": 1
+        },
+        "tp_chen_yucheng": {
+          "level": 10,
+          "stars": 3
+        },
+        "tp_hong_xuanjiao": {
+          "level": 10,
+          "stars": 2
+        },
+        "qing_zhang_guoliang": {
+          "level": 10,
+          "stars": 2
+        },
+        "tp_lindley": {
+          "level": 10,
+          "stars": 1
+        }
+      },
+      "shards": {
+        "tp_feng_yunshan": 20,
+        "tp_huang_wenjin": 10,
+        "tp_hong_xiuquan": 30,
+        "tp_hong_xuanjiao": 20
+      },
+      "gear": [
+        {
+          "uid": "taiping-gear-1",
+          "equipmentId": "eq_1_4_1",
+          "enhance": 1,
+          "owner": "tp_xiao_chaogui"
+        },
+        {
+          "uid": "taiping-gear-2",
+          "equipmentId": "eq_1_3_1",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "taiping-gear-3",
+          "equipmentId": "eq_1_2_1",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "taiping-gear-4",
+          "equipmentId": "eq_1_2_1",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "taiping-gear-5",
+          "equipmentId": "eq_1_1_1",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "taiping-gear-6",
+          "equipmentId": "eq_5_2_2",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "taiping-gear-7",
+          "equipmentId": "eq_1_3_2",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "taiping-gear-8",
+          "equipmentId": "eq_5_3_2",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "taiping-gear-9",
+          "equipmentId": "eq_1_3_2",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "taiping-gear-10",
+          "equipmentId": "eq_1_3_1",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "taiping-gear-11",
+          "equipmentId": "eq_1_1_1",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "taiping-gear-12",
+          "equipmentId": "eq_1_3_2",
+          "enhance": 0,
+          "owner": null
+        }
+      ],
+      "monarch": "tp_hong_xiuquan",
+      "pity": 4,
+      "rng": 3783438623,
+      "serial": 12,
+      "lastClaim": 1793275200000,
+      "idleGearHours": 0,
+      "idleTicketHours": 0,
+      "idleCarry": {
+        "exp": 0,
+        "silver": 0,
+        "iron": 0,
+        "tickets": 0
+      },
+      "daily": {
+        "day": "2026-10-30",
+        "uses": {
+          "tp_1_1": 2
+        }
+      }
+    },
+    "qing": {
+      "wallet": {
+        "exp": 243730,
+        "silver": 449980,
+        "iron": 5998,
+        "tickets": 70
+      },
+      "heroes": {
+        "qing_zeng_guofan": {
+          "level": 15,
+          "stars": 3
+        },
+        "qing_peng_yulin": {
+          "level": 10,
+          "stars": 3
+        },
+        "qing_taqibu": {
+          "level": 10,
+          "stars": 2
+        },
+        "qing_luo_zenan": {
+          "level": 10,
+          "stars": 2
+        },
+        "qing_li_xubin": {
+          "level": 10,
+          "stars": 2
+        },
+        "qing_yang_zaifu": {
+          "level": 10,
+          "stars": 2
+        },
+        "qing_bao_chao": {
+          "level": 10,
+          "stars": 2
+        },
+        "qing_xianfeng": {
+          "level": 10,
+          "stars": 3
+        },
+        "qing_hu_linyi": {
+          "level": 10,
+          "stars": 3
+        },
+        "qing_duolonga": {
+          "level": 10,
+          "stars": 2
+        },
+        "qing_zeng_guoquan": {
+          "level": 10,
+          "stars": 2
+        },
+        "qing_xiang_rong": {
+          "level": 10,
+          "stars": 1
+        },
+        "qing_luo_bingzhang": {
+          "level": 10,
+          "stars": 1
+        },
+        "qing_shengbao": {
+          "level": 10,
+          "stars": 1
+        },
+        "qing_he_chun": {
+          "level": 10,
+          "stars": 1
+        },
+        "qing_zhang_shusheng": {
+          "level": 10,
+          "stars": 1
+        }
+      },
+      "shards": {
+        "qing_luo_bingzhang": 10,
+        "qing_xiang_rong": 10,
+        "qing_he_chun": 20,
+        "qing_taqibu": 20
+      },
+      "gear": [
+        {
+          "uid": "qing-gear-1",
+          "equipmentId": "eq_2_1_1",
+          "enhance": 1,
+          "owner": "qing_zeng_guofan"
+        },
+        {
+          "uid": "qing-gear-2",
+          "equipmentId": "eq_2_1_2",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "qing-gear-3",
+          "equipmentId": "eq_2_2_1",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "qing-gear-4",
+          "equipmentId": "eq_2_3_1",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "qing-gear-5",
+          "equipmentId": "eq_2_2_1",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "qing-gear-6",
+          "equipmentId": "eq_2_3_1",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "qing-gear-7",
+          "equipmentId": "eq_2_1_1",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "qing-gear-8",
+          "equipmentId": "eq_2_3_1",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "qing-gear-9",
+          "equipmentId": "eq_2_1_1",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "qing-gear-10",
+          "equipmentId": "eq_2_3_2",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "qing-gear-11",
+          "equipmentId": "eq_2_4_1",
+          "enhance": 0,
+          "owner": null
+        },
+        {
+          "uid": "qing-gear-12",
+          "equipmentId": "eq_2_4_2",
+          "enhance": 0,
+          "owner": null
+        }
+      ],
+      "monarch": "qing_xianfeng",
+      "pity": 10,
+      "rng": 3783446542,
+      "serial": 12,
+      "lastClaim": 1793275200000,
+      "idleGearHours": 0,
+      "idleTicketHours": 0,
+      "idleCarry": {
+        "exp": 0,
+        "silver": 0,
+        "iron": 0,
+        "tickets": 0
+      },
+      "daily": {
+        "day": "2026-10-30",
+        "uses": {
+          "qing_1_1": 2
+        }
+      }
+    }
+  },
+  "version": 1,
+  "campaign": "qing",
+  "seed": 903,
+  "progress": {
+    "taiping": [
+      "tp_1_1",
+      "tp_1_2",
+      "tp_1_3",
+      "tp_1_4",
+      "tp_1_5",
+      "tp_1_6",
+      "tp_2_1",
+      "tp_2_2",
+      "tp_2_3",
+      "tp_2_4",
+      "tp_2_5",
+      "tp_2_6"
+    ],
+    "qing": [
+      "qing_1_1",
+      "qing_1_2",
+      "qing_1_3",
+      "qing_1_4",
+      "qing_1_5",
+      "qing_1_6",
+      "qing_2_1",
+      "qing_2_2",
+      "qing_2_3",
+      "qing_2_4",
+      "qing_2_5",
+      "qing_2_6"
+    ]
+  },
+  "formations": {
+    "taiping": [
+      "tp_xiao_chaogui",
+      "tp_shi_dakai",
+      "tp_feng_yunshan",
+      "tp_wei_changhui",
+      "tp_luo_dagang"
+    ],
+    "qing": [
+      "qing_zeng_guofan",
+      "qing_peng_yulin",
+      "qing_taqibu",
+      "qing_luo_zenan",
+      "qing_li_xubin"
+    ]
+  }
+}

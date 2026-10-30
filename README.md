@@ -4,7 +4,7 @@
 
 - 游戏：https://lynch715.github.io/taiping-cards/
 - 手机实测清单：https://lynch715.github.io/taiping-cards/mobile-checklist-v0.4.4.html
-- 当前版本：v0.4.4。经济保持v0.4.2，整合已验收A/B/C美术，并补手机触控与安装图标。
+- 当前版本：v0.5.0。三人开局、阵位逐章解锁、历史卡池与君主获取、简洁智能布阵；军械库以头像和姓名标明穿戴者。旧军册保留已有武将、资源和五人阵位。
 
 ## 开发与构建
 

@@ -43,6 +43,7 @@ class Combat {
         if(!ownGear&&options.gearSet&&!options.equipmentIds&&gear.length!==4)throw Error('Expected4 equipment slots');
         const enhance=ownGear?ownGear.map(g=>g.enhance):options.enhance??0;if(gear.some((g,i)=>{const n=Array.isArray(enhance)?enhance[i]:enhance;return !Number.isInteger(n)||n<0||n>g.enhance_max;}))throw Error('Enhancement out of range');
         const ex=data.exclusive_equipment.find(e=>e.hero_id===id);const s=this.baseStats(h,level,stars,gear,enhance,enabled,ex?.stat_bonus);
+        if(input.statScale!==undefined){if(!Number.isFinite(input.statScale)||input.statScale<=0||input.statScale>1)throw Error('Invalid encounter scale');for(const key of ['hp','atk','int','def','res'])s[key]*=input.statScale;}
         const count:Record<string,number>={};for(const row of gear)count[row.set]=(count[row.set]??0)+1;
         for(const [name,pieces]of Object.entries(count)){const st=data.compiled.sets[name];if(pieces>=2&&(!st.filter_fire||h.troop==='火')&&(!st.water_only||terrain==='水战'))auras.push(clone(st.aura));if(pieces>=4)Object.assign(features,clone(st.four));}
         return {hero:h,side,slot,faction:h.faction==='dual'?input.faction:h.faction,feature:features,auras,active,base:s,max_hp:s.hp,hp:s.hp,rage:0,buffs:[],shields:[],control:{},burns:[],actions:0,basics:0,casts:0,hits:0,kills:0,escaped:false,saved:false,desperation_used:false,immune_until:0,bonus_speed:0,exclusive:enabled&&!!ex};

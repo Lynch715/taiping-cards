@@ -1,6 +1,7 @@
+import {newSave} from './legacy-fixture';
 import {describe,it,expect} from 'vitest';
 import {database as db} from '../src/core/data';
-import {newSave,completeStage,chapter,stageTeams,validSave} from '../src/core/campaign';
+import {completeStage,chapter,stageTeams,validSave} from '../src/core/campaign';
 import {acquire,assumedLevel,campGrowth,claimIdle,dayKey,dropEquipment,enhanceGear,equipmentRow,heroTeam,idlePreview,levelCap,levelCost,migrateGrowth,promote,recruit,salvage,salvageValue,summon,sweep,sweepRemaining,train,transfer,validGrowth,duplicateShards,summonCost} from '../src/core/progression';
 import {armyPower} from '../src/core/power';
 import {runBattle} from '../src/core/battle/engine';

@@ -1,6 +1,7 @@
+import {newSave} from './legacy-fixture';
 import {describe,it,expect} from 'vitest';
 import {database as db} from '../src/core/data';
-import {newSave,allStages,completeStage,stageTeams,validSave} from '../src/core/campaign';
+import {allStages,completeStage,stageTeams,validSave} from '../src/core/campaign';
 import {campGrowth,sweep,sweepRemaining,dailySweepRemaining,heroTeam,acquire,levelCap} from '../src/core/progression';
 import {recommendFormation,formationCandidates,normalizeLevels} from '../src/core/formation';
 import {runBattle} from '../src/core/battle/engine';
