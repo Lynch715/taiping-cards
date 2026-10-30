@@ -16,7 +16,7 @@ npm run package:static
 
 构建前会校验 CSV 与生成 JSON。开放两条战役线各八章、共 96 关，前章通关后开放后章。玩家武将独立升级与升星，第1–4章保留既有配置，第5–8章使用固定目标到达日的12账号五人均级中位数校准；战斗读取实际等级、星级、普通兵装与4★专属。
 
-同时生成版本压缩包 `release/taiping-web-0.6.0.zip`。可直接上传的目录是 `release/taiping-web/`，`app/dist/` 与之逐文件一致。**上传目录里面的全部文件和子目录**，包括 `index.html`、`manifest.webmanifest`、`sw.js`、`icons/`、`fonts/`、`assets/`。不要只上传 HTML，也不要上传 node_modules、CSV 原表或美术原图目录。
+同时生成版本压缩包 `release/taiping-web-0.6.1.zip`。可直接上传的目录是 `release/taiping-web/`，`app/dist/` 与之逐文件一致。**上传目录里面的全部文件和子目录**，包括 `index.html`、`manifest.webmanifest`、`sw.js`、`icons/`、`fonts/`、`assets/`。不要只上传 HTML，也不要上传 node_modules、CSV 原表或美术原图目录。
 
 部署地址可以是域名根目录，也可以是 `/taiping/` 等子目录。清单、SW、静态素材使用相对地址；静态托管的目录 URL 应带末尾 `/`。不需要服务端路由重写。HTTPS 是线上 Service Worker 与安装的前提；本地 localhost / 127.0.0.1 可测试。
 
@@ -102,3 +102,9 @@ v0.4.2校准假设覆盖表`stage_level_overrides.csv`与关卡JSON随包提供�
 常规军册读取、自动保存和原备份函数保持；只有用户确认新开一局才执行新增的 startNewGame，并把上一局另存到 -previous-game，供导出恢复。序章、一级起步和新局敌军适配按新征程标记启用。
 
 发布时保留旧版哈希素材供旧页面刷新完成；v0.5.0 ZIP保留。v0.5.0不具备新兵力和单局菜单规则，需要保留这些行为时应使用v0.6.0及以后兼容版本。发布证据见 output/release-v060/，测试军册不提交公开仓库。
+
+## v0.6.1 修复发布
+
+一级征程第三至八章使用补强后的军功收益，两线第六章末关局部调整；旧规则经济与阵容保留。修复未来时间戳倒计时以及未登场人物的扫荡碎片与合成限制。存档 version:1、growth schema:1、taiping-m1/slots/m1-save-v1 不变，不新增清档迁移。已有武将、等级、碎片、资源及进度保留。
+
+99 项自动回归、24 组完整八章模拟及旧档导入导出检查通过。新旧构建哈希素材一并保留于 Pages 分支，避免旧页面未刷新时素材失效；旧版本 ZIP 继续保留。正式发布证据见 output/release-v061/，不上传军册或测试输出。

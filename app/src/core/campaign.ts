@@ -13,11 +13,20 @@ export interface Save {rules?:2;introSeen?:boolean;growth?:GrowthSave;version:1;
 export function ownedHeroes(save:Save,campaign:Campaign):string[]{if(save.growth)return Object.keys(save.growth[campaign].heroes).filter(id=>database.heroes.find(h=>h.id===id)?.position!=='君主');return [...new Set([...starters(campaign).cards.split(';'),...allStages(campaign).filter(s=>save.progress[campaign].includes(s.stage_id)&&s.reward_unlock).map(s=>s.reward_unlock)])].filter(id=>database.heroes.find(h=>h.id===id)?.position!=='君主');}
 export function openChapters(save:Save,campaign:Campaign){return Array.from({length:8},(_,i)=>i+1).filter(n=>chapter(campaign,n).length===6&&(n===1||chapter(campaign,n-1).every(s=>save.progress[campaign].includes(s.stage_id))));}
 export function cacheChapters(save:Save){return (['taiping','qing']as const).flatMap(c=>openChapters(save,c).map(n=>c+'_'+n));}
+function enemyStatScale(stage:Stage,save?:Save){
+ if(!save?.growth?.[stage.campaign].progressive)return undefined;
+ if(stage.chapter===1)return save.rules===2?.45:.55;
+ if(stage.chapter===2)return .8;
+ if(stage.chapter===3)return .9;
+ // The level-one campaign's sixth boss should not require several days of full-strength retries.
+ if(save.rules===2&&stage.chapter===6&&stage.order===6)return .9;
+ return 1;
+}
 export function stageTeams(stage:Stage,formation:string[],save?:Save):[TeamInput,TeamInput]{
  if(stage.chapter<1||stage.chapter>8||stage.enemy_level===null)throw Error('此关尚未开放');
  const enemyLevel=save?.rules===2?Math.max(1,stage.enemy_level-(stage.chapter===1?9:stage.chapter===2?4:0)):stage.enemy_level,camp=stage.campaign as Campaign,foes=stage.enemies.split(',').slice(0,save?.growth?.[camp].progressive?Math.min(5,stage.chapter+2):5);const hero=(id:string)=>database.heroes.find(x=>x.id===id);
  return [save?.growth?heroTeam(save,camp,formation):{heroes:[...formation],monarch:starters(camp).monarch,faction:camp,levels:formation.map(()=>assumedStageLevel(stage)),stars:formation.map(id=>initialStars(hero(id)!.rarity))},
- {statScale:save?.growth?.[camp].progressive?(stage.chapter===1?(save?.rules===2?.45:.55):stage.chapter===2?.8:stage.chapter===3?.9:1):undefined,heroes:foes,monarch:stage.enemy_monarch||null,faction:camp==='taiping'?'qing':'taiping',levels:foes.map(()=>enemyLevel),stars:stage.enemy_stars.split(';').slice(0,foes.length).map(Number),exclusives:stage.enemy_stars.split(';').slice(0,foes.length).map(s=>Number(s)>=4),monarchStars:stage.enemy_monarch_stars??3,monarchExclusive:(stage.enemy_monarch_stars??3)>=4}];
+ {statScale:enemyStatScale(stage,save),heroes:foes,monarch:stage.enemy_monarch||null,faction:camp==='taiping'?'qing':'taiping',levels:foes.map(()=>enemyLevel),stars:stage.enemy_stars.split(';').slice(0,foes.length).map(Number),exclusives:stage.enemy_stars.split(';').slice(0,foes.length).map(s=>Number(s)>=4),monarchStars:stage.enemy_monarch_stars??3,monarchExclusive:(stage.enemy_monarch_stars??3)>=4}];
 }
 export function formationSlots(save:Save,camp:Campaign){return save.growth?.[camp].progressive?Math.min(5,3+Math.floor(save.progress[camp].length/6)):5;}
 export function newSave(now=Date.now(),seed=1851):Save{const growth=initialGrowth(now,seed);return {rules:2,introSeen:false,growth,version:1,campaign:null,seed:seed>>>0,progress:{taiping:[],qing:[]},formations:{taiping:Object.keys(growth.taiping.heroes),qing:Object.keys(growth.qing.heroes)}};}
