@@ -1,39 +1,40 @@
 {
-  "version": "0.7.0-55fdfb6f5111",
+  "version": "0.8.0-09982859cc0e",
+  "deferredFont": "./fonts/NotoSerifSC-ext.woff2",
   "files": [
     {
-      "url": "./assets/BattleScene-D3iitdrG.js",
-      "revision": "ef6477e47e313295a782ea4af33a82d5357a17cfceeca1877946c8ecf52aa05e",
-      "bytes": 378872
+      "url": "./assets/BattleScene-Bm1joUP7.js",
+      "revision": "7ce1152276a6d1aaf2896f91cd501d0e7b96da47959e5cfda378669e482507e0",
+      "bytes": 381171
     },
     {
-      "url": "./assets/BitmapFont-TJ2JGvFO.js",
-      "revision": "67dd2b6956473cfe19a397d056cf9247cb08a8daf7eafcc2621c898b254d3c28",
+      "url": "./assets/BitmapFont-D6bNFVuH.js",
+      "revision": "3a2ceae5e9d960182309c0bb7cf2e74b00080d0c4d70b4acb8fe38c011c3c059",
       "bytes": 1116
     },
     {
-      "url": "./assets/CanvasRenderer-BjEgG8HF.js",
-      "revision": "f39c9d592ec13b40e1e9222558406b517fb2ff66f62db49f3556827730b5d84f",
+      "url": "./assets/CanvasRenderer-D-_fg6jh.js",
+      "revision": "d6158cbafaa50763866f988afada6fd3fb4690b32df861a6420b998d68c78821",
       "bytes": 18473
     },
     {
-      "url": "./assets/Filter-J39YU6Rw.js",
-      "revision": "9e80a40e19b472dd9b32c98c6ba8eb5fee4fd83d072b9db79ba5767e27a435c5",
+      "url": "./assets/Filter-UTx2p-_d.js",
+      "revision": "2fa473646047ea3bf6c0386499f113dc572480f46146b7bca0719c53e99abc9c",
       "bytes": 910
     },
     {
-      "url": "./assets/RenderTargetSystem-DpgxpdN2.js",
-      "revision": "556b41f14ba3a7fecee453f93a5f9bb3a6c6304167120fb95923328bce163409",
+      "url": "./assets/RenderTargetSystem-nopIquRI.js",
+      "revision": "c36113604a3173ae6aafde84817ad0acf7fcdc44bbe69542ad0409620bdeffec",
       "bytes": 53932
     },
     {
-      "url": "./assets/WebGLRenderer-DnJXLj4W.js",
-      "revision": "9195af85744fa947953f84bf4989731783d21131a8ca082ea5b26fd68055c464",
+      "url": "./assets/WebGLRenderer-CPbMIuuI.js",
+      "revision": "a4342b1940216f882bd06b0d8547dfcfd0b6368f0f317b4631123d4dc64bc7e4",
       "bytes": 73752
     },
     {
-      "url": "./assets/WebGPURenderer-CGU4I60Z.js",
-      "revision": "fc5b08fa160c026aebcc6cc71b8cb56b7984ec961effcfb018e38c13f7c150da",
+      "url": "./assets/WebGPURenderer-lvKdQAvv.js",
+      "revision": "d9fcea7be2eb92d4cc79352a350e05dd15c85725ef3eeec639735719a71ecefc",
       "bytes": 56420
     },
     {
@@ -57,8 +58,8 @@
       "bytes": 144546
     },
     {
-      "url": "./assets/browserAll-Bk8dpYQe.js",
-      "revision": "00d95104f81de7f5b4916da545e22176cccba89dd5d28b333064109c492ce956",
+      "url": "./assets/browserAll-B6bodp1z.js",
+      "revision": "01fb424cdcc6f6e2ac29870cf2bbbdab6bb6a1a77b2ae74521c92548864d1ddb",
       "bytes": 44176
     },
     {
@@ -1507,24 +1508,24 @@
       "bytes": 38004
     },
     {
-      "url": "./assets/formation-worker-BULewa7W.js",
-      "revision": "56853c87e905bd40df8b0ec81270a808c399cf2a7c33550b6fb0e6cebe6960ef",
-      "bytes": 231356
+      "url": "./assets/formation-worker-BOi6E6v9.js",
+      "revision": "985344d54829a135a68b36e1daa0e1eb6112ea38d3189502ef6b8547b6e002a3",
+      "bytes": 318165
     },
     {
-      "url": "./assets/getTexelRangeRects-CgGOB-k_.js",
-      "revision": "416c74b027f981e2acbe649b2a2527c6e1c16cc726abe11b89ba975d4d8b133c",
+      "url": "./assets/getTexelRangeRects-COB1OTXj.js",
+      "revision": "6d5e14fb35324aa0f3452f65e6070d16f06e5e3966453cab52a55999518e9b13",
       "bytes": 10314
     },
     {
-      "url": "./assets/index-Btdv77O5.css",
-      "revision": "88b9d1fb9bc2d7666cca3f5c9bd5c953f5b6182daedc2bd1fbe1d7762c0d206c",
-      "bytes": 39235
+      "url": "./assets/index-CI8puoCp.js",
+      "revision": "d3d902ffc06638e48ff72ac0351eaae6d70716f5f996dcddf8d646cf93d48814",
+      "bytes": 614393
     },
     {
-      "url": "./assets/index-DJL-FmxC.js",
-      "revision": "d176fba43123cb3627fddc609ae2e032870a36cdeaf66e444b5230d2068f3c68",
-      "bytes": 509221
+      "url": "./assets/index-D9KmLTVe.css",
+      "revision": "01960456f4ef4dc4145d65c82c5449c32467f6e3b36968808dfea24aeccb46e5",
+      "bytes": 58086
     },
     {
       "url": "./assets/ui/portrait-unavailable.svg",
@@ -1532,8 +1533,8 @@
       "bytes": 415
     },
     {
-      "url": "./assets/webworkerAll-CEQi2EHS.js",
-      "revision": "b3893c96bae9f0b4621a6ee23abf0f5b682c759160285371ff44b9cf3bd2aca9",
+      "url": "./assets/webworkerAll-C1i0ErbR.js",
+      "revision": "b4f3a7a36cfad303024f309da903a498442f3e6afb29125be4ceeaa5fb27a6a3",
       "bytes": 15217
     },
     {
@@ -1547,9 +1548,14 @@
       "bytes": 718
     },
     {
-      "url": "./fonts/NotoSerifSC-M1.woff2",
-      "revision": "0174f2514d14f94f1f7d9e1b42db07006e65d49c96e6148e73367d340a583754",
-      "bytes": 393060
+      "url": "./fonts/NotoSerifSC-core.woff2",
+      "revision": "c3b88478008f61212d1cb2b8f56588931d058fef524d40a652d892d777e06cca",
+      "bytes": 372184
+    },
+    {
+      "url": "./fonts/NotoSerifSC-ext.woff2",
+      "revision": "b6a15c8dc757f58d5d3cdf9a44da3c1bef75836bcc3ef5871573932eafd5d5d3",
+      "bytes": 177824
     },
     {
       "url": "./fonts/OFL.txt",
@@ -1583,7 +1589,7 @@
     },
     {
       "url": "./index.html",
-      "revision": "b9703d773ba1e970abc89a6269cc03acd2a85d28c2b30342f44e929c1db55c77",
+      "revision": "f5ba6de514cb0adfb0770d3e6516501cb92314ede877adde2f65826d3ac524b0",
       "bytes": 1083
     },
     {
@@ -1603,28 +1609,28 @@
     }
   ],
   "core": [
-    "./assets/BattleScene-D3iitdrG.js",
-    "./assets/BitmapFont-TJ2JGvFO.js",
-    "./assets/CanvasRenderer-BjEgG8HF.js",
-    "./assets/Filter-J39YU6Rw.js",
-    "./assets/RenderTargetSystem-DpgxpdN2.js",
-    "./assets/WebGLRenderer-DnJXLj4W.js",
-    "./assets/WebGPURenderer-CGU4I60Z.js",
+    "./assets/BattleScene-Bm1joUP7.js",
+    "./assets/BitmapFont-D6bNFVuH.js",
+    "./assets/CanvasRenderer-D-_fg6jh.js",
+    "./assets/Filter-UTx2p-_d.js",
+    "./assets/RenderTargetSystem-nopIquRI.js",
+    "./assets/WebGLRenderer-CPbMIuuI.js",
+    "./assets/WebGPURenderer-lvKdQAvv.js",
     "./assets/battle/bg_battle_defend.webp",
     "./assets/battle/bg_battle_land.webp",
     "./assets/battle/bg_battle_river.webp",
     "./assets/battle/bg_battle_siege.webp",
-    "./assets/browserAll-Bk8dpYQe.js",
+    "./assets/browserAll-B6bodp1z.js",
     "./assets/equipment/sprite-64.webp",
-    "./assets/formation-worker-BULewa7W.js",
-    "./assets/getTexelRangeRects-CgGOB-k_.js",
-    "./assets/index-Btdv77O5.css",
-    "./assets/index-DJL-FmxC.js",
+    "./assets/formation-worker-BOi6E6v9.js",
+    "./assets/getTexelRangeRects-COB1OTXj.js",
+    "./assets/index-CI8puoCp.js",
+    "./assets/index-D9KmLTVe.css",
     "./assets/ui/portrait-unavailable.svg",
-    "./assets/webworkerAll-CEQi2EHS.js",
+    "./assets/webworkerAll-C1i0ErbR.js",
     "./favicon.ico",
     "./favicon.svg",
-    "./fonts/NotoSerifSC-M1.woff2",
+    "./fonts/NotoSerifSC-core.woff2",
     "./fonts/OFL.txt",
     "./icons/apple-touch-icon.png",
     "./icons/favicon-32.png",
@@ -3286,10 +3292,10 @@
       ]
     }
   },
-  "totalBytes": 43587201,
+  "totalBytes": 43957280,
   "initialCacheFiles": 104,
-  "initialCacheBytes": 4828031,
-  "firstInstallUpperBound": 9993026,
-  "allUnlockedCacheBytes": 9070111,
-  "allUnlockedInstallUpperBound": 18477186
+  "initialCacheBytes": 5020286,
+  "firstInstallUpperBound": 10378446,
+  "allUnlockedCacheBytes": 9440190,
+  "allUnlockedInstallUpperBound": 19218254
 }
