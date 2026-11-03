@@ -1,5 +1,5 @@
 {
-  "version": "0.9.0-83f8a568cc11",
+  "version": "0.9.0-8ff1def8bb7c",
   "deferredFont": "./fonts/NotoSerifSC-ext.woff2",
   "files": [
     {
@@ -1589,23 +1589,13 @@
     },
     {
       "url": "./index.html",
-      "revision": "ca3b78b67a58ab25b20203e81b8eb0a0a849cbec912e9c87657c8f73a2993f83",
+      "revision": "ea3e2e2d9772ef1935b1d43d0e9b9e5d02f356705348cbefcf94c7c423b98f28",
       "bytes": 1205
     },
     {
       "url": "./manifest.webmanifest",
       "revision": "6f9d5acbaac4275fa99001e1f70c3a50c27a233297d6bf4c747e97ce18ddb35c",
       "bytes": 620
-    },
-    {
-      "url": "./mobile-checklist-v0.4.4.html",
-      "revision": "63fa24be062fb94b081da01da87845dead1a07680c4fc7fc776b8036737f95d5",
-      "bytes": 15182
-    },
-    {
-      "url": "./mobile-checklist-v0.4.4.md",
-      "revision": "18144671c4ad715c5e40c7009575cdf2128ee0001f6938f20f41bf97fff2de69",
-      "bytes": 6920
     }
   ],
   "core": [
@@ -1637,9 +1627,7 @@
     "./icons/icon-192.png",
     "./icons/icon-512.png",
     "./index.html",
-    "./manifest.webmanifest",
-    "./mobile-checklist-v0.4.4.html",
-    "./mobile-checklist-v0.4.4.md"
+    "./manifest.webmanifest"
   ],
   "chapters": {
     "taiping_1": {
@@ -3292,10 +3280,10 @@
       ]
     }
   },
-  "totalBytes": 43996909,
-  "initialCacheFiles": 104,
-  "initialCacheBytes": 5062643,
-  "firstInstallUpperBound": 10463160,
-  "allUnlockedCacheBytes": 9479819,
-  "allUnlockedInstallUpperBound": 19297512
+  "totalBytes": 43974807,
+  "initialCacheFiles": 102,
+  "initialCacheBytes": 5040541,
+  "firstInstallUpperBound": 10418302,
+  "allUnlockedCacheBytes": 9457717,
+  "allUnlockedInstallUpperBound": 19252654
 }
